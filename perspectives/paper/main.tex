@@ -1,0 +1,428 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage[round]{natbib}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{tikz}
+\usetikzlibrary{positioning, arrows.meta, calc, decorations.pathmorphing}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue
+}
+
+\title{Beyond the Video Frame: The Production-Detection Asymmetry in Multi-Format AI Slop}
+\author{%
+  Jiyeon Yoon\\
+  \textit{Independent Researcher}\\
+  \texttt{heznpc@gmail.com}
+}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\noindent\textbf{[Perspectives/Commentary -- submitted to Communications of the ACM, Viewpoints]}
+\end{abstract}
+
+On March 24, 2026, OpenAI shut down Sora, the AI video generator that had peaked at 3.3 million monthly downloads just four months earlier \cite{npr2026sora}. The closure was widely framed as the climax of the AI slop backlash -- the definitive moment when the industry acknowledged that mass-produced, low-quality AI content had gone too far. Merriam-Webster had named ``slop'' its 2025 Word of the Year \cite{merriamwebster2025}. YouTube's CEO declared slop reduction a top priority \cite{dexerto2026youtube}. Instagram's head announced intent to prioritize authentic content over synthetic material \cite{clippie2026instagram}. The message seemed clear: the problem was being addressed.
+
+It was not. Sora's shutdown addressed one format of AI slop -- video -- while the formats that are more pervasive, harder to detect, and more damaging to the information ecosystem continued to grow unchecked. As of early 2026, 74.2\% of new web pages contain some AI-generated text \cite{ahrefs2025}, and 22.5\% of sentences in computer science paper abstracts show evidence of LLM modification \cite{liang2025nature}. The number of partisan-funded ``pink slime'' news websites (1,265), alongside a separate 3,006 AI content farm sites, now exceeds the number of actual US daily newspapers (1,213) \cite{newsguard2025}. Bots generate 51\% of all internet traffic \cite{imperva2025}. None of this is video.
+
+The field has a video-centrism problem. And that problem is hiding the real crisis.\footnote{A full multi-format analytical framework---the AI-Generated Multi-Format Slop Model (AMSM)---is developed in a companion paper \cite{author2026amsm}, which extends the production-detection asymmetry discussed here into a five-dimensional cross-format comparison with a detailed research agenda and an Algorithm--Slop Co-evolution Model.}
+
+\section{The Video-Centrism of AI Slop Research}
+
+The most-cited empirical work on AI slop is overwhelmingly video-focused. Kapwing's landmark study analyzed 15,000 trending YouTube channels and found that 21--33\% of Shorts recommended to new users were AI slop \cite{kapwing2025}. Jones et al.\ screened 1,082 biomedical educational videos on YouTube and TikTok, finding 5.3\% were AI slop, with 78.7\% concentrated in Shorts \cite{jones2025}. Moller et al.'s Nature Scientific Reports experiment examined how AI tools affect social media discussions, finding that AI-assisted content increases volume while decreasing perceived quality \cite{moller2026}. The 7Vs framework proposed by Madsen and Puyt -- Volume, Velocity, Variety, Value, Verification, Visibility, Virality -- acknowledges that AI slop spans multiple formats, but the empirical referents are overwhelmingly video and social media \cite{madsen2026}.
+
+Detection research follows the same pattern. The field's major benchmarks -- FaceForensics++, the Deepfake Detection Challenge, ASVspoof -- are all built around video and audio \cite{deepfake2020}. These benchmarks have driven real progress: deepfake video detection now achieves AUROC of 91--97\% in-domain, degrading to approximately 70--87\% cross-dataset (DFDC) \cite{deepfake2020}. But they have also created a gravitational pull that concentrates research talent, funding, and attention on formats where detection is already comparatively effective.
+
+Meanwhile, text-based AI slop -- the format with the largest scale and lowest detection reliability -- has received almost no direct research attention. Shaib et al.'s ``Measuring AI Slop in Text'' (2025) is effectively the only published study that directly addresses text slop as a phenomenon, proposing a taxonomy of Information Quality, Information Utility, and Style Quality dimensions through expert interviews \cite{shaib2025}. For image-text hybrid content such as infographics and social media carousels, the situation is starker: no published detection study exists at all. Searches of ACM Digital Library, IEEE Xplore, arXiv, and Google Scholar as of March 2026 returned no results for AI-generated carousel or card news detection \cite{nostudy2026}.
+
+As a developer who builds content pipelines, this asymmetry is visible daily. An automated blog generation system can produce hundreds of SEO-optimized posts per day at the cost of a \$20/month ChatGPT subscription. A Canva Bulk Create workflow can output 100 social media card-news graphics in five minutes \cite{jackreview2026}. These pipelines operate at industrial scale with zero detection infrastructure. Video generation, by contrast, still requires meaningful compute resources and produces artifacts -- temporal inconsistencies, physics violations, anatomical errors -- that detection systems can exploit.
+
+\section{The Multi-Format Landscape}
+
+AI slop is not a single-format problem. It is a multi-format ecosystem where each content type has its own production economics, detection characteristics, and information ecosystem impacts. Table~\ref{tab:landscape} maps the terrain.
+
+\begin{table}[ht]
+\centering
+\caption{The Multi-Format AI Slop Landscape (2025--2026)}
+\label{tab:landscape}
+\small
+\begin{tabular}{@{}p{3.2cm}p{6.5cm}p{4.5cm}@{}}
+\toprule
+\textbf{Format} & \textbf{Scale Indicator} & \textbf{Source} \\
+\midrule
+Web text / blogs & 74.2\% of new pages contain AI content; 17--19\% of Google top-20 results & Ahrefs \cite{ahrefs2025}; Originality.AI \cite{originality2025google} \\
+\addlinespace
+Academic papers & 22.5\% of CS abstract sentences LLM-modified; 13.5\% of PubMed abstracts; 11,300 retractions at Wiley/Hindawi & Nature Human Behaviour \cite{liang2025nature}; Retraction Watch \cite{retraction2024} \\
+\addlinespace
+Product reviews & 3\% of Amazon bestseller reviews; FTC \$51,744/violation penalty & Originality.AI \cite{originality2025amazon}; FTC \cite{ftc2024} \\
+\addlinespace
+News websites & 1,265 partisan-funded pink-slime sites + 3,006 AI content farm sites exceeding US dailies & NewsGuard \cite{newsguard2025} \\
+\addlinespace
+Books & 77\% of Amazon ``Success'' genre; 9,000 titles/year from single Korean publisher & \cite{amazon2025books}; Korea Times \cite{koreatimes2025} \\
+\addlinespace
+Music / audio & 75M ``spammy tracks'' removed by Spotify in 12 months & Spotify \cite{spotify2025} \\
+\addlinespace
+Video (Shorts) & 21--33\% of new-user recommendations; ${\sim}$40\% of children's recommendations & Kapwing \cite{kapwing2025}; NYT \cite{nyt2026children} \\
+\addlinespace
+Comments / bots & 51\% of all web traffic; 12--15\% of YouTube comments & Imperva \cite{imperva2025}; Factcheck.by \cite{factcheck2025} \\
+\addlinespace
+Card news / carousels & No prevalence data exists & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Two patterns emerge. First, text-based formats dominate by volume. The 74.2\% AI content rate for new web pages \cite{ahrefs2025} dwarfs the 5--33\% range reported for video. Second, the formats with the largest scale and the most severe information ecosystem consequences -- search results, academic literature, product reviews -- have received the least detection research attention. This is not a gap in our knowledge. It is a systematic misallocation of research resources.
+
+\section{The Production-Detection Asymmetry}
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+    >=Stealth,
+    bubble/.style={circle, draw=#1, fill=#1!12, line width=0.8pt,
+                   minimum size=#2, align=center, font=\scriptsize\sffamily},
+    annot/.style={font=\scriptsize\sffamily, align=center},
+]
+
+% --- Background shading for quadrants ---
+% Danger zone (low cost, low detection) -- upper-left in data terms
+\fill[red!6] (0,0) rectangle (4.2,3.8);
+% Safe zone (high cost, high detection) -- lower-right in data terms
+\fill[green!5] (4.2,3.8) rectangle (8.8,7.8);
+% Transitional areas
+\fill[yellow!5] (4.2,0) rectangle (8.8,3.8);
+\fill[yellow!5] (0,3.8) rectangle (4.2,7.8);
+
+% --- Axes ---
+\draw[->, line width=1pt] (0,0) -- (9.2,0)
+    node[midway, below=12pt, font=\small\sffamily] {Production Cost};
+\draw[->, line width=1pt] (0,0) -- (0,8.2)
+    node[midway, above=10pt, rotate=90, font=\small\sffamily] {Detection Accuracy};
+
+% Axis tick labels
+\node[below, font=\tiny\sffamily] at (1.5,0) {Seconds};
+\node[below, font=\tiny\sffamily] at (4.4,0) {Minutes};
+\node[below, font=\tiny\sffamily] at (7.2,0) {Hours};
+\node[left, font=\tiny\sffamily] at (0,1.5) {$<$0.50};
+\node[left, font=\tiny\sffamily] at (0,3.8) {0.70};
+\node[left, font=\tiny\sffamily] at (0,5.8) {0.85};
+\node[left, font=\tiny\sffamily] at (0,7.6) {0.97};
+\node[left, font=\tiny\sffamily, align=right] at (-0.1,8.0) {\scriptsize AUROC};
+
+% --- Diagonal dividing line (dashed) ---
+\draw[gray!50, dashed, line width=0.7pt] (0.3,0.3) -- (8.5,7.5);
+
+% --- Format bubbles ---
+% Card News / Carousels -- lowest cost, unknown/no detection
+\node[bubble={red!70!black}{1.6cm}] (card) at (1.2, 0.9)
+    {Card News/\\[-1pt]Carousels};
+
+% Text / Blogs -- very low cost, low detection
+\node[bubble={red!60!black}{1.8cm}] (text) at (1.8, 2.2)
+    {Text/\\[-1pt]Blogs};
+
+% Fake Reviews -- very low cost, low detection
+\node[bubble={red!50!black}{1.3cm}] (review) at (3.2, 1.6)
+    {Fake\\[-1pt]Reviews};
+
+% Academic -- moderate cost, moderate detection
+\node[bubble={orange!70!black}{1.4cm}] (acad) at (4.6, 3.6)
+    {Academic\\[-1pt]Papers};
+
+% Audio / Music -- moderate cost, higher detection
+\node[bubble={blue!50!black}{1.3cm}] (audio) at (5.4, 5.6)
+    {Audio/\\[-1pt]Music};
+
+% Video -- high cost, high detection
+\node[bubble={blue!70!black}{1.7cm}] (video) at (7.2, 6.8)
+    {Video/\\[-1pt]Deepfakes};
+
+% --- Annotation arrows ---
+% "Research concentration" arrow to top-right
+\draw[->, line width=1.2pt, blue!60!black, shorten >=4pt]
+    (8.6, 4.2) to[bend left=15]
+    node[annot, right=1pt, text=blue!60!black] {Research\\concentration}
+    (7.8, 6.2);
+
+% "Actual threat" arrow to bottom-left
+\draw[->, line width=1.2pt, red!70!black, shorten >=4pt]
+    (0.2, 4.8) to[bend right=15]
+    node[annot, left=1pt, text=red!70!black] {Actual\\threat}
+    (0.8, 1.8);
+
+% --- Quadrant labels ---
+\node[annot, text=red!50!black] at (2.0, 7.2)
+    {\textit{Under-studied}};
+\node[annot, text=green!40!black] at (6.8, 7.4)
+    {\textit{Well-studied}};
+\node[annot, text=gray] at (6.5, 0.6)
+    {\textit{Low priority}};
+\node[annot, text=red!70!black, font=\scriptsize\sffamily\bfseries] at (2.0, 0.25)
+    {DANGER ZONE};
+
+\end{tikzpicture}
+\caption{The Production-Detection Asymmetry (PDA). Each bubble represents an AI slop format, positioned by its production cost ($x$-axis, log scale from seconds to hours) and detection accuracy ($y$-axis, AUROC). Research investment concentrates in the upper-right quadrant (video, audio), where detection is already effective. The lower-left quadrant---text, fake reviews, card news/carousels---combines near-zero production cost with weak or nonexistent detection, yet receives minimal research attention. This is the fundamental misallocation the field must correct.}
+\label{fig:pda}
+\end{figure}
+
+I propose that the key variable the field should organize around is not the prevalence of AI slop per format, but the \textbf{production-detection asymmetry (PDA)} -- the gap between how cheaply a format can be produced and how reliably it can be detected.
+
+For video, production cost is moderate (rendering time, GPU resources, \$20--200/month for tools) and detection is relatively effective (AUROC 91--97\% in-domain, approximately 70--87\% cross-dataset, with exploitable physical artifacts) \cite{deepfake2020}. For text, production cost approaches zero (a single API call, seconds of generation time) while detection accuracy is fragile: independent evaluations put real-world accuracy at 65--90\%, and adversarial paraphrasing reduces AUROC catastrophically. StealthRL, a 2026 reinforcement-learning attack framework, reduces text detector AUROC from 0.79 to 0.43 and achieves a 97.6\% attack success rate -- and these attacks transfer to detectors not seen during training \cite{stealthrl2026}. The NeurIPS 2025 adversarial paraphrasing framework reduces true positive rates at 1\% false-positive rate by an average of 87.88\% \cite{neurips2025adversarial}. Text detection faces a structural vulnerability that video detection does not: text has no physical grounding. There are no laws of physics to violate, no anatomical constraints to break. Detection relies entirely on statistical distribution differences that converge toward human text as language models improve.
+
+For image-text hybrids -- carousels, infographics, card news -- the asymmetry is at its most extreme. Production is trivial: ChatGPT generates the text, Canva renders the design, Bulk Create scales it to hundreds of units in minutes \cite{jackreview2026}. Detection has never been evaluated. Existing image detectors ignore embedded text; text detectors cannot process images; no multimodal detection pipeline has been built or benchmarked for this format \cite{nostudy2026}. The detection accuracy for AI-generated carousels is, at present, entirely unknown.
+
+Figure~\ref{fig:pda} plots this asymmetry. The $x$-axis represents production cost (log scale, from seconds to hours). The $y$-axis represents detection reliability (AUROC). The result is striking: the lower-left quadrant -- low production cost, low detection reliability -- is populated by text, reviews, and hybrid formats. The upper-right quadrant -- higher production cost, higher detection reliability -- is where video sits. Research investment is concentrated in the upper-right. The lower-left is almost empty of published work.
+
+\textbf{This is the fundamental misallocation.} We are spending our detection research budget on the formats where detection already works best, while the formats where detection is weakest and production is cheapest receive almost nothing.
+
+One might argue that video-centrism is justified: video is the most consumed format, children are disproportionately affected, and deepfakes pose the most immediate threat to public trust. These points have merit. But they do not justify the near-total neglect of text and hybrid formats. The question is not whether video detection matters -- it does -- but whether the current allocation, which directs the vast majority of resources to the format with the strongest existing defenses, represents a rational response to the actual threat landscape.
+
+\section{The Card News Blind Spot}
+
+The Instagram carousel -- the highest-engagement format on the platform at 6.90\% versus 3.31\% for Reels (Buffer, 2026) \cite{buffer2026} -- has zero detection research. The image-text hybrid format deserves particular attention because it combines the worst of both worlds: near-zero production cost, high engagement, and zero detection infrastructure. In South Korea, a culturally distinct variant called ``card news'' originated in 2014 as a journalistic innovation \cite{cardnews2018}, and AI-generated carousels have already been documented spreading fabricated hotel reviews, non-existent travel destinations, and unverified health claims \cite{jackreview2026}.
+
+This is not a Korea-specific problem. Carousels are the highest-engagement format on Instagram globally, based on Buffer's analysis of over 52 million posts \cite{buffer2026}. They are also the format with no detection research whatsoever.
+
+Why is carousel detection structurally difficult? Five reasons:
+\begin{enumerate}[leftmargin=*]
+    \item Carousels use platform-native templates (Canva, Piktochart), making AI-generated and human-generated outputs visually identical.
+    \item Each card contains only 3--5 lines of text -- too short for reliable AI text detection, where accuracy drops sharply on short passages \cite{shaib2025}.
+    \item Static images cannot be analyzed for temporal inconsistencies the way video frames can.
+    \item Multimodal analysis (evaluating image-text consistency) is required but no tools exist for this purpose in the detection context.
+    \item C2PA watermarking metadata is stripped trivially via screenshot or re-upload.
+\end{enumerate}
+
+This format is not a niche concern. It is the highest-engagement content type on the world's largest image-sharing platform, with no detection capability at any level -- automated, platform-level, or regulatory.
+
+\section{Hypotheses}
+
+The production-detection asymmetry framework generates specific, falsifiable predictions. If any of these are empirically refuted, the corresponding aspect of the PDA thesis requires revision.
+
+\paragraph{H1: Format-Detection Hierarchy.} Under standardized adversarial evaluation, AI content detection accuracy follows the order video $>$ audio $>$ image $>$ text $>$ image-text hybrid. The gap between video and text detection under adversarial conditions exceeds 30 AUROC percentage points. \textit{Falsified if:} a cross-format benchmark shows text detection matching or exceeding video detection AUROC under comparable adversarial attack budgets.
+
+\paragraph{H2: Research Misallocation.} The number of published detection studies per format is inversely correlated with the production-detection asymmetry of that format. A bibliometric analysis comparing detection paper counts against PDA scores would quantify the magnitude of the misallocation. \textit{Falsified if:} bibliometric analysis shows detection publication volume is proportional to (or positively correlated with) PDA severity.
+
+\paragraph{H3: Cross-Format Contamination.} AI slop propagates across formats through content transformation pipelines -- AI-generated academic paper becomes AI-generated news article becomes AI-generated blog post becomes AI-generated social carousel. Each transformation reduces the statistical signal available to format-specific detectors. \textit{Falsified if:} cross-format transformation preserves or increases detector-exploitable statistical signals relative to single-format generation.
+
+\paragraph{H4: Engagement-Detection Inversion.} Formats with higher user engagement rates and lower detection capability will exhibit higher sustained AI slop prevalence than formats with lower engagement and better detection. Carousel-format slop (6.9\% engagement, no detection) will persist longer and reach more users than video-format slop (3.3\% engagement, 85\%+ detection) on the same platform. \textit{Falsified if:} platform-level prevalence data shows no correlation between engagement-detection ratio and AI slop persistence.
+
+\section{Implications for Governance and Regulation}
+
+Current regulatory frameworks reproduce the video-centrism of the research community. The EU AI Act's Article 50 transparency provisions require machine-readable marking of synthetic content, but enforcement attention and compliance guidance focus overwhelmingly on deepfakes -- a video/audio phenomenon \cite{euaiact2026}. South Korea's AI Basic Act (effective January 2026) mandates labeling for ``synthetic voice, image, and video that is difficult to distinguish from reality'' -- text is not explicitly covered \cite{koreaaiact2026}. Platform responses mirror this bias: YouTube's ``does this feel like AI slop?'' feedback system targets video \cite{dexerto2026youtube}; Instagram's synthetic content penalty targets images and video \cite{clippie2026instagram}; Reddit's passkey verification targets bot accounts rather than AI-generated content \cite{reddit2026}.
+
+China stands alone in enforcing multi-format AI content labeling, having deleted 37,000 non-compliant videos, suspended 3,400 accounts, and applied labels to 600,000 videos since its September 2025 labeling law took effect \cite{china2025labeling}. Whatever its governance tradeoffs, China's approach demonstrates that multi-format enforcement is technically feasible.
+
+Three reforms are needed:
+\begin{enumerate}[leftmargin=*]
+    \item Detection research funding should be allocated proportional to the production-detection asymmetry, not proportional to current research volume or media attention. The upper-left quadrant of the PDA matrix -- text, hybrid formats, reviews -- needs an order-of-magnitude increase in research investment.
+    \item Regulatory frameworks must explicitly cover text-based and hybrid-format AI content. A labeling mandate that covers video but not the blog posts, product reviews, and social carousels where most AI slop lives is performative, not protective.
+    \item The field needs a cross-format AI slop detection benchmark -- analogous to what FaceForensics++ did for video -- that enables systematic comparison of detection performance across modalities and drives research toward the formats where detection is weakest.
+\end{enumerate}
+
+\section{Limitations}
+
+This commentary has several limitations that bound its claims. First, the production-detection asymmetry framework is proposed as an organizing principle, not an empirically validated model. The axis values in Figure~\ref{fig:pda} -- production cost and detection AUROC -- are drawn from heterogeneous sources that use different methodologies, populations, and evaluation criteria. A rigorous cross-format comparison would require standardized benchmarks that do not yet exist. Second, the claim that research investment is misallocated assumes that detection difficulty should drive funding priority. Alternative allocation criteria -- societal harm magnitude, regulatory urgency, democratic threat -- might justify different distributions, including the current video-centric one. Third, the data cited for AI slop prevalence (e.g., 74.2\% of new web pages, 22.5\% of CS abstracts) rely on automated AI content detection tools whose own accuracy is contested; prevalence estimates may be systematically inflated or deflated depending on detector bias. Fourth, this commentary is written from the perspective of a developer who builds content pipelines, which provides direct production-side visibility but limited access to platform-internal detection efforts or unpublished industry research that may address the gaps identified here. Finally, the card news and carousel analysis draws heavily on the South Korean information ecosystem, which may not generalize fully to other linguistic and platform contexts, though the structural arguments about template-based production and short-text detection limits apply cross-culturally.
+
+\section{Conclusion}
+
+Sora's shutdown was not the end of the AI slop crisis. It was a distraction from the real one. The formats that matter most -- text, hybrid carousels, product reviews, academic papers -- are the ones we are not studying, not detecting, and not regulating. The production-detection asymmetry tells us exactly where to look: wherever production is cheapest and detection is weakest, that is where slop accumulates fastest and causes the most damage.
+
+The central argument of this commentary is not merely that text and hybrid formats deserve more attention -- it is that the field's current resource allocation is structurally inverted. Detection research concentrates on the formats where detection already works (video, audio) and neglects the formats where it fails (text, carousels, reviews). This inversion is not accidental; it follows from benchmark availability, media salience, and the visual drama of deepfakes. But it means the research community is optimizing defenses where threats are already manageable while leaving the fastest-growing, lowest-cost, hardest-to-detect slop formats effectively unmonitored. Until funding, benchmarks, and regulatory attention are reallocated proportional to the production-detection asymmetry -- not proportional to media visibility -- the information ecosystem will continue to degrade in the formats where degradation is hardest to see.
+
+\vspace{1em}
+\noindent\textbf{About the Author:} The author is an independent developer working at the intersection of content systems and AI tooling. This perspective draws on direct experience building and observing automated content production pipelines -- the infrastructure that AI slop research studies from the outside.
+
+\begin{thebibliography}{33}
+
+\bibitem{npr2026sora}
+NPR.
+\newblock OpenAI pulls the plug on Sora.
+\newblock March 25, 2026.
+
+\bibitem{merriamwebster2025}
+Merriam-Webster.
+\newblock Word of the Year 2025: Slop.
+\newblock December 2025.
+
+\bibitem{dexerto2026youtube}
+Dexerto.
+\newblock YouTube is asking users if videos feel like AI slop.
+\newblock March 2026.
+
+\bibitem{clippie2026instagram}
+Clippie.AI.
+\newblock Instagram Algorithm Updates 2026.
+\newblock January 2026.
+\newblock See also: Musically, ``Instagram boss: authenticity is becoming infinitely reproducible,'' January 2026.
+
+\bibitem{ahrefs2025}
+Ahrefs.
+\newblock Analysis of 900,000 newly published web pages.
+\newblock April 2025.
+\newblock 74.2\% contain AI content (pure AI 2.5\%, human-AI mix 71.7\%).
+\newblock See also: Graphite, analysis of ${\sim}$65,000 English articles (52\% show AI involvement), 2025.
+
+\bibitem{liang2025nature}
+W.~Liang et~al.
+\newblock Monitoring AI-Modified Content at Scale.
+\newblock \emph{Nature Human Behaviour}, 2025.
+\newblock See also: Z.~Bao et~al., ``AI-generated text in PubMed abstracts,'' \emph{Science Advances}, 2025.
+
+\bibitem{newsguard2025}
+NewsGuard.
+\newblock Unreliable news sites tracking, 2024--2025.
+\newblock 1,265 partisan-funded ``pink slime'' sites; 3,006 AI content farm sites.
+
+\bibitem{imperva2025}
+Imperva.
+\newblock 2025 Bad Bot Report, 2025.
+\newblock 51\% of web traffic is automated.
+
+\bibitem{kapwing2025}
+Kapwing.
+\newblock AI Slop Report: The Global Rise of Low-Quality AI Videos.
+\newblock October 2025.
+
+\bibitem{jones2025}
+E.M.~Jones et~al.
+\newblock AI-Generated `Slop' in Online Biomedical Science Educational Videos.
+\newblock \emph{JMIR Medical Education}, 11:e80084, 2025.
+
+\bibitem{moller2026}
+A.G.~Moller et~al.
+\newblock The impact of generative AI on social media: An Experimental Study.
+\newblock \emph{Nature Scientific Reports}, 16:9376, 2026.
+
+\bibitem{madsen2026}
+D.O.~Madsen and R.W.~Puyt.
+\newblock The 7Vs of AI Slop: A Typology of Generative Waste.
+\newblock \emph{AI \& Society} (Springer), 2026.
+
+\bibitem{deepfake2020}
+A.~R{\"o}ssler et~al.
+\newblock FaceForensics++, 2019.
+\newblock B.~Dolhansky et~al., Deepfake Detection Challenge, 2020.
+\newblock ASVspoof 5, 2025--2026 (best challenge EER 2.59\%).
+\newblock Video detection AUROC 91--97\% in-domain (FF++), ${\sim}$70--87\% cross-dataset (DFDC).
+
+\bibitem{shaib2025}
+C.~Shaib et~al.
+\newblock Measuring AI `Slop' in Text.
+\newblock arXiv:2509.19163, 2025.
+
+\bibitem{nostudy2026}
+No published study on AI-generated infographic, card news, or carousel detection was identified in searches of ACM Digital Library, IEEE Xplore, arXiv, and Google Scholar as of March 2026.
+
+\bibitem{jackreview2026}
+JacktheReviewer.com.
+\newblock ChatGPT + Canva: 100 Instagram card news in 5 minutes, 2026.
+\newblock See also: BizhankookMedia, ``AI programs making blogs effortlessly---junk information overflows,'' 2025.
+
+\bibitem{originality2025google}
+Originality.AI.
+\newblock AI Content in Google Search Results, 2019--2025 longitudinal tracking.
+
+\bibitem{retraction2024}
+Retraction Watch.
+\newblock Hindawi/Wiley mass retraction tracking.
+\newblock 11,300+ retractions, 19 journals closed, 2023--2024.
+
+\bibitem{originality2025amazon}
+Originality.AI.
+\newblock AI Content in Amazon Reviews, 2025.
+
+\bibitem{ftc2024}
+Federal Trade Commission.
+\newblock Consumer Reviews Rule.
+\newblock Final rule effective October 21, 2024. \$51,744 civil penalty per violation.
+
+\bibitem{amazon2025books}
+Analysis of Amazon KDP ``Success'' genre. 844 titles examined, 77\% identified as AI-generated, 2025.
+
+\bibitem{koreatimes2025}
+Korea Times.
+\newblock Reporting on single Korean publisher producing 9,000 AI-generated titles in one year, 2025.
+
+\bibitem{spotify2025}
+Spotify.
+\newblock Spotify Strengthens AI Protections.
+\newblock September 25, 2025.
+\newblock 75M+ spammy tracks removed.
+
+\bibitem{nyt2026children}
+New York Times.
+\newblock Investigation finding ${\sim}$40\% of children's recommended videos are AI slop.
+\newblock March 2026.
+
+\bibitem{factcheck2025}
+Factcheck.by.
+\newblock YouTube Botnet Study.
+\newblock March 2025.
+\newblock 12\% of comments on political videos are bots.
+
+\bibitem{stealthrl2026}
+StealthRL.
+\newblock RL-based paraphrasing policy, 2026.
+\newblock Reduces average TPR@1\%FPR, AUROC from 0.79 to 0.43, attack success rate 97.6\%. Transfers to unseen detectors.
+
+\bibitem{neurips2025adversarial}
+Adversarial Paraphrasing framework.
+\newblock NeurIPS 2025.
+\newblock Training-free attack reducing TPR@1\%FPR by average 87.88\%.
+
+\bibitem{buffer2026}
+Buffer.
+\newblock State of Social Media 2026.
+\newblock Analysis of 52M+ posts. Carousel engagement: 6.90\%; Reels: 3.31\%.
+\newblock See also: CreatorsJet 2025 (10,000 posts): Mixed carousels 2.33\% vs Reels 1.23\%.
+
+\bibitem{cardnews2018}
+CivicNews.
+\newblock Card news is a uniquely Korean news format, 2018.
+\newblock See also: J.G.~Bae, ``Card news as the first `mainstream' multimedia format in Korean journalism history,'' 2018.
+
+\bibitem{euaiact2026}
+EU AI Act, Article~50.
+\newblock Effective August 2, 2026.
+\newblock Machine-readable marking and deepfake disclosure requirements.
+
+\bibitem{koreaaiact2026}
+Republic of Korea.
+\newblock AI Basic Act.
+\newblock Effective January 22, 2026.
+\newblock Labeling mandate for synthetic voice/image/video.
+
+\bibitem{reddit2026}
+WinBuzzer.
+\newblock Reddit Human Verification: Bot Detection via Passkeys and Biometrics.
+\newblock March 25, 2026.
+
+\bibitem{china2025labeling}
+Sixth Tone; MLex.
+\newblock Reporting on China's AI content labeling enforcement.
+\newblock September 2025 onward.
+\newblock 37,000 non-compliant videos removed, 3,400 accounts suspended, 600,000 videos labeled.
+
+\bibitem{author2026amsm}
+[Author].
+\newblock Beyond Video Slop: A Multi-Format Framework for Understanding AI-Generated Content Pollution.
+\newblock Preprint, 2026.
+
+\end{thebibliography}
+
+\end{document}

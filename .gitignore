@@ -12,5 +12,15 @@ Thumbs.db
 *.key
 credentials*
 
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
 # Internal working docs
-FACTCHECK_CORRECTIONS.md
+shared/
