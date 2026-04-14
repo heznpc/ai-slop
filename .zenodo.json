@@ -1,0 +1,21 @@
+{
+  "title": "Beyond Video Slop: A Multi-Format Framework for Understanding AI-Generated Content Pollution",
+  "description": "Two-paper package: (1) AMSM framework for multi-format AI slop analysis with production-detection asymmetry, (2) Perspectives commentary on the same problem for Communications of the ACM.",
+  "creators": [
+    {
+      "name": "Yoon, Jiyeon"
+    }
+  ],
+  "keywords": [
+    "AI slop",
+    "content pollution",
+    "production-detection asymmetry",
+    "generative AI",
+    "content moderation",
+    "multi-format framework"
+  ],
+  "license": "CC-BY-4.0",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "access_right": "open"
+}
