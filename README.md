@@ -25,23 +25,24 @@ Research papers proposing a new framework for understanding AI-generated low-qua
 - Research investment is **inversely correlated** with actual threat (Production-Detection Paradox)
 - 2025-2026 offers 6 natural experiments for testing the Algorithm-Slop Co-evolution Model
 
-## Structure
+## Repository Structure (umbrella -- multi-paper)
 
 ```
-perspectives/   Paper A drafts and outline
-framework/      Paper B drafts and outline
-research/       Supporting research notes (10 files, ~370K)
+ai-slop-paper/
+├── papers/
+│   ├── perspectives/        Paper A (CACM Viewpoints)
+│   │   ├── paper/main.tex
+│   │   ├── drafts/          draft_v1, draft_v2, draft_final, outline
+│   │   └── cover_letter.md
+│   └── framework/           Paper B (Big Data & Society)
+│       ├── paper/main.tex
+│       ├── drafts/
+│       └── cover_letter.md
+├── shared/                  Cross-paper research notes (~370K, 11 files)
+├── literature/              Reading notes (external)
+├── planning/                Program-level TODO, review, decisions
+└── README.md
 ```
-
-## Status
-
-- [x] Literature review (16+ papers analyzed)
-- [x] Multi-format research (9 content formats)
-- [x] Cross-country comparison data
-- [x] Paper A draft v2 (fact-checked, corrected)
-- [x] Paper B draft v2 (fact-checked, corrected, limitations added)
-- [ ] Final proofreading
-- [ ] Journal submission
 
 ## License
 
