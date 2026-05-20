@@ -1,0 +1,40 @@
+[19:19:17] AMSM multi-model panel start. snapshot=2026-05-20T19:19:17.163400+00:00
+[19:19:17] raters: ['Claude Opus 4.7', 'Claude Sonnet 4.6', 'Gemini 2.5 Pro']
+[19:19:17] formats: 8
+[19:19:17] skip opus47/video (cached)
+[19:19:17] skip opus47/audio (cached)
+[19:19:17] skip opus47/image (cached)
+[19:19:17] skip opus47/text (cached)
+[19:19:17] skip opus47/hybrid_card_news (cached)
+[19:19:17] skip opus47/fake_reviews (cached)
+[19:19:17] skip opus47/academic_papers (cached)
+[19:19:17] skip opus47/news_articles (cached)
+[19:19:17] skip sonnet46/video (cached)
+[19:19:17] skip sonnet46/audio (cached)
+[19:19:17] skip sonnet46/image (cached)
+[19:19:17] skip sonnet46/text (cached)
+[19:19:17] skip sonnet46/hybrid_card_news (cached)
+[19:19:17] skip sonnet46/fake_reviews (cached)
+[19:19:17] skip sonnet46/academic_papers (cached)
+[19:19:17] skip sonnet46/news_articles (cached)
+[19:19:17] skip gemini25pro/video (cached)
+[19:19:17] skip gemini25pro/audio (cached)
+[19:19:17] skip gemini25pro/image (cached)
+[19:19:17] skip gemini25pro/text (cached)
+[19:19:17] skip gemini25pro/hybrid_card_news (cached)
+[19:19:17] skip gemini25pro/fake_reviews (cached)
+[19:19:17] skip gemini25pro/academic_papers (cached)
+[19:19:17] skip gemini25pro/news_articles (cached)
+[19:19:17] scores_raw.csv written (24 rows)
+[19:19:17] panel_mean.csv written: {'PCA': {'video': 3.67, 'audio': 5.0, 'image': 5.0, 'text': 5.0, 'hybrid_card_news': 4.67, 'fake_reviews': 5.0, 'academic_papers': 4.67, 'news_articles': 5.0}, 'DDI': {'video': 3.33, 'audio': 3.67, 'image': 3.33, 'text': 3.0, 'hybrid_card_news': 4.67, 'fake_reviews': 4.0, 'academic_papers': 3.67, 'news_articles': 3.33}, 'EDP': {'video': 4.33, 'audio': 4.33, 'image': 4.0, 'text': 4.33, 'hybrid_card_news': 4.0, 'fake_reviews': 3.67, 'academic_papers': 5.0, 'news_articles': 5.0}, 'AAS': {'video': 5.0, 'audio': 3.67, 'image': 4.33, 'text': 4.33, 'hybrid_card_news': 5.0, 'fake_reviews': 4.0, 'academic_papers': 1.67, 'news_articles': 3.67}, 'RCG': {'video': 2.67, 'audio': 3.0, 'image': 2.67, 'text': 3.0, 'hybrid_card_news': 4.0, 'fake_reviews': 2.67, 'academic_papers': 3.33, 'news_articles': 3.0}}
+[19:19:17] krippendorff alpha (all 40 cells, ordinal) = 0.6213
+[19:19:17]   alpha[PCA] = 0.1786
+[19:19:17]   alpha[DDI] = 0.4026
+[19:19:17]   alpha[EDP] = 0.1544
+[19:19:17]   alpha[AAS] = 0.6595
+[19:19:17]   alpha[RCG] = 0.2512
+[19:19:17]   pairwise opus47 vs sonnet46: r=0.774 (n=40, disagree>=2: 1)
+[19:19:17]   pairwise opus47 vs gemini25pro: r=0.684 (n=40, disagree>=2: 2)
+[19:19:17]   pairwise sonnet46 vs gemini25pro: r=0.606 (n=40, disagree>=2: 5)
+[19:19:17] pda_comparison.csv written
+[19:19:18] H2 re-run: author rho=-0.497 (p=0.105); panel rho=-0.610 (p=0.054)

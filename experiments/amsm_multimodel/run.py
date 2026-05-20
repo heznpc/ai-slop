@@ -53,20 +53,23 @@ RATERS = [
     {
         "id": "opus47",
         "label": "Claude Opus 4.7",
-        "cmd": ["claude", "--print", "--no-session-persistence", "--model", "claude-opus-4-7", "--max-budget-usd", "5"],
+        "cmd": ["claude", "--print", "--no-session-persistence", "--output-format", "json", "--model", "claude-opus-4-7", "--max-budget-usd", "5"],
         "uses_stdin": True,
+        "family": "claude",
     },
     {
         "id": "sonnet46",
         "label": "Claude Sonnet 4.6",
-        "cmd": ["claude", "--print", "--no-session-persistence", "--model", "sonnet", "--max-budget-usd", "5"],
+        "cmd": ["claude", "--print", "--no-session-persistence", "--output-format", "json", "--model", "sonnet", "--max-budget-usd", "5"],
         "uses_stdin": True,
+        "family": "claude",
     },
     {
         "id": "gemini25pro",
         "label": "Gemini 2.5 Pro",
-        "cmd": ["gemini", "-m", "gemini-2.5-pro", "-p"],
+        "cmd": ["gemini", "-m", "gemini-2.5-pro", "-o", "json", "-p"],
         "uses_stdin": False,  # prompt passed as last positional arg
+        "family": "gemini",
     },
 ]
 
@@ -84,8 +87,16 @@ AUTHOR_AMSM = {
 }
 
 
-def call_rater(rater: dict, prompt: str, log) -> tuple[str, float, int]:
-    """Invoke a rater CLI with prompt. Returns (stdout_text, elapsed_seconds, returncode)."""
+def call_rater(rater: dict, prompt: str, log) -> tuple[str, dict, float, int]:
+    """Invoke a rater CLI with prompt. Returns (model_text, metrics, wall_seconds, returncode).
+
+    metrics is a dict with keys:
+      input_tokens, output_tokens, cache_read_tokens, cache_creation_tokens,
+      total_cost_usd, duration_ms (CLI-reported), duration_api_ms (Claude only),
+      raw_envelope (the parsed JSON envelope as-is, for forensics)
+
+    Values may be None when the CLI does not provide them.
+    """
     t0 = time.time()
     if rater["uses_stdin"]:
         proc = subprocess.run(
@@ -93,19 +104,65 @@ def call_rater(rater: dict, prompt: str, log) -> tuple[str, float, int]:
             input=prompt,
             text=True,
             capture_output=True,
-            timeout=180,
+            timeout=300,
         )
     else:
         proc = subprocess.run(
             rater["cmd"] + [prompt],
             text=True,
             capture_output=True,
-            timeout=180,
+            timeout=300,
         )
-    elapsed = time.time() - t0
+    wall = time.time() - t0
     out = proc.stdout or ""
-    # Gemini prints "Loaded cached credentials." stderr lines that don't matter
-    return out, elapsed, proc.returncode
+
+    metrics: dict = {
+        "input_tokens": None,
+        "output_tokens": None,
+        "cache_read_tokens": None,
+        "cache_creation_tokens": None,
+        "total_cost_usd": None,
+        "duration_ms": None,
+        "duration_api_ms": None,
+        "raw_envelope": None,
+    }
+    model_text = out
+
+    if rater["family"] == "claude":
+        try:
+            env = json.loads(out)
+            metrics["raw_envelope"] = env
+            model_text = env.get("result", out)
+            usage = env.get("usage") or {}
+            metrics["input_tokens"] = usage.get("input_tokens")
+            metrics["output_tokens"] = usage.get("output_tokens")
+            metrics["cache_read_tokens"] = usage.get("cache_read_input_tokens")
+            metrics["cache_creation_tokens"] = usage.get("cache_creation_input_tokens")
+            metrics["total_cost_usd"] = env.get("total_cost_usd")
+            metrics["duration_ms"] = env.get("duration_ms")
+            metrics["duration_api_ms"] = env.get("duration_api_ms")
+        except (json.JSONDecodeError, AttributeError):
+            log(f"  (could not parse Claude JSON envelope; falling back to raw text)")
+    elif rater["family"] == "gemini":
+        try:
+            env = json.loads(out)
+            metrics["raw_envelope"] = env
+            model_text = env.get("response", out)
+            # Pick the first model entry in stats.models
+            stats_models = (env.get("stats") or {}).get("models") or {}
+            if stats_models:
+                first_key = next(iter(stats_models))
+                m = stats_models[first_key]
+                tokens = m.get("tokens") or {}
+                api = m.get("api") or {}
+                metrics["input_tokens"] = tokens.get("input")
+                metrics["output_tokens"] = tokens.get("candidates")
+                metrics["cache_read_tokens"] = tokens.get("cached")
+                metrics["duration_ms"] = api.get("totalLatencyMs")
+        except (json.JSONDecodeError, AttributeError, StopIteration):
+            log(f"  (could not parse Gemini JSON envelope; falling back to raw text)")
+
+    return model_text, metrics, wall, proc.returncode
 
 
 _JSON_RE = re.compile(r"\{[^{}]*\"PCA\"[^{}]*\}", re.DOTALL)
@@ -231,30 +288,57 @@ def main() -> int:
                     if all(k in cached for k in DIMS):
                         log(f"skip {label} (cached)")
                         rows.append({"rater": rater["id"], "format": fmt["name"], **{k: cached[k] for k in DIMS}, "rationale": cached.get("rationale", "")})
-                        call_log.append({"rater": rater["id"], "format": fmt["name"], "elapsed_s": 0.0, "returncode": 0, "attempt": 0, "cached": True})
+                        # If a sibling .meta.json exists from a native-capture run, surface it
+                        meta_path = RAW / f"{rater['id']}_{fmt['name']}.meta.json"
+                        meta_extra = {}
+                        if meta_path.exists():
+                            try:
+                                meta_extra = json.loads(meta_path.read_text())
+                            except (json.JSONDecodeError, OSError):
+                                meta_extra = {}
+                        call_log.append({"rater": rater["id"], "format": fmt["name"], "elapsed_s": meta_extra.get("wall_s", 0.0), "returncode": 0, "attempt": 0, "cached": True, **{k: meta_extra.get(k) for k in ("input_tokens", "output_tokens", "total_cost_usd", "duration_ms", "duration_api_ms")}})
                         continue
                 except (json.JSONDecodeError, OSError):
                     pass
             log(f"call {label}")
             for attempt in range(2):  # 1 initial + 1 retry on parse failure
                 try:
-                    out, elapsed, rc = call_rater(rater, prompt, log)
+                    model_text, call_metrics, wall_s, rc = call_rater(rater, prompt, log)
                 except subprocess.TimeoutExpired:
                     log(f"  TIMEOUT on {label}")
-                    out, elapsed, rc = "", 180.0, -1
-                (RAW / f"{rater['id']}_{fmt['name']}.txt").write_text(out)
-                parsed = parse_scores(out)
+                    model_text, call_metrics, wall_s, rc = "", {"raw_envelope": None}, 300.0, -1
+                (RAW / f"{rater['id']}_{fmt['name']}.txt").write_text(model_text)
+                # Persist per-call native metrics envelope alongside the text
+                meta_record = {
+                    "rater": rater["id"],
+                    "format": fmt["name"],
+                    "attempt": attempt + 1,
+                    "wall_s": round(wall_s, 3),
+                    "returncode": rc,
+                    "input_tokens": call_metrics["input_tokens"],
+                    "output_tokens": call_metrics["output_tokens"],
+                    "cache_read_tokens": call_metrics["cache_read_tokens"],
+                    "cache_creation_tokens": call_metrics["cache_creation_tokens"],
+                    "total_cost_usd": call_metrics["total_cost_usd"],
+                    "duration_ms": call_metrics["duration_ms"],
+                    "duration_api_ms": call_metrics["duration_api_ms"],
+                }
+                (RAW / f"{rater['id']}_{fmt['name']}.meta.json").write_text(json.dumps(meta_record, indent=2))
+                parsed = parse_scores(model_text)
                 if parsed is not None:
                     (RAW / f"{rater['id']}_{fmt['name']}.json").write_text(json.dumps(parsed, indent=2))
-                    log(f"  ok: {dict((k, parsed[k]) for k in DIMS)} ({elapsed:.1f}s)")
+                    cost_str = f" cost=${call_metrics['total_cost_usd']:.4f}" if call_metrics["total_cost_usd"] is not None else ""
+                    tok_str = f" in={call_metrics['input_tokens']} out={call_metrics['output_tokens']}" if call_metrics["input_tokens"] is not None else ""
+                    log(f"  ok: {dict((k, parsed[k]) for k in DIMS)} ({wall_s:.1f}s{tok_str}{cost_str})")
                     call_log.append({
                         "rater": rater["id"], "format": fmt["name"],
-                        "elapsed_s": elapsed, "returncode": rc, "attempt": attempt + 1,
+                        "elapsed_s": wall_s, "returncode": rc, "attempt": attempt + 1,
+                        **meta_record,
                     })
                     rows.append({"rater": rater["id"], "format": fmt["name"], **{k: parsed[k] for k in DIMS}, "rationale": parsed.get("rationale", "")})
                     break
                 else:
-                    log(f"  PARSE-FAIL attempt {attempt+1}/2 (returncode={rc}, output len={len(out)})")
+                    log(f"  PARSE-FAIL attempt {attempt+1}/2 (returncode={rc}, text len={len(model_text)})")
                     parse_retries += 1
                     if attempt == 0:
                         # Append strict instruction for retry
@@ -434,6 +518,42 @@ def main() -> int:
         "pandas_version": pd.__version__,
     }
     (RESULTS / "run_metadata.json").write_text(json.dumps(meta, indent=2))
+
+    # ---- Observability: metrics.csv + cost_summary.json (native, when available) ----
+    metric_keys = ["rater", "format", "cached", "wall_s", "elapsed_s", "input_tokens", "output_tokens", "total_cost_usd", "duration_ms", "duration_api_ms"]
+    metric_rows = []
+    for c in call_log:
+        row = {k: c.get(k) for k in metric_keys}
+        if row.get("wall_s") is None:
+            row["wall_s"] = row.get("elapsed_s")
+        metric_rows.append(row)
+    metrics_csv = RESULTS / "metrics.csv"
+    with metrics_csv.open("w") as f:
+        f.write(",".join(metric_keys) + "\n")
+        for r in metric_rows:
+            f.write(",".join("" if r.get(k) is None else str(r.get(k)) for k in metric_keys) + "\n")
+    cost_per_rater = {}
+    for rid in [r["id"] for r in RATERS]:
+        rows_for = [r for r in metric_rows if r["rater"] == rid]
+        costs = [r["total_cost_usd"] for r in rows_for if isinstance(r["total_cost_usd"], (int, float))]
+        walls = [r["wall_s"] for r in rows_for if isinstance(r["wall_s"], (int, float))]
+        in_toks = [r["input_tokens"] for r in rows_for if isinstance(r["input_tokens"], (int, float))]
+        out_toks = [r["output_tokens"] for r in rows_for if isinstance(r["output_tokens"], (int, float))]
+        cost_per_rater[rid] = {
+            "n_calls": len(rows_for),
+            "n_with_native_cost": len(costs),
+            "cost_usd_total_native": round(sum(costs), 6) if costs else None,
+            "wall_s_total": round(sum(walls), 2) if walls else None,
+            "wall_s_mean": round(sum(walls) / len(walls), 2) if walls else None,
+            "input_tokens_total_native": sum(in_toks) if in_toks else None,
+            "output_tokens_total_native": sum(out_toks) if out_toks else None,
+        }
+    (RESULTS / "cost_summary.json").write_text(json.dumps({
+        "_source": "native CLI envelopes captured by run.py via --output-format json (Claude) and -o json (Gemini)",
+        "_note": "Cells that were satisfied from cache without a sibling .meta.json appear here with null native fields; retrofit estimates in metrics_retrofit.csv cover those.",
+        "per_rater": cost_per_rater,
+    }, indent=2))
+    log(f"metrics.csv + cost_summary.json written ({len(metric_rows)} rows)")
 
     lim = ["# AMSM Multi-Model Run Limitations", ""]
     lim.append(f"Snapshot: {started_at}")

@@ -76,11 +76,22 @@ Reported as a clean before/after.
 
 - Each model's raw text output cached to `results/raw/<rater>_<format>.txt`
 - Each parsed JSON cached to `results/raw/<rater>_<format>.json`
+- Each native CLI envelope (when `run.py` is invoked fresh) cached to `results/raw/<rater>_<format>.meta.json` with per-call `input_tokens`, `output_tokens`, `cache_*_tokens`, `total_cost_usd`, `duration_ms`, `duration_api_ms`
 - All scores aggregated to `results/scores_raw.csv`
 - Panel mean to `results/panel_mean.csv`
 - IRR statistics to `results/irr_stats.json`
 - H2 re-run statistics to `results/h2_rerun.json`
 - Run metadata (timestamps, CLI versions, model identifiers) to `results/run_metadata.json`
+
+## Observability (first-class experimental variables)
+
+Per-call wall time, input/output tokens, and USD cost are first-class experimental variables. `run.py` invokes each rater with structured-JSON output (`claude --output-format json` and `gemini -o json`) and persists the native envelope in `.meta.json` per cell. Aggregates are written to:
+
+- `results/metrics.csv` — per-call rows with `wall_s`, `input_tokens`, `output_tokens`, `total_cost_usd`, `duration_ms`, `duration_api_ms`
+- `results/cost_summary.json` — per-rater totals (calls, native cost, wall time)
+- `results/observability_findings.md` — narrative findings including the calibration result that retrofit `chars/4` token estimates undercount the true Anthropic-billed cost by roughly an order of magnitude because Claude Code's CLI scaffolding dominates the bill via `cache_creation_input_tokens`
+
+For the original run that pre-dated native capture, the retrofit lives in `results/metrics_retrofit.csv` + `results/cost_summary.json` (estimates) and `results/run_full.log` (preserved per-call wall times). The calibration that quantifies the retrofit/native gap is in `results/calibration/`.
 
 ## Failure modes
 

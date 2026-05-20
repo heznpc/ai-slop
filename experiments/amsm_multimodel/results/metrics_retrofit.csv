@@ -1,0 +1,25 @@
+rater,rater_label,format,elapsed_s,input_chars,output_chars,input_tokens_est,output_tokens_est,cost_usd_est
+opus47,Claude Opus 4.7,video,7.3,2908,610,727,153,0.02238
+opus47,Claude Opus 4.7,audio,,2844,545,711,137,0.02094
+opus47,Claude Opus 4.7,image,,2852,658,713,165,0.02307
+opus47,Claude Opus 4.7,text,,2835,589,709,148,0.021735
+opus47,Claude Opus 4.7,hybrid_card_news,,2890,707,723,177,0.02412
+opus47,Claude Opus 4.7,fake_reviews,,2844,641,711,161,0.02274
+opus47,Claude Opus 4.7,academic_papers,,2873,815,719,204,0.026085
+opus47,Claude Opus 4.7,news_articles,,2863,529,716,133,0.020715
+sonnet46,Claude Sonnet 4.6,video,6.7,2908,693,727,174,0.004791
+sonnet46,Claude Sonnet 4.6,audio,7.0,2844,744,711,186,0.004923
+sonnet46,Claude Sonnet 4.6,image,6.6,2852,783,713,196,0.005079
+sonnet46,Claude Sonnet 4.6,text,5.5,2835,543,709,136,0.004167
+sonnet46,Claude Sonnet 4.6,hybrid_card_news,6.8,2890,840,723,210,0.005319
+sonnet46,Claude Sonnet 4.6,fake_reviews,7.0,2844,803,711,201,0.005148
+sonnet46,Claude Sonnet 4.6,academic_papers,6.8,2873,768,719,192,0.005037
+sonnet46,Claude Sonnet 4.6,news_articles,5.4,2863,776,716,194,0.005058
+gemini25pro,Gemini 2.5 Pro,video,24.4,2908,562,727,141,0.001614
+gemini25pro,Gemini 2.5 Pro,audio,138.1,2844,453,711,114,0.001459
+gemini25pro,Gemini 2.5 Pro,image,,2852,675,713,169,0.001736
+gemini25pro,Gemini 2.5 Pro,text,,2835,470,709,118,0.001476
+gemini25pro,Gemini 2.5 Pro,hybrid_card_news,,2890,613,723,154,0.001674
+gemini25pro,Gemini 2.5 Pro,fake_reviews,26.6,2844,518,711,130,0.001539
+gemini25pro,Gemini 2.5 Pro,academic_papers,,2873,471,719,118,0.001489
+gemini25pro,Gemini 2.5 Pro,news_articles,25.6,2863,602,716,151,0.00165

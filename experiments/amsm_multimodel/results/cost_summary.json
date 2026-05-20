@@ -1,0 +1,63 @@
+{
+  "_method": "retrofit from cached outputs + run.log (estimates; see metrics_retrofit.py docstring)",
+  "chars_per_token_assumed": 4.0,
+  "pricing_per_million_tokens_usd": {
+    "opus47": {
+      "input": 15.0,
+      "output": 75.0
+    },
+    "sonnet46": {
+      "input": 3.0,
+      "output": 15.0
+    },
+    "gemini25pro": {
+      "input": 1.25,
+      "output": 5.0
+    }
+  },
+  "raters": {
+    "opus47": {
+      "label": "Claude Opus 4.7",
+      "calls": 8,
+      "calls_with_timing": 1,
+      "wall_s_total": 7.3,
+      "wall_s_mean": 7.3,
+      "wall_s_min": 7.3,
+      "wall_s_max": 7.3,
+      "input_tokens_total_est": 5729,
+      "output_tokens_total_est": 1278,
+      "cost_usd_total_est": 0.1818
+    },
+    "sonnet46": {
+      "label": "Claude Sonnet 4.6",
+      "calls": 8,
+      "calls_with_timing": 8,
+      "wall_s_total": 51.8,
+      "wall_s_mean": 6.47,
+      "wall_s_min": 5.4,
+      "wall_s_max": 7.0,
+      "input_tokens_total_est": 5729,
+      "output_tokens_total_est": 1489,
+      "cost_usd_total_est": 0.0395
+    },
+    "gemini25pro": {
+      "label": "Gemini 2.5 Pro",
+      "calls": 8,
+      "calls_with_timing": 4,
+      "wall_s_total": 214.7,
+      "wall_s_mean": 53.67,
+      "wall_s_min": 24.4,
+      "wall_s_max": 138.1,
+      "input_tokens_total_est": 5729,
+      "output_tokens_total_est": 1095,
+      "cost_usd_total_est": 0.0126
+    }
+  },
+  "grand_total": {
+    "calls": 24,
+    "wall_s_total_across_raters": 273.8,
+    "input_tokens_total_est": 17187,
+    "output_tokens_total_est": 3862,
+    "cost_usd_total_est": 0.2339
+  }
+}

@@ -22,5 +22,8 @@ credentials*
 *.fls
 *.synctex.gz
 
+# Exception: experiment run logs are reproducibility evidence and MUST be tracked
+!experiments/**/*.log
+
 # Internal working docs
 shared/

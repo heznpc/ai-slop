@@ -1,0 +1,4 @@
+rater,rater_label,wall_s,input_chars,output_chars,native_input_tokens,retrofit_input_tokens,input_token_ratio_native_over_retrofit,native_output_tokens,retrofit_output_tokens,output_token_ratio_native_over_retrofit,native_cache_read_tokens,native_cache_creation_tokens,native_cost_usd,retrofit_cost_usd,native_duration_ms
+opus47,Claude Opus 4.7,7.3,2908,609,5,727,0.007,247,152,1.625,15605,12232,0.27135750000000003,0.022305,6626
+sonnet46,Claude Sonnet 4.6,6.64,2908,707,2,727,0.003,197,177,1.113,11193,8750,0.039131400000000004,0.004836,5958
+gemini25pro,Gemini 2.5 Pro,25.06,2908,446,6337,727,8.717,108,112,0.964,0,,,0.001469,16114

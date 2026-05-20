@@ -1,0 +1,85 @@
+[18:18:00] H2 runner start (OpenAlex). snapshot=2026-05-20T18:18:00.653575+00:00 window=2020-2026
+[18:18:00] format=video pda=2.5
+[18:18:00]   query[0]: "deepfake detection"
+[18:18:01]     page 1: total reported=9718
+[18:18:23]     returned=5000 reported_total=9718 pages=25
+[18:18:23]   query[1]: "AI-generated video detection"
+[18:18:23]     page 1: total reported=82
+[18:18:23]     returned=82 reported_total=82 pages=1
+[18:18:23]   query[2]: "synthetic video detection"
+[18:18:24]     page 1: total reported=17
+[18:18:24]     returned=17 reported_total=17 pages=1
+[18:18:24] format=audio pda=2.5
+[18:18:24]   query[0]: "audio deepfake detection"
+[18:18:25]     page 1: total reported=1147
+[18:18:29]     returned=1147 reported_total=1147 pages=6
+[18:18:29]   query[1]: "synthetic speech detection"
+[18:18:30]     page 1: total reported=745
+[18:18:32]     returned=745 reported_total=745 pages=4
+[18:18:32]   query[2]: "voice spoofing detection"
+[18:18:33]     page 1: total reported=308
+[18:18:34]     returned=308 reported_total=308 pages=2
+[18:18:34] format=image pda=3.5
+[18:18:34]   query[0]: "AI-generated image detection"
+[18:18:35]     page 1: total reported=666
+[18:18:37]     returned=666 reported_total=666 pages=4
+[18:18:37]   query[1]: "synthetic image detection"
+[18:18:38]     page 1: total reported=414
+[18:18:39]     returned=414 reported_total=414 pages=3
+[18:18:39]   query[2]: "GAN image detection"
+[18:18:40]     page 1: total reported=58
+[18:18:40]     returned=58 reported_total=58 pages=1
+[18:18:40] format=text pda=4.5
+[18:18:40]   query[0]: "AI-generated text detection"
+[18:18:40]     page 1: total reported=980
+[18:18:44]     returned=980 reported_total=980 pages=5
+[18:18:44]   query[1]: "machine-generated text detection"
+[18:18:45]     page 1: total reported=1174
+[18:18:49]     returned=1174 reported_total=1174 pages=6
+[18:18:49]   query[2]: "LLM-generated text detection"
+[18:18:50]     page 1: total reported=435
+[18:18:52]     returned=435 reported_total=435 pages=3
+[18:18:52] format=hybrid_card_news pda=5.0
+[18:18:52]   query[0]: "AI-generated infographic detection"
+[18:18:52]     page 1: total reported=0
+[18:18:52]     returned=0 reported_total=0 pages=1
+[18:18:52]   query[1]: "AI-generated carousel detection"
+[18:18:53]     page 1: total reported=0
+[18:18:53]     returned=0 reported_total=0 pages=1
+[18:18:53]   query[2]: "card news detection"
+[18:18:53]     page 1: total reported=0
+[18:18:53]     returned=0 reported_total=0 pages=1
+[18:18:53] format=fake_reviews pda=4.5
+[18:18:53]   query[0]: "fake review detection"
+[18:18:54]     page 1: total reported=1412
+[18:18:59]     returned=1412 reported_total=1412 pages=8
+[18:18:59]   query[1]: "AI-generated review detection"
+[18:19:00]     page 1: total reported=26
+[18:19:00]     returned=26 reported_total=26 pages=1
+[18:19:00]   query[2]: "synthetic review detection"
+[18:19:00]     page 1: total reported=2
+[18:19:00]     returned=2 reported_total=2 pages=1
+[18:19:00] format=academic_papers pda=4.0
+[18:19:00]   query[0]: "AI-generated academic paper detection"
+[18:19:01]     page 1: total reported=0
+[18:19:01]     returned=0 reported_total=0 pages=1
+[18:19:01]   query[1]: "AI-generated abstract detection"
+[18:19:01]     page 1: total reported=2
+[18:19:01]     returned=2 reported_total=2 pages=1
+[18:19:01]   query[2]: "GPT generated paper detection"
+[18:19:02]     page 1: total reported=0
+[18:19:02]     returned=0 reported_total=0 pages=1
+[18:19:02] format=news_articles pda=3.5
+[18:19:02]   query[0]: "AI-generated news detection"
+[18:19:02]     page 1: total reported=12
+[18:19:02]     returned=12 reported_total=12 pages=1
+[18:19:02]   query[1]: "AI-generated news article detection"
+[18:19:03]     page 1: total reported=2
+[18:19:03]     returned=2 reported_total=2 pages=1
+[18:19:03]   query[2]: "synthetic news detection"
+[18:19:03]     page 1: total reported=4
+[18:19:03]     returned=4 reported_total=4 pages=1
+[18:19:03] paper_counts.csv written
+[18:19:05] spearman rho=-0.4971 p_one_sided=0.1051 ci95=[-0.981, 0.427] decision=H2 not supported (falsified at alpha=0.05)
+[18:19:05] run_metadata.json + spot_check.json written; api_calls=80 failures=0
+[18:19:05] limitations.md written
