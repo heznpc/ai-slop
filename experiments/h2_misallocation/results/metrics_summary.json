@@ -1,0 +1,48 @@
+{
+  "_method": "retrofit from cached results/raw/*.json \u2014 counts pages and reported_total from OpenAlex envelopes",
+  "_note": "OpenAlex is free; cost is N/A. Per-query wall time was not persisted on the original run; only the aggregate api_call_count=80 (in run_metadata.json) is available.",
+  "total_pages": 80,
+  "total_queries": 24,
+  "by_format": {
+    "video": {
+      "pages": 27,
+      "reported_total_max": 9718,
+      "returned_ids_union_size": 0
+    },
+    "audio": {
+      "pages": 12,
+      "reported_total_max": 1147,
+      "returned_ids_union_size": 0
+    },
+    "image": {
+      "pages": 8,
+      "reported_total_max": 666,
+      "returned_ids_union_size": 0
+    },
+    "text": {
+      "pages": 14,
+      "reported_total_max": 1174,
+      "returned_ids_union_size": 0
+    },
+    "hybrid_card_news": {
+      "pages": 3,
+      "reported_total_max": 0,
+      "returned_ids_union_size": 0
+    },
+    "fake_reviews": {
+      "pages": 10,
+      "reported_total_max": 1412,
+      "returned_ids_union_size": 0
+    },
+    "academic_papers": {
+      "pages": 3,
+      "reported_total_max": 2,
+      "returned_ids_union_size": 0
+    },
+    "news_articles": {
+      "pages": 3,
+      "reported_total_max": 12,
+      "returned_ids_union_size": 0
+    }
+  }
+}

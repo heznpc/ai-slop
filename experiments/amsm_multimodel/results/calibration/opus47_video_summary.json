@@ -1,0 +1,18 @@
+{
+  "rater": "opus47",
+  "rater_label": "Claude Opus 4.7",
+  "wall_s": 7.3,
+  "input_chars": 2908,
+  "output_chars": 609,
+  "native_input_tokens": 5,
+  "retrofit_input_tokens": 727,
+  "input_token_ratio_native_over_retrofit": 0.007,
+  "native_output_tokens": 247,
+  "retrofit_output_tokens": 152,
+  "output_token_ratio_native_over_retrofit": 1.625,
+  "native_cache_read_tokens": 15605,
+  "native_cache_creation_tokens": 12232,
+  "native_cost_usd": 0.27135750000000003,
+  "retrofit_cost_usd": 0.022305,
+  "native_duration_ms": 6626
+}

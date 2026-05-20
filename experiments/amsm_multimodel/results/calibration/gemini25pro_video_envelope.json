@@ -1,0 +1,57 @@
+{
+  "session_id": "f55b0acb-b49e-4178-9410-36c0c01227e1",
+  "response": "```json\n{\"PCA\": 4, \"DDI\": 4, \"EDP\": 5, \"AAS\": 5, \"RCG\": 3, \"rationale\": \"The highest scores (EDP, AAS) reflect video's potent ability to damage the information ecosystem via misinformation and its inherent compatibility with the engagement-driven algorithms of major platforms. The lowest score (RCG) indicates that while foundational regulations exist, a significant gap remains due to inconsistent and challenging enforcement in practice.\"}\n```",
+  "stats": {
+    "models": {
+      "gemini-2.5-pro": {
+        "api": {
+          "totalRequests": 1,
+          "totalErrors": 0,
+          "totalLatencyMs": 16114
+        },
+        "tokens": {
+          "input": 6337,
+          "prompt": 6337,
+          "candidates": 108,
+          "total": 7802,
+          "cached": 0,
+          "thoughts": 1357,
+          "tool": 0
+        },
+        "roles": {
+          "main": {
+            "totalRequests": 1,
+            "totalErrors": 0,
+            "totalLatencyMs": 16114,
+            "tokens": {
+              "input": 6337,
+              "prompt": 6337,
+              "candidates": 108,
+              "total": 7802,
+              "cached": 0,
+              "thoughts": 1357,
+              "tool": 0
+            }
+          }
+        }
+      }
+    },
+    "tools": {
+      "totalCalls": 0,
+      "totalSuccess": 0,
+      "totalFail": 0,
+      "totalDurationMs": 0,
+      "totalDecisions": {
+        "accept": 0,
+        "reject": 0,
+        "modify": 0,
+        "auto_accept": 0
+      },
+      "byName": {}
+    },
+    "files": {
+      "totalLinesAdded": 0,
+      "totalLinesRemoved": 0
+    }
+  }
+}

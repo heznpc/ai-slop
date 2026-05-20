@@ -1,0 +1,18 @@
+{
+  "rater": "gemini25pro",
+  "rater_label": "Gemini 2.5 Pro",
+  "wall_s": 25.06,
+  "input_chars": 2908,
+  "output_chars": 446,
+  "native_input_tokens": 6337,
+  "retrofit_input_tokens": 727,
+  "input_token_ratio_native_over_retrofit": 8.717,
+  "native_output_tokens": 108,
+  "retrofit_output_tokens": 112,
+  "output_token_ratio_native_over_retrofit": 0.964,
+  "native_cache_read_tokens": 0,
+  "native_cache_creation_tokens": null,
+  "native_cost_usd": null,
+  "retrofit_cost_usd": 0.001469,
+  "native_duration_ms": 16114
+}

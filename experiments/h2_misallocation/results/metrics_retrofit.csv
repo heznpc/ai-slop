@@ -1,0 +1,25 @@
+format,query_idx,query,pages,reported_total,returned_ids
+video,0,"""deepfake detection""",25,9718,5000
+video,1,"""AI-generated video detection""",1,82,82
+video,2,"""synthetic video detection""",1,17,17
+audio,0,"""audio deepfake detection""",6,1147,1147
+audio,1,"""synthetic speech detection""",4,745,745
+audio,2,"""voice spoofing detection""",2,308,308
+image,0,"""AI-generated image detection""",4,666,666
+image,1,"""synthetic image detection""",3,414,414
+image,2,"""GAN image detection""",1,58,58
+text,0,"""AI-generated text detection""",5,980,980
+text,1,"""machine-generated text detection""",6,1174,1174
+text,2,"""LLM-generated text detection""",3,435,435
+hybrid_card_news,0,"""AI-generated infographic detection""",1,0,0
+hybrid_card_news,1,"""AI-generated carousel detection""",1,0,0
+hybrid_card_news,2,"""card news detection""",1,0,0
+fake_reviews,0,"""fake review detection""",8,1412,1412
+fake_reviews,1,"""AI-generated review detection""",1,26,26
+fake_reviews,2,"""synthetic review detection""",1,2,2
+academic_papers,0,"""AI-generated academic paper detection""",1,0,0
+academic_papers,1,"""AI-generated abstract detection""",1,2,2
+academic_papers,2,"""GPT generated paper detection""",1,0,0
+news_articles,0,"""AI-generated news detection""",1,12,12
+news_articles,1,"""AI-generated news article detection""",1,2,2
+news_articles,2,"""synthetic news detection""",1,4,4

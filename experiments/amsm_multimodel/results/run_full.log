@@ -1,0 +1,88 @@
+[19:12:44] AMSM multi-model panel start. snapshot=2026-05-20T19:12:44.387517+00:00
+[19:12:44] raters: ['Claude Opus 4.7', 'Claude Sonnet 4.6', 'Gemini 2.5 Pro']
+[19:12:44] formats: 8
+[19:12:44] skip opus47/video (cached)
+[19:12:44] skip opus47/audio (cached)
+[19:12:44] skip opus47/image (cached)
+[19:12:44] skip opus47/text (cached)
+[19:12:44] skip opus47/hybrid_card_news (cached)
+[19:12:44] skip opus47/fake_reviews (cached)
+[19:12:44] skip opus47/academic_papers (cached)
+[19:12:44] skip opus47/news_articles (cached)
+[19:12:44] call sonnet46/video
+[19:12:51]   ok: {'PCA': 2, 'DDI': 3, 'EDP': 4, 'AAS': 5, 'RCG': 3} (6.7s)
+[19:12:51] call sonnet46/audio
+[19:12:58]   ok: {'PCA': 5, 'DDI': 4, 'EDP': 4, 'AAS': 3, 'RCG': 3} (7.0s)
+[19:12:58] call sonnet46/image
+[19:13:04]   ok: {'PCA': 5, 'DDI': 3, 'EDP': 3, 'AAS': 4, 'RCG': 2} (6.6s)
+[19:13:04] call sonnet46/text
+[19:13:10]   ok: {'PCA': 5, 'DDI': 3, 'EDP': 4, 'AAS': 4, 'RCG': 3} (5.5s)
+[19:13:10] call sonnet46/hybrid_card_news
+[19:13:17]   ok: {'PCA': 4, 'DDI': 4, 'EDP': 3, 'AAS': 5, 'RCG': 4} (6.8s)
+[19:13:17] call sonnet46/fake_reviews
+[19:13:24]   ok: {'PCA': 5, 'DDI': 4, 'EDP': 4, 'AAS': 3, 'RCG': 3} (7.0s)
+[19:13:24] call sonnet46/academic_papers
+[19:13:30]   ok: {'PCA': 5, 'DDI': 3, 'EDP': 5, 'AAS': 1, 'RCG': 3} (6.8s)
+[19:13:30] call sonnet46/news_articles
+[19:13:36]   ok: {'PCA': 5, 'DDI': 3, 'EDP': 5, 'AAS': 3, 'RCG': 3} (5.4s)
+[19:13:36] call gemini25pro/video
+[19:14:00]   ok: {'PCA': 5, 'DDI': 4, 'EDP': 5, 'AAS': 5, 'RCG': 3} (24.4s)
+[19:14:00] call gemini25pro/audio
+[19:16:18]   ok: {'PCA': 5, 'DDI': 3, 'EDP': 5, 'AAS': 5, 'RCG': 3} (138.1s)
+[19:16:18] skip gemini25pro/image (cached)
+[19:16:18] skip gemini25pro/text (cached)
+[19:16:18] skip gemini25pro/hybrid_card_news (cached)
+[19:16:18] call gemini25pro/fake_reviews
+[19:16:45]   ok: {'PCA': 5, 'DDI': 4, 'EDP': 4, 'AAS': 5, 'RCG': 3} (26.6s)
+[19:16:45] skip gemini25pro/academic_papers (cached)
+[19:16:45] call gemini25pro/news_articles
+[19:17:11]   ok: {'PCA': 5, 'DDI': 3, 'EDP': 5, 'AAS': 4, 'RCG': 3} (25.6s)
+[19:17:11] scores_raw.csv written (24 rows)
+[19:17:11] panel_mean.csv written: {'PCA': {'video': 3.67, 'audio': 5.0, 'image': 5.0, 'text': 5.0, 'hybrid_card_news': 4.67, 'fake_reviews': 5.0, 'academic_papers': 4.33, 'news_articles': 5.0}, 'DDI': {'video': 3.33, 'audio': 3.67, 'image': 3.33, 'text': 3.0, 'hybrid_card_news': 4.67, 'fake_reviews': 4.0, 'academic_papers': 3.67, 'news_articles': 3.0}, 'EDP': {'video': 4.33, 'audio': 4.33, 'image': 4.0, 'text': 4.33, 'hybrid_card_news': 4.0, 'fake_reviews': 3.67, 'academic_papers': 5.0, 'news_articles': 5.0}, 'AAS': {'video': 5.0, 'audio': 3.67, 'image': 4.33, 'text': 4.33, 'hybrid_card_news': 5.0, 'fake_reviews': 4.0, 'academic_papers': 1.33, 'news_articles': 3.67}, 'RCG': {'video': 2.67, 'audio': 3.0, 'image': 2.67, 'text': 3.0, 'hybrid_card_news': 4.0, 'fake_reviews': 3.0, 'academic_papers': 3.33, 'news_articles': 3.0}}
+[19:17:11] krippendorff alpha (all 40 cells, ordinal) = 0.6444
+[19:17:11]   alpha[PCA] = 0.2129
+[19:17:11]   alpha[DDI] = 0.5127
+[19:17:11]   alpha[EDP] = 0.1544
+[19:17:11]   alpha[AAS] = 0.7058
+[19:17:11]   alpha[RCG] = 0.2660
+[19:17:11]   pairwise opus47 vs sonnet46: r=0.782 (n=40, disagree>=2: 1)
+[19:17:11]   pairwise opus47 vs gemini25pro: r=0.701 (n=40, disagree>=2: 2)
+[19:17:11]   pairwise sonnet46 vs gemini25pro: r=0.618 (n=40, disagree>=2: 5)
+[19:17:11] pda_comparison.csv written
+/Users/ren/IdeaProjects/Paper/ai-slop-paper/experiments/amsm_multimodel/run.py:366: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho_panel, p_panel = spearmanr(counts, panel_pda_vec, alternative="less")
+/Users/ren/IdeaProjects/Paper/ai-slop-paper/experiments/amsm_multimodel/run.py:367: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho_author, p_author = spearmanr(counts, author_pda_vec, alternative="less")
+/Users/ren/IdeaProjects/Paper/ai-slop-paper/experiments/amsm_multimodel/run.py:377: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  r, _ = spearmanr(counts[idx], y[idx])
+Traceback (most recent call last):
+  File "/Users/ren/IdeaProjects/Paper/ai-slop-paper/experiments/amsm_multimodel/run.py", line 451, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/ren/IdeaProjects/Paper/ai-slop-paper/experiments/amsm_multimodel/run.py", line 383, in main
+    ci_panel_lo, ci_panel_hi, n_panel_valid = bootstrap_rho(panel_pda_vec)
+                                              ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/ren/IdeaProjects/Paper/ai-slop-paper/experiments/amsm_multimodel/run.py", line 381, in bootstrap_rho
+    return float(np.percentile(a, 2.5)), float(np.percentile(a, 97.5)), len(a)
+                 ~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/ren/.local/share/mise/installs/python/3.13.11/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py", line 4246, in percentile
+    return _quantile_unchecked(
+        a, q, axis, out, overwrite_input, method, keepdims, weights, weak_q)
+  File "/Users/ren/.local/share/mise/installs/python/3.13.11/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py", line 4510, in _quantile_unchecked
+    return _ureduce(a,
+                    func=_quantile_ureduce_func,
+    ...<6 lines>...
+                    method=method,
+                    weak_q=weak_q)
+  File "/Users/ren/.local/share/mise/installs/python/3.13.11/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py", line 3880, in _ureduce
+    r = func(a, **kwargs)
+  File "/Users/ren/.local/share/mise/installs/python/3.13.11/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py", line 4669, in _quantile_ureduce_func
+    result = _quantile(arr,
+                       quantiles=q,
+    ...<3 lines>...
+                       weights=wgt,
+                       weak_q=weak_q)
+  File "/Users/ren/.local/share/mise/installs/python/3.13.11/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py", line 4793, in _quantile
+    slices_having_nans = np.isnan(arr[-1, ...])
+                                  ~~~^^^^^^^^^
+IndexError: index -1 is out of bounds for axis 0 with size 0
