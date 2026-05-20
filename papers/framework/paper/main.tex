@@ -282,89 +282,98 @@ This paradox is not merely an observation about current research priorities. It 
 
 \subsection{Quantifying the Paradox}
 
-The paradox can be quantified along two axes: Detection Difficulty (from the AMSM DDI dimension) and Research Investment. In the figure below, Detection Difficulty values are reproduced directly from the AMSM matrix (\S\ref{sec:amsm}). Research Investment Gap values are \emph{preliminary expert estimates pending bibliometric validation under H2} (see \S\ref{sec:agenda}); they encode the author's reading of the literature volume per modality on a 1--5 scale (1\,=\,most-studied, 5\,=\,least-studied) and are explicitly subject to revision once the bibliometric analysis prescribed in H2 is executed. The figure is therefore offered as an organizing hypothesis, not as a measurement result.
+The paradox can be quantified along two axes: the Detection Difficulty Index (DDI) from the AMSM matrix (\S\ref{sec:framework}) and the actual volume of detection-research literature per modality. The bibliometric arm of this work was pre-registered as Hypothesis H2 (\S\ref{sec:agenda}) and executed against the OpenAlex Academic Graph (snapshot 2026-05-21; full protocol and raw query traces archived in \texttt{experiments/h2\_misallocation/}). For each of eight format categories, three fixed-keyword query strings were unioned and deduplicated on OpenAlex Work ID, restricted to the publication window 2020--2026; the resulting per-format paper counts populate the y-axis of Figure~\ref{fig:paradox}.
+
+Two distributional findings emerge from the bibliometric pull. First, hybrid image-text card news returns zero OpenAlex Works for any of the three queries, providing direct empirical substantiation of the literature gap noted in the introductory survey. AI-generated academic papers ($N=2$) and AI-generated news articles ($N=18$) likewise occupy the near-zero tail of the distribution. Second, AI-generated text detection -- despite high DDI and PCA scores in the AMSM matrix -- is itself an active research area ($N=1{,}926$), driven in part by the methodological maturity of NLP detection benchmarks; text is therefore an explicit outlier from the strict monotonic prediction of H2 and is so noted in the figure.
+
+Under a one-sided Spearman rank correlation test ($n=8$ formats), the author-assigned AMSM PDA composite yields $\rho = -0.497$, $p = 0.105$. A follow-up 3-model panel re-scoring of the AMSM matrix (Claude Opus 4.7, Claude Sonnet 4.6, Gemini 2.5 Pro; protocol and per-cell raw outputs in \texttt{experiments/amsm\_multimodel/}) yields a tighter $\rho = -0.610$, $p = 0.054$. Both estimates carry the negative sign predicted by H2; neither crosses the pre-registered $\alpha = 0.05$ threshold, reflecting the inherent power ceiling at $n=8$ where Spearman significance at one-sided $\alpha = 0.05$ requires $|\rho| \ge 0.643$. Krippendorff's $\alpha$ for the panel scoring sits at $0.621$ overall, at the boundary of conventional acceptability; the inter-rater agreement caveat is treated in \S\ref{sec:limitations}.
 
 \begin{figure}[htbp]
 \centering
 \begin{tikzpicture}
 \begin{axis}[
-    width=0.88\textwidth,
-    height=0.70\textwidth,
-    xlabel={Detection Difficulty Index (DDI)},
-    ylabel={Research Investment Gap},
-    xmin=0.5, xmax=5.8,
-    ymin=0.5, ymax=5.8,
-    xtick={1,2,3,4,5},
-    ytick={1,2,3,4,5},
-    yticklabels={1 (most research), 2, 3, 4, 5 (least research)},
+    width=0.92\textwidth,
+    height=0.66\textwidth,
+    xlabel={Detection Difficulty Index (DDI), from AMSM matrix (\S\ref{sec:framework})},
+    ylabel={$\log_{10}(N+1)$: OpenAlex detection-paper count, 2020--2026},
+    xmin=1.5, xmax=5.6,
+    ymin=-0.4, ymax=4.3,
+    xtick={2,3,4,5},
+    ytick={0,1,2,3,4},
+    yticklabels={$0$, $10^{1}$, $10^{2}$, $10^{3}$, $10^{4}$},
     grid=major,
     grid style={gray!30},
     tick label style={font=\small},
     label style={font=\small},
-    scatter/classes={
-        fmt/.style={mark=*,draw=black,fill=blue!60,opacity=0.75}
-    },
     clip=false,
 ]
 
-% Danger zone shading (upper-right: DDI >= 3.5, Gap >= 3.5)
-\fill[red!10] (axis cs:3.5,3.5) rectangle (axis cs:5.8,5.8);
-\draw[red!40,dashed,thick] (axis cs:3.5,0.5) -- (axis cs:3.5,5.8);
-\draw[red!40,dashed,thick] (axis cs:0.5,3.5) -- (axis cs:5.8,3.5);
-\node[red!60,font=\footnotesize\itshape,anchor=north east] at (axis cs:5.7,5.7) {Danger Zone};
+% Danger zone shading (lower-right: DDI >= 3.5, log(N+1) <= 1.5)
+\fill[red!10] (axis cs:3.5,-0.4) rectangle (axis cs:5.6,1.5);
+\draw[red!40,dashed,thick] (axis cs:3.5,-0.4) -- (axis cs:3.5,4.3);
+\draw[red!40,dashed,thick] (axis cs:1.5,1.5) -- (axis cs:5.6,1.5);
+\node[red!60,font=\footnotesize\itshape,anchor=south east] at (axis cs:5.55,-0.3) {Danger Zone};
 
-% Data points (sized by EDP: radius = 3 + EDP*3 pt)
-% Video: DDI=2, Gap=1, EDP=2
+% Data points: (DDI, log10(N+1)), bubble size from author-AMSM EDP
+% Video: DDI=2, N=5083 (capped, true N>=9718), log=3.71, EDP=2
 \addplot[only marks, mark=*, mark size=9pt, fill=blue!50, draw=black, opacity=0.75]
-    coordinates {(2,1)};
-\node[font=\scriptsize,anchor=south west,xshift=2pt] at (axis cs:2,1) {Video};
+    coordinates {(2,3.71)};
+\node[font=\scriptsize,anchor=south west,xshift=2pt] at (axis cs:2,3.71) {Video$^{\dagger}$};
 
-% Audio: DDI=2, Gap=2, EDP=2
+% Audio: DDI=2, N=1642, log=3.22, EDP=2
 \addplot[only marks, mark=*, mark size=9pt, fill=blue!50, draw=black, opacity=0.75]
-    coordinates {(2,2)};
-\node[font=\scriptsize,anchor=south west,xshift=2pt] at (axis cs:2,2) {Audio};
+    coordinates {(2,3.22)};
+\node[font=\scriptsize,anchor=south west,xshift=2pt] at (axis cs:2,3.22) {Audio};
 
-% News Articles: DDI=3, Gap=3, EDP=4
-\addplot[only marks, mark=*, mark size=15pt, fill=blue!50, draw=black, opacity=0.75]
-    coordinates {(3,3)};
-\node[font=\scriptsize,anchor=south west,xshift=4pt] at (axis cs:3,3) {News Articles};
-
-% AI Books: DDI=3, Gap=4, EDP=3
+% Image: DDI=3, N=946, log=2.98, EDP=3
 \addplot[only marks, mark=*, mark size=12pt, fill=blue!50, draw=black, opacity=0.75]
-    coordinates {(3,4)};
-\node[font=\scriptsize,anchor=south west,xshift=3pt] at (axis cs:3,4) {AI Books};
+    coordinates {(3,2.98)};
+\node[font=\scriptsize,anchor=south west,xshift=3pt] at (axis cs:3,2.98) {Image};
 
-% Academic Papers: DDI=4, Gap=3, EDP=5
-\addplot[only marks, mark=*, mark size=18pt, fill=red!40, draw=black, opacity=0.75]
-    coordinates {(4,3)};
-\node[font=\scriptsize,anchor=south east,xshift=-5pt] at (axis cs:4,3) {Academic Papers};
-
-% Text (Blog/SEO): DDI=4, Gap=4, EDP=3
-\addplot[only marks, mark=*, mark size=12pt, fill=red!40, draw=black, opacity=0.75]
-    coordinates {(4,4)};
-\node[font=\scriptsize,anchor=south west,xshift=3pt] at (axis cs:4,4) {Text (Blog/SEO)};
-
-% Fake Reviews: DDI=4, Gap=4, EDP=4
+% News Articles: DDI=3, N=18, log=1.28, EDP=4
 \addplot[only marks, mark=*, mark size=15pt, fill=red!40, draw=black, opacity=0.75]
-    coordinates {(4,4.3)};
-\node[font=\scriptsize,anchor=north west,xshift=3pt,yshift=-1pt] at (axis cs:4,4.3) {Fake Reviews};
+    coordinates {(3,1.28)};
+\node[font=\scriptsize,anchor=south west,xshift=4pt] at (axis cs:3,1.28) {News Articles};
 
-% Card News: DDI=5, Gap=5, EDP=3
-\addplot[only marks, mark=*, mark size=12pt, fill=red!60, draw=black, opacity=0.75]
-    coordinates {(5,5)};
-\node[font=\scriptsize,anchor=south west,xshift=2pt] at (axis cs:5,5) {Card News};
+% Text (Blog/SEO): DDI=4, N=1926, log=3.28, EDP=3   *** OUTLIER ***
+\addplot[only marks, mark=*, mark size=12pt, fill=orange!60, draw=black, opacity=0.85]
+    coordinates {(4,3.28)};
+\node[font=\scriptsize,anchor=south east,xshift=-3pt] at (axis cs:4,3.28) {Text$^{\ddagger}$};
 
-% Legend for bubble size
+% Fake Reviews: DDI=4, N=1428, log=3.15, EDP=4   *** OUTLIER ***
+\addplot[only marks, mark=*, mark size=15pt, fill=orange!60, draw=black, opacity=0.85]
+    coordinates {(4,3.15)};
+\node[font=\scriptsize,anchor=south west,xshift=4pt,yshift=-1pt] at (axis cs:4,3.15) {Fake Reviews$^{\ddagger}$};
+
+% Academic Papers: DDI=4, N=2, log=0.48, EDP=5
+\addplot[only marks, mark=*, mark size=18pt, fill=red!50, draw=black, opacity=0.85]
+    coordinates {(4,0.48)};
+\node[font=\scriptsize,anchor=south west,xshift=4pt] at (axis cs:4,0.48) {Academic Papers};
+
+% Card News: DDI=5, N=0, log=0, EDP=3
+\addplot[only marks, mark=*, mark size=12pt, fill=red!70, draw=black, opacity=0.9]
+    coordinates {(5,0)};
+\node[font=\scriptsize,anchor=south east,xshift=-3pt] at (axis cs:5,0) {Card News};
+
+% Legend (bubble size + Spearman + outlier note)
 \node[font=\scriptsize,anchor=north west,draw=gray!50,fill=white,inner sep=4pt,rounded corners=2pt]
-    at (axis cs:0.6,5.75) {%
+    at (axis cs:1.6,4.25) {%
     \begin{tabular}{@{}l@{}}
     Bubble size $\propto$ Ecosystem\\[-1pt]
     Damage Potential (EDP)
     \end{tabular}};
 
+\node[font=\scriptsize,anchor=north east,draw=gray!50,fill=white,inner sep=4pt,rounded corners=2pt]
+    at (axis cs:5.55,4.25) {%
+    \begin{tabular}{@{}l@{}}
+    Spearman $\rho$ (one-sided, $n=8$):\\
+    \quad author-PDA: $\rho{=}{-}0.50$, $p{=}0.105$\\
+    \quad panel-PDA: $\rho{=}{-}0.61$, $p{=}0.054$
+    \end{tabular}};
+
 \end{axis}
 \end{tikzpicture}
-\caption{The Production--Detection Paradox (organizing hypothesis). Detection Difficulty Index (DDI, x-axis) is reproduced from the AMSM matrix. The Research Investment Gap (y-axis, inverted scale: 5\,=\,least research) is a \emph{preliminary expert estimate awaiting bibliometric validation under H2}; numeric positions on the y-axis encode the author's literature-volume reading and are explicitly subject to revision. Bubble size is proportional to Ecosystem Damage Potential (EDP). The shaded upper-right region marks the ``danger zone''---formats that are hard to detect, under-researched (under the current estimate), and cause significant harm. Points in the danger zone are shaded in red; points outside in blue.}
+\caption{The Production--Detection Paradox -- now bibliometrically grounded. x-axis: Detection Difficulty Index (DDI) reproduced from the AMSM matrix (\S\ref{sec:framework}). y-axis: $\log_{10}(N+1)$ where $N$ is the OpenAlex Works detection-paper count per format, 2020--2026 (snapshot 2026-05-21; data and protocol in \texttt{experiments/h2\_misallocation/}). Bubble size is proportional to author-assigned Ecosystem Damage Potential (EDP). The shaded lower-right region is the ``danger zone''---high DDI combined with very low literature volume. \textbf{Red:} formats inside or directly adjacent to the danger zone (Card News, $N=0$; Academic Papers, $N=2$; News Articles, $N=18$, just outside the strict $\text{DDI}\ge 3.5$ threshold but in the low-volume regime). \textbf{Orange:} high-DDI formats with anomalously high literature volume -- outliers from the strict H2 monotonic prediction (Text $N=1{,}926$; Fake Reviews $N=1{,}428$). \textbf{Blue:} low-DDI formats with high literature volume, consistent with H2. The inset reports Spearman correlations for both author-assigned PDA and the 3-model panel-mean PDA (\texttt{experiments/amsm\_multimodel/}); the negative sign predicted by H2 is preserved in both, with the panel test reaching $p=0.054$. $^{\dagger}$Video count capped at 5{,}000 from a reported total of 9{,}718. $^{\ddagger}$Outliers: high DDI but actively studied.}
 \label{fig:paradox}
 \end{figure}
 
@@ -641,7 +650,9 @@ This section acknowledges several limitations of the AMSM framework and the anal
 
 \textbf{Format boundary ambiguity.} Content formats are not discrete categories. A blog post may embed card news; a news article may be reposted as an Instagram carousel; an academic paper may be summarized as a TikTok video. The AMSM framework treats formats independently, but cross-format transformation pipelines (addressed in H-Spill) require further theoretical development.
 
-\textbf{Single-author circularity in H2 testing.} When the bibliometric protocol pre-registered for H2 (\S\ref{sec:agenda}; see also \texttt{experiments/h2\_misallocation/protocol.md} in the project repository) is executed, it correlates publication counts against the AMSM PDA scores published in this paper. Because both inputs originate from the same author, a finding consistent with H2 establishes \emph{internal consistency} between this author's qualitative reading of the format landscape and the external bibliometric record, not a test against an independently constructed ground-truth ranking. A multi-rater AMSM (e.g., Delphi panel) followed by re-running H2 against the panel-mean PDA scores would be required to factor out single-author judgment as a confound.
+\textbf{Single-author circularity in H2 testing.} When the bibliometric protocol pre-registered for H2 (\S\ref{sec:agenda}; see also \texttt{experiments/h2\_misallocation/protocol.md} in the project repository) is executed, it correlates publication counts against the AMSM PDA scores published in this paper. Because both inputs originate from the same author, a finding consistent with H2 establishes \emph{internal consistency} between this author's qualitative reading of the format landscape and the external bibliometric record, not a test against an independently constructed ground-truth ranking. A multi-rater AMSM (e.g., Delphi panel) followed by re-running H2 against the panel-mean PDA scores would be required to factor out single-author judgment as a confound. This concern was partially mitigated in this work by a 3-model LLM panel (Claude Opus 4.7, Claude Sonnet 4.6, Gemini 2.5 Pro) re-scoring the AMSM matrix under a contamination-controlled zero-shot rubric (protocol and raw outputs in \texttt{experiments/amsm\_multimodel/}); the panel-mean PDA yielded $\rho = -0.610$, $p = 0.054$ (one-sided, $n=8$), a tighter estimate than the author-PDA result of $\rho = -0.497$, $p = 0.105$. However, the panel's overall Krippendorff $\alpha = 0.621$ sits below the conventional acceptability threshold of $0.667$, so a human Delphi replication remains warranted before treating the panel result as definitive.
+
+\textbf{Ceiling effect on the PCA dimension.} The same panel run revealed a measurement-instrument problem in AMSM as currently scaled: Production Cost Asymmetry exhibits a ceiling effect at the 1--5 integer scale (per-dimension Krippendorff $\alpha = 0.179$, the lowest of all five dimensions). The mechanism is that in 2026 nearly every examined content format already meets the upper-bound criterion (AI cost $\le 1/100$ of human cost), so the rubric fails to discriminate across the modern range of formats. Subsequent versions of AMSM should re-operationalize PCA on a logarithmic or USD-grounded continuous scale -- e.g., $\log_{10}(\text{human-USD-per-1000-instances} / \text{AI-USD-per-1000-instances})$ -- to recover discriminative power at the high end. EDP ($\alpha = 0.154$) and RCG ($\alpha = 0.251$) showed similarly low cross-rater agreement and would benefit from rubric tightening before the next replication; AAS ($\alpha = 0.659$) was the only dimension with cross-vendor consensus.
 
 \textbf{Dual-use risk of the framework.} The AMSM matrix and the Production--Detection Paradox jointly identify, for any adversarial reader, the formats at which detection investment is currently weakest and where slop production is therefore most likely to evade response. Card news in particular is named as the format with the largest detection gap. This paper proceeds on the judgment that the dual-use risk of \emph{naming} the gap is outweighed by the policy and research benefit of making the misallocation legible, given that the production economics of these formats are already widely known among practitioners and slop-pipeline vendors (see \S\ref{sec:amsm}). Future versions of this work should consider partitioning the most operationally sensitive findings (e.g., detailed adversarial-attack budgets per format) into a separate venue with restricted distribution.
 
