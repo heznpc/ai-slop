@@ -1,0 +1,8 @@
+{
+  "PCA": 5,
+  "DDI": 4,
+  "EDP": 4,
+  "AAS": 5,
+  "RCG": 3,
+  "rationale": "The highest scores, PCA and AAS, reflect that AI makes review generation exceptionally cheap and that platform algorithms are designed to amplify the very signals being faked, such as review volume and ratings. The lowest score, RCG, is due to the existence of consumer protection laws that already prohibit fake reviews in many regions, even if enforcement against AI-generated content at scale remains a significant practical challenge."
+}

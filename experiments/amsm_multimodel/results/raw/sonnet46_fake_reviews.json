@@ -1,0 +1,8 @@
+{
+  "PCA": 5,
+  "DDI": 4,
+  "EDP": 4,
+  "AAS": 3,
+  "RCG": 2,
+  "rationale": "PCA scores highest because a single API call can produce a plausible, star-rated review in seconds, replacing what would take a human 10\u201330 minutes of authentic experience plus writing time \u2014 enabling mass deployment at near-zero marginal cost. RCG scores lowest because fake reviews are partially covered by existing FTC endorsement rules, EU consumer protection directives, and platform-level enforcement mechanisms that explicitly target inauthentic reviews, giving partial but real regulatory traction. DDI is high (4) because short-form, style-mimicking text is trivially paraphrased to evade classifiers, and no peer-reviewed detector achieves robust AUROC specifically on fake review identification under adversarial conditions."
+}

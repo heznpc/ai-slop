@@ -1,0 +1,27 @@
+{
+  "n_formats": 8,
+  "alpha_one_sided": 0.05,
+  "bootstrap_n": 10000,
+  "bootstrap_seed": 20260521,
+  "author_pda": {
+    "rho": -0.49705186109309374,
+    "p_one_sided_less": 0.10507641481471813,
+    "ci_95": [
+      -0.9813067629253164,
+      0.4707565417620043
+    ],
+    "bootstrap_valid": 9995,
+    "falsified_at_alpha_0.05": true
+  },
+  "panel_pda": {
+    "rho": -0.6099375455928333,
+    "p_one_sided_less": 0.054175031384304136,
+    "ci_95": [
+      -1.0,
+      0.19451950503185494
+    ],
+    "bootstrap_valid": 9988,
+    "falsified_at_alpha_0.05": true
+  },
+  "delta_rho_panel_minus_author": -0.11288568449973957
+}

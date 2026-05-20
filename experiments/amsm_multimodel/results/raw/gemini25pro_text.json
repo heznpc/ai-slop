@@ -1,0 +1,8 @@
+{
+  "PCA": 5,
+  "DDI": 3,
+  "EDP": 5,
+  "AAS": 5,
+  "RCG": 3,
+  "rationale": "The highest scores (PCA, EDP, AAS) reflect that text is exceptionally cheap to generate at scale with AI and can cause severe ecosystem harm by gaming algorithms designed to amplify text-based content. The lowest scores (DDI, RCG) acknowledge that while detection tools and regulations exist, they are still immature and largely unenforced, representing a partial but insufficient response."
+}

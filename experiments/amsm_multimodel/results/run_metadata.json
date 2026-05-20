@@ -1,0 +1,29 @@
+{
+  "started_at_utc": "2026-05-20T19:19:17.163400+00:00",
+  "finished_at_utc": "2026-05-20T19:19:18.823562+00:00",
+  "raters": [
+    {
+      "id": "opus47",
+      "label": "Claude Opus 4.7",
+      "cmd": "claude --print --no-session-persistence --model claude-opus-4-7 --max-budget-usd 5"
+    },
+    {
+      "id": "sonnet46",
+      "label": "Claude Sonnet 4.6",
+      "cmd": "claude --print --no-session-persistence --model sonnet --max-budget-usd 5"
+    },
+    {
+      "id": "gemini25pro",
+      "label": "Gemini 2.5 Pro",
+      "cmd": "gemini -m gemini-2.5-pro -p"
+    }
+  ],
+  "total_calls": 24,
+  "total_wall_seconds": 0.0,
+  "parse_retries": 0,
+  "failed_cells": [],
+  "python_version": "3.13.11 (main, Dec 17 2025, 20:55:16) [Clang 21.1.4 ]",
+  "scipy_version": "1.17.1",
+  "numpy_version": "2.4.3",
+  "pandas_version": "3.0.1"
+}

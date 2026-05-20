@@ -1,0 +1,8 @@
+{
+  "PCA": 5,
+  "DDI": 4,
+  "EDP": 5,
+  "AAS": 5,
+  "RCG": 3,
+  "rationale": "The highest scores in Production Cost Asymmetry (PCA), Ecosystem Damage Potential (EDP), and Algorithmic Amplification (AAS) reflect that AI can generate vast quantities of visually-engaging or deceptive images for nearly zero cost, which can cause severe societal harm and are readily amplified by current social media algorithms. The lowest score, Regulatory Coverage Gap (RCG), is a 3 because while some major regulations like the EU AI Act have begun to address AI content, global coverage is patchy and enforcement in the fast-paced online environment remains a massive, unsolved challenge."
+}

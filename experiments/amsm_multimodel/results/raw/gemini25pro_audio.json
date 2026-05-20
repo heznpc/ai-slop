@@ -1,0 +1,8 @@
+{
+  "PCA": 5,
+  "DDI": 3,
+  "EDP": 5,
+  "AAS": 5,
+  "RCG": 3,
+  "rationale": "The highest scores (PCA, EDP, AAS) reflect that AI audio is extremely cheap to generate, has severe potential for harm through scams and disinformation, and is highly amplified by social media algorithms. The lowest scores (DDI, RCG) acknowledge that while detectors and regulations exist, they are not comprehensive, can be evaded, and are challenging to enforce at scale."
+}

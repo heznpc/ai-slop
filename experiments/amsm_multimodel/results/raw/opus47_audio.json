@@ -1,0 +1,8 @@
+{
+  "PCA": 5,
+  "DDI": 4,
+  "EDP": 4,
+  "AAS": 3,
+  "RCG": 3,
+  "rationale": "PCA is highest (5) because consumer-grade voice cloning APIs (ElevenLabs, OpenAI Voice) produce deployable audio for cents per minute, replacing hours of voice-actor labor. DDI is high (4) because audio deepfake detectors exist but degrade severely under codec compression, phone-channel transmission, and adversarial perturbation. AAS is mid (3) because podcast/audio platforms are largely format-neutral without the engagement-bait amplification dynamics of short-form video."
+}

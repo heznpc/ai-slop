@@ -1,0 +1,3 @@
+```json
+{"PCA": 5, "DDI": 4, "EDP": 5, "AAS": 4, "RCG": 3, "rationale": "The highest scores in Ecosystem Damage Potential (EDP) and Production Cost Asymmetry (PCA) reflect the severe societal risk of AI-generated articles, which can be mass-produced at a tiny fraction of the cost of human journalism to inflict serious harm on democratic processes. The lowest score for Regulatory Coverage Gap (RCG) acknowledges that while initial regulations are in place in some jurisdictions, their practical enforcement against a flood of global, pseudonymous content remains a major, unresolved challenge."}
+```

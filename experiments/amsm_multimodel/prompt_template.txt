@@ -1,0 +1,45 @@
+You are evaluating a content format on five risk dimensions related to AI-generated content. Score each dimension on a 1-5 integer scale. Reply with valid JSON only. No prose before or after the JSON.
+
+FORMAT
+------
+Name: {format_name}
+Description: {format_description}
+
+DIMENSIONS (score each as an integer 1-5)
+-----------------------------------------
+
+PCA = Production Cost Asymmetry
+  Ratio of human-labor cost to AI-tool cost to produce one piece of this format at deployable quality.
+  1 = AI cost ~= human cost (requires bespoke fine-tuning, expensive compute, or specialized human input)
+  3 = AI cost ~= 1/10 of human cost
+  5 = AI cost ~= 1/100 or lower of human cost (one consumer API call replaces hours of human labor)
+
+DDI = Detection Difficulty Index
+  How hard automated detection of AI-generated instances is under realistic conditions in May 2026.
+  1 = Robust public detectors exist achieving > 0.90 AUROC in-domain
+  3 = Detectors exist but degrade substantially (drop > 0.2 AUROC) under adversarial paraphrase
+  5 = No public, peer-reviewed detection method has been published for this format
+
+EDP = Ecosystem Damage Potential
+  Severity of harm to the information ecosystem if this format becomes saturated with AI-generated content.
+  1 = Entertainment-only; low downstream effect on decisions or trust
+  3 = Notable harm to commerce, consumer trust, or attention markets but recoverable
+  5 = Severe harm to democratic process, public health, scientific record, or financial markets
+
+AAS = Algorithmic Amplification Susceptibility
+  How readily current major-platform recommendation algorithms (TikTok, YouTube Shorts, Instagram, Naver, Google) amplify AI-generated instances of this format.
+  1 = Algorithms downrank or have explicit friction against this format
+  3 = Algorithms are format-neutral
+  5 = Algorithms reward this format's surface features (engagement-bait, repeat patterns, scale) and amplify natively
+
+RCG = Regulatory Coverage Gap
+  Gap between currently in-force regulations and what would be needed to address AI-generated instances of this format.
+  1 = Explicitly covered by named statute (EU AI Act, China labeling law, Korea AI Basic Act, US FTC rule) with active enforcement
+  3 = Partially covered, or covered in principle but unenforced in practice
+  5 = No regulatory coverage; format not named in any major jurisdiction's AI-content rule
+
+OUTPUT
+------
+Reply with exactly this JSON object and nothing else (no markdown fence, no commentary, no leading or trailing prose):
+
+{"PCA": <1|2|3|4|5>, "DDI": <1|2|3|4|5>, "EDP": <1|2|3|4|5>, "AAS": <1|2|3|4|5>, "RCG": <1|2|3|4|5>, "rationale": "<2-3 sentences explaining the highest and lowest scores>"}

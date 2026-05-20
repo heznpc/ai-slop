@@ -1,0 +1,8 @@
+{
+  "PCA": 5,
+  "DDI": 3,
+  "EDP": 5,
+  "AAS": 3,
+  "RCG": 3,
+  "rationale": "PCA scores 5 because a single API call can produce a full news article indistinguishable from human journalism in seconds, replacing hours of reporting, writing, and editing. EDP scores 5 because news articles directly shape political beliefs, public health decisions, and financial behavior \u2014 saturation with AI-generated content structurally corrupts the epistemic commons. DDI scores 3 because text detectors exist but degrade significantly under paraphrase and stylistic mimicry, and news-specific adversarial prompting is trivial; RCG scores 3 because EU AI Act and FTC rules touch synthetic media and deceptive content in principle but enforcement against AI news farms at scale remains largely absent."
+}
