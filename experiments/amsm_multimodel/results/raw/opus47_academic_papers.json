@@ -1,0 +1,8 @@
+{
+  "PCA": 4,
+  "DDI": 4,
+  "EDP": 5,
+  "AAS": 2,
+  "RCG": 4,
+  "rationale": "EDP scores highest (5) because AI-generated papers directly corrupt the scientific record, citation graphs, and downstream policy/medical decisions\u2014paper mills already demonstrate severe harm. AAS scores lowest (2) because academic distribution channels (arXiv, journals, peer review) are not algorithmic engagement feeds and have explicit friction (review, moderation, retraction). PCA is high (4) since LLMs can draft manuscript-quality prose for cents versus weeks of human writing, though deployable rigor still needs some human scaffolding; DDI is high (4) as detectors degrade sharply on paraphrased scientific text; RCG is 4 because AI-content statutes rarely name scholarly publishing specifically, leaving enforcement to journal policies."
+}

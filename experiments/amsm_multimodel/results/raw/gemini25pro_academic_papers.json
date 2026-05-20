@@ -1,0 +1,8 @@
+{
+  "PCA": 5,
+  "DDI": 4,
+  "EDP": 5,
+  "AAS": 1,
+  "RCG": 3,
+  "rationale": "The highest scores, EDP and PCA, reflect the severe potential harm to the scientific record from AI-generated papers and the extreme cost asymmetry between producing fake papers with AI versus legitimate ones with human labor. The lowest score, AAS, is due to the format's inherent friction with major algorithmic platforms, which do not typically amplify dense, long-form scholarly content."
+}

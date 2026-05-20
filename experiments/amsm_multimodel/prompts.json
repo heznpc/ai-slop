@@ -1,0 +1,37 @@
+{
+  "_schema": "Locked 2026-05-21. Format descriptions are intentionally neutral — no scores hinted, no paper context.",
+  "formats": [
+    {
+      "name": "video",
+      "description": "Short video clips (5-60 seconds) distributed primarily on TikTok, YouTube Shorts, and Instagram Reels. Covers both fully AI-generated video (e.g., from Sora, Runway, Veo) and partially-modified video (deepfakes, face-swap, AI dubbing)."
+    },
+    {
+      "name": "audio",
+      "description": "Spoken audio: podcast episodes, voicemail, voice messages, narration for video, AI voice cloning of real people. Distributed on Spotify, podcast apps, messaging platforms."
+    },
+    {
+      "name": "image",
+      "description": "Standalone still images: photos, illustrations, generated artwork, profile pictures, stock-photo replacements. Distributed across all social platforms and embedded in web content."
+    },
+    {
+      "name": "text",
+      "description": "Prose text without embedded multimedia: blog posts, SEO articles, long-form content, newsletters. The unit of consumption is a paragraph or page of human language."
+    },
+    {
+      "name": "hybrid_card_news",
+      "description": "Image-text hybrid carousels: multi-panel image posts with overlaid or adjacent short text (3-5 lines per panel). Standard format on Instagram carousels, Korean Naver and KakaoTalk 'card news', infographics."
+    },
+    {
+      "name": "fake_reviews",
+      "description": "Short evaluative text reviews of products, services, restaurants, books — 1 to 5 stars plus a paragraph. Found on Amazon, Coupang, Google Reviews, Yelp, app stores."
+    },
+    {
+      "name": "academic_papers",
+      "description": "Scholarly publications: research papers, conference proceedings, abstracts, scientific manuscripts. Distributed via arXiv, journal websites, preprint servers, and institutional repositories."
+    },
+    {
+      "name": "news_articles",
+      "description": "News reporting and journalistic articles in mainstream outlets, partisan blogs, and content farms. Long-form text with attributed authorship, embedded in news websites and RSS feeds."
+    }
+  ]
+}

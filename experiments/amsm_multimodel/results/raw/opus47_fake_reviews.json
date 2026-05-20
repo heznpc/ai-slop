@@ -1,0 +1,8 @@
+{
+  "PCA": 5,
+  "DDI": 4,
+  "EDP": 3,
+  "AAS": 4,
+  "RCG": 3,
+  "rationale": "PCA is highest (5) because a single LLM API call costing fractions of a cent replaces a human reviewer's 10-30 minutes of product use and writing, with no fine-tuning needed for plausible output. EDP is moderate (3) since fake reviews damage commerce and consumer trust significantly but rarely threaten democratic, health, or financial systems at scale. RCG sits at 3 because FTC's 2024 fake-reviews rule and EU consumer-protection directives nominally cover this, but enforcement against AI-generated reviews specifically remains sparse and inconsistent across platforms."
+}

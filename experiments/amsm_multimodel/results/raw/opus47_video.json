@@ -1,0 +1,8 @@
+{
+  "PCA": 4,
+  "DDI": 3,
+  "EDP": 4,
+  "AAS": 5,
+  "RCG": 2,
+  "rationale": "AAS scores highest (5) because short-form video platforms' algorithms natively reward the engagement patterns, repetition, and scale that AI video generation produces. RCG is lowest (2) because video deepfakes are explicitly named in the EU AI Act, China's deep synthesis labeling law, and Korea's AI Basic Act \u2014 making this the most-regulated AI format, though enforcement remains uneven. DDI sits mid-scale (3) as deepfake detectors exist but degrade against compression, re-encoding, and adversarial post-processing common on Shorts/Reels."
+}

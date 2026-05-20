@@ -1,0 +1,10 @@
+```json
+{
+  "PCA": 5,
+  "DDI": 5,
+  "EDP": 5,
+  "AAS": 5,
+  "RCG": 3,
+  "rationale": "The highest scores (5) reflect that this format is a near-perfect vehicle for scalable AI-driven influence: it is incredibly cheap to mass-produce with AI, the composite artifact is difficult to detect, it is highly effective for spreading news-style misinformation, and it is strongly amplified by platform algorithms. The lowest score (3) for RCG indicates that while general AI regulations may apply in principle, this specific infographic-style format is not an explicit focus, creating a practical enforcement gap."
+}
+```

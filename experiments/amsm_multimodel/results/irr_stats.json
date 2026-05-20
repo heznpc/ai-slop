@@ -1,0 +1,36 @@
+{
+  "n_raters": 3,
+  "n_units": 40,
+  "krippendorff_alpha_overall_ordinal": 0.6212715565095108,
+  "krippendorff_alpha_per_dimension": {
+    "PCA": 0.1785714285714285,
+    "DDI": 0.4025974025974026,
+    "EDP": 0.15441176470588236,
+    "AAS": 0.6594885598923285,
+    "RCG": 0.25116279069767444
+  },
+  "pairwise": {
+    "opus47__vs__sonnet46": {
+      "n_cells": 40,
+      "pearson_r": 0.7735980505807989,
+      "pearson_p": 4.837617590071618e-09,
+      "cells_disagree_>=2pt": 1,
+      "frac_disagree_>=2pt": 0.025
+    },
+    "opus47__vs__gemini25pro": {
+      "n_cells": 40,
+      "pearson_r": 0.6835934534030996,
+      "pearson_p": 1.1639363262517099e-06,
+      "cells_disagree_>=2pt": 2,
+      "frac_disagree_>=2pt": 0.05
+    },
+    "sonnet46__vs__gemini25pro": {
+      "n_cells": 40,
+      "pearson_r": 0.6055359637812912,
+      "pearson_p": 3.474056671733835e-05,
+      "cells_disagree_>=2pt": 5,
+      "frac_disagree_>=2pt": 0.125
+    }
+  },
+  "interpretation": "Krippendorff alpha thresholds: >=0.667 acceptable, >=0.80 good."
+}

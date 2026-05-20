@@ -6,6 +6,41 @@ Format: `## YYYY-MM-DD -- <short title>` with **Context**, **Decision**, **Why**
 
 ---
 
+## 2026-05-21 -- AMSM multi-model panel + H2 supplementary re-run
+
+**Context**: The H2 bibliometric test (`experiments/h2_misallocation/`) correlated OpenAlex paper counts against AMSM PDA scores that were originally LLM-assisted by a single author. This creates a single-judge dependency in the experimental chain. To factor that out, AMSM scores were regenerated under a 3-model panel and H2 was re-run against the panel-mean PDA.
+
+**Panel composition**: Claude Opus 4.7 + Claude Sonnet 4.6 + Gemini 2.5 Pro. Original protocol nominated GPT-5 but `OPENAI_API_KEY` is not configured in this environment; Gemini 2.5 Pro substituted to preserve cross-vendor diversity. Rationale logged in `experiments/amsm_multimodel/protocol.md` and `results/limitations.md`.
+
+**Method**: Identical zero-shot prompt to each rater, asking for an integer 1-5 score on each of the 5 AMSM dimensions (PCA, DDI, EDP, AAS, RCG) for each of the 8 formats. Prompt does not include the paper's existing scores, H2 hypothesis, or any reference to the paper. 24 LLM calls total (3 raters x 8 formats).
+
+**Inter-rater agreement (Krippendorff alpha, ordinal)**:
+- Overall (40 cells): 0.621 -- borderline acceptable, below the conventional >=0.667 threshold
+- Per dimension: AAS=0.659 (best), DDI=0.403, RCG=0.251, PCA=0.179 (worst), EDP=0.154
+- Pairwise Pearson r: Opus<->Sonnet 0.774, Opus<->Gemini 0.684, Sonnet<->Gemini 0.606
+
+The low alpha on PCA reflects a ceiling effect: in 2026 nearly all formats receive a 5 from raters (AI cost <= 1/100 human cost), so PCA discriminates poorly between formats at the 1-5 scale. EDP and RCG also show low agreement, indicating the rubrics for those dimensions are under-operationalized. AAS is the only dimension with meaningful cross-rater consistency.
+
+**H2 re-run results** (Spearman, one-sided, alpha=0.05):
+- Author-PDA: rho = -0.497, p = 0.105 (original)
+- Panel-mean PDA: rho = -0.610, p = 0.054 (this experiment)
+- Delta rho = -0.113 (panel produces a larger effect size)
+
+Direction is preserved and effect size strengthens, but the result remains formally "not supported" under the pre-registered alpha=0.05 falsification rule, now at the borderline (p just above alpha). With n=8 the Spearman ceiling at alpha=0.05 one-sided is |rho| >= 0.643.
+
+**Format-level reassessment by the panel** (panel - author PDA):
+- video: +1.00 (panel sees 2026-era Sora video as harder to detect than author rated)
+- audio: +1.83 (largest delta -- panel rates audio detection gap much wider)
+- text: -0.50 (panel sees text as more actively studied -- matches OpenAlex 1926 count)
+- hybrid_card_news: -0.33 (panel slightly lowered the maximum format)
+- others: between -0.33 and +0.67
+
+**Decision**: Treat the panel-mean PDA result as supplementary evidence to be reported alongside the author-PDA result, not as a replacement. The paper's H2 paragraph and Limitations should note (a) the panel-mean rho = -0.610, p = 0.054 result, (b) the Krippendorff alpha = 0.621 caveat, and (c) the specific finding that PCA exhibits a ceiling effect at the 1-5 scale and warrants future logarithmic or USD-grounded re-operationalization. No changes to the pre-registered author-PDA falsification rule.
+
+**What this experiment does NOT do**: It does not change the OpenAlex bibliometric counts (those are cached from the prior H2 run). It does not introduce human raters. It does not test for prompt-order or wording sensitivity.
+
+---
+
 ## 2026-05-21 -- H2 data source pivot: Semantic Scholar -> OpenAlex (pre-result, no data observed)
 
 **Context**: First execution of `experiments/h2_misallocation/run.py` against Semantic Scholar Academic Graph API. Every API request from the runner's IP returned HTTP 429 (rate limit) on the very first call, and exhausted all 3 retries with exponential backoff for both queries attempted before the run was stopped. No paper data was returned for any format. The unauthenticated tier appears to be effectively unusable from this IP at this time. Free API key issuance requires email verification with multi-day turnaround per the Semantic Scholar API page.
