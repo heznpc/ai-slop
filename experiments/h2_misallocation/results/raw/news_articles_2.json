@@ -1,0 +1,38 @@
+{
+  "query": "\"synthetic news detection\"",
+  "pages": [
+    {
+      "meta": {
+        "count": 4,
+        "db_response_time_ms": 35,
+        "page": 1,
+        "per_page": 200,
+        "groups_count": null,
+        "cost_usd": 0.001
+      },
+      "results": [
+        {
+          "id": "https://openalex.org/W4406416661",
+          "title": "Natural Language Processing for Generating Synthetic News Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4412066901",
+          "title": "Decoding synthetic news: an interpretable multimodal framework for the classification of news articles in a novel news corpus",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4402810082",
+          "title": "Decoding Synthetic News: An Interpretable Multimodal Framework for the Classificationof News Articles in a Novel News Corpus",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4399836880",
+          "title": "AI \"News\" Content Farms Are Easy to Make and Hard to Detect: A Case Study in Italian",
+          "publication_year": 2024
+        }
+      ],
+      "group_by": []
+    }
+  ]
+}

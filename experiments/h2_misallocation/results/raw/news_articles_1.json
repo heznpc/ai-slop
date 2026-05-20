@@ -1,0 +1,28 @@
+{
+  "query": "\"AI-generated news article detection\"",
+  "pages": [
+    {
+      "meta": {
+        "count": 2,
+        "db_response_time_ms": 122,
+        "page": 1,
+        "per_page": 200,
+        "groups_count": null,
+        "cost_usd": 0.001
+      },
+      "results": [
+        {
+          "id": "https://openalex.org/W7139129021",
+          "title": "Inside the Box: A Streamlined Model for AI-Generated News Article Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7139102683",
+          "title": "M-DAIGT: A Shared Task on Multi-Domain Detection of AI-Generated Text",
+          "publication_year": 2025
+        }
+      ],
+      "group_by": []
+    }
+  ]
+}

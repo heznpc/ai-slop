@@ -1,0 +1,2114 @@
+{
+  "query": "\"synthetic image detection\"",
+  "pages": [
+    {
+      "meta": {
+        "count": 414,
+        "db_response_time_ms": 180,
+        "page": 1,
+        "per_page": 200,
+        "groups_count": null,
+        "cost_usd": 0.001
+      },
+      "results": [
+        {
+          "id": "https://openalex.org/W4402753859",
+          "title": "Forgery-aware Adaptive Transformer for Generalizable Synthetic Image Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4404002774",
+          "title": "Leveraging Representations from\u00a0Intermediate Encoder-Blocks for\u00a0Synthetic Image Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4406160881",
+          "title": "Bi\u2010 <scp>LORA</scp> : A Vision\u2010Language Approach for Synthetic Image Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4386590429",
+          "title": "Artifact: A Large-Scale Dataset With Artificial And Factual Images For Generalizable And Robust Synthetic Image Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4399261681",
+          "title": "SIDBench: A Python framework for reliably assessing synthetic image detection methods",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4394597038",
+          "title": "Deep Image Fingerprint: Towards Low Budget Synthetic Image Detection and Model Lineage Analysis",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4378506811",
+          "title": "Generalizable Synthetic Image Detection via Language-guided Contrastive Learning",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W3134971133",
+          "title": "VIPPrint: Validating Synthetic Image Detection and Source Linking Methods on a Large Scale Dataset of Printed Documents",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4409149749",
+          "title": "Improving Synthetic Image Detection Towards Generalization: An Image Transformation Perspective",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4399556754",
+          "title": "Improving the Robustness of Synthetic Images Detection by Means of Print and Scan Augmentation",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4393939825",
+          "title": "Bi-LORA: A Vision-Language Approach for Synthetic Image Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4390437489",
+          "title": "Forgery-aware Adaptive Transformer for Generalizable Synthetic Image Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4285277720",
+          "title": "GAN-Based Synthetic Data Augmentation for Infrared Small Target Detection",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4389370799",
+          "title": "Synthbuster: Towards Detection of Diffusion Model Generated Images",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4393968982",
+          "title": "Harnessing the Power of Large Vision Language Models for Synthetic Image Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4400516589",
+          "title": "Leveraging Representations from Intermediate Encoder-blocks for Synthetic Image Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4402857048",
+          "title": "TextureCrop: Enhancing Synthetic Image Detection through Texture-based Cropping",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4409917584",
+          "title": "TextureCrop: Enhancing Synthetic Image Detection Through Texture-Based Cropping",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4417131101",
+          "title": "Generalizable Synthetic Image Detection via Language-guided Contrastive Learning",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4387030684",
+          "title": "Synthetic Image Detection: Highlights from the IEEE Video and Image Processing Cup 2022 Student Competition",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W7138458380",
+          "title": "Explainable Synthetic Image Detection Through Diffusion Timestep Ensembling",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4394624427",
+          "title": "Enhancing the Generalization of Synthetic Image Detection Models through the Exploration of Features in Deep Detection Models",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4388483892",
+          "title": "Synthetic Image Detection: Highlights from the IEEE Video and Image Processing Cup 2022 Student Competition [SP Competitions]",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4405945632",
+          "title": "Addressing Diffusion Model Based Counter-Forensic Image Manipulation for Synthetic Image Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4362684513",
+          "title": "Detecting GAN-generated synthetic images using semantic inconsistencies",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4405845616",
+          "title": "TGIF: Text-Guided Inpainting Forgery Dataset",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4312334464",
+          "title": "Aggregating Layers for Deepfake Detection",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4382239388",
+          "title": "The Value of AI Guidance in Human Examination of Synthetically-Generated Faces",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4405844973",
+          "title": "When Synthetic Traces Hide Real Content: Analysis of Stable Diffusion Image Laundering",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4391306866",
+          "title": "Leveraging Image Gradients for Robust GAN-Generated Image Detection in OSN context",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4407628440",
+          "title": "A Dense Residual Network-50 Model for Identification of Real and Fake Images",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4411153190",
+          "title": "Novel Deepfake Image Detection with PV-ISM: Patch-Based Vision Transformer for Identifying Synthetic Media",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W3147384726",
+          "title": "A Closer Look at Fourier Spectrum Discrepancies for CNN-generated Images Detection",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4402916163",
+          "title": "E3: Ensemble of Expert Embedders for Adapting Synthetic Image Detectors to New Generators Using Limited Data",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W3206416573",
+          "title": "VIPPrint: A Large Scale Dataset for Colored Printed Documents Authentication and Source Linking",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W7131124887",
+          "title": "Is JPEG AI Going to Change Image Forensics?",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4406657393",
+          "title": "Optimized Frequency Collaborative Strategy Drives AI Image Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4390962266",
+          "title": "Harnessing Machine Learning for Discerning AI-Generated Synthetic Images",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4414903171",
+          "title": "LEGION: Learning to Ground and Explain for Synthetic Image Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7161090700",
+          "title": "Post-hoc Selective Classification for Reliable Synthetic Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4414789480",
+          "title": "FerretNet: Efficient Synthetic Image Detection via Local Pixel Dependencies",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4409751990",
+          "title": "Synthetic Image Detection Using Mixture of\u00a0Knowledge Distillation from\u00a0Vision-Language Models",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4410344120",
+          "title": "Training super-recognisers\u2019 detection and discrimination of computer-generated faces",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7160953466",
+          "title": "Post-hoc Selective Classification for Reliable Synthetic Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7161152458",
+          "title": "Makora: revisiting universal synthetic image detection from a representation perspective",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7140133167",
+          "title": "CLIP-ADA: CLIP-Guided Artifact-Invariant Generalizable Synthetic Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7160388815",
+          "title": "Synthetic Image Detection using Deep Learning",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7128717361",
+          "title": "Explainable Synthetic Image Detection Through Diffusion Timestep Ensembling",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4415536830",
+          "title": "Frequency-aware Correlation Discovering and Spatial Forgery Clue Distilling for Synthetic Image Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7159891375",
+          "title": "HiMix: Hierarchical Artifact-aware Mixup for Generalized Synthetic Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7108652612",
+          "title": "Latent Landscapes: Topology of the Clip Feature Space for Synthetic Image Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4414737134",
+          "title": "TrueMoE: Dual-Routing Mixture of Discriminative Experts for Synthetic Image Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4396566285",
+          "title": "SIDBench: A Python Framework for Reliably Assessing Synthetic Image Detection Methods",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4403662192",
+          "title": "Detect Fake with Fake: Leveraging Synthetic Data-driven Representation for Synthetic Image Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4415068841",
+          "title": "Composite Data Augmentations for Synthetic Image Detection Against Real-World Perturbations",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7159687537",
+          "title": "HiMix: Hierarchical Artifact-aware Mixup for Generalized Synthetic Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4417052422",
+          "title": "Composite Data Augmentations for Synthetic Image Detection Against Real-World Perturbations",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7129054805",
+          "title": "Synthetic Image Detection with CLIP: Understanding and Assessing Predictive Cues",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7129180347",
+          "title": "Synthetic Image Detection with CLIP: Understanding and Assessing Predictive Cues",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4410890448",
+          "title": "Detect Fake with\u00a0Fake: Leveraging Synthetic Data-Driven Representation for\u00a0Synthetic Image Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4402427121",
+          "title": "Improving Synthetic Image Detection Towards Generalization: An Image Transformation Perspective",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4413146372",
+          "title": "Secret Lies in Color: Enhancing AI-Generated Images Detection with Color Distribution Analysis",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7116649483",
+          "title": "Artificial Intelligence Synthetic Image Detection Using Ensemble Convolutional Neural Network Model",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4414902235",
+          "title": "Spot the Fake: Large Multimodal Model-Based Synthetic Image Detection with Artifact Explanation",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4320518733",
+          "title": "The Value of AI Guidance in Human Examination of Synthetically-Generated Faces",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4287249916",
+          "title": "A Closer Look at Fourier Spectrum Discrepancies for CNN-generated Images\\n Detection",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4417077675",
+          "title": "DF-LLaVA: Unlocking MLLMs for Synthetic Image Detection via Knowledge Injection and Conflict-Driven Self-Reflection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7130935369",
+          "title": "SIDWA: Synthetic Image Detection Based on Discrete Wavelet Transform Stem and Deformable Sliding Window Cross-Attention",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4402963808",
+          "title": "ImagiNet: A Multi-Content Benchmark for Synthetic Image Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7126205771",
+          "title": "Comprehensive Analysis of AI-Synthetic Image Detection Architectures",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7127609756",
+          "title": "Seeing Is No Longer Believing: Benchmarking Synthetic Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4400129860",
+          "title": "GAN and\u00a0DM Generated Synthetic Image Detection in\u00a0the\u00a0Age of\u00a0Misinformation",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7160670289",
+          "title": "LEGO: LoRA-Enabled Generator-Oriented Framework for Synthetic Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4414977941",
+          "title": "Beyond Spectral Peaks: Interpreting the Cues Behind Synthetic Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7135216769",
+          "title": "Detection and spill-over effects of AI-generated images in political messages: Evidence from two pre-registered experiments",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4413361407",
+          "title": "Evaluating Convolutional Neural Networks for Synthetic Image Detection in the Frequency Domain",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7160525870",
+          "title": "LEGO: LoRA-Enabled Generator-Oriented Framework for Synthetic Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7111483085",
+          "title": "HSIC Bottleneck for Cross-Generator and Domain-Incremental Synthetic Image Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7128745605",
+          "title": "Fake-HR1: Rethinking Reasoning of Vision Language Model for Synthetic Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7160024684",
+          "title": "Forensic-MoE: Exploring Comprehensive Synthetic Image Detection Traces With Mixture of Experts",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7155091541",
+          "title": "Fake-HR1: Rethinking Reasoning of Vision Language Model for Synthetic Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4414449349",
+          "title": "'Humor, Art, or Misinformation?': A Multimodal Dataset for Intent-Aware Synthetic Image Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7128616555",
+          "title": "Fake-HR1: Rethinking Reasoning of Vision Language Model for Synthetic Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7135156776",
+          "title": "Layer Consistency Matters: Elegant Latent Transition Discrepancy for Generalizable Synthetic Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7137819524",
+          "title": "Decision-Driven Orthogonal Learning with Complementary Feature Mining for Robust Synthetic Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7135092069",
+          "title": "Layer Consistency Matters: Elegant Latent Transition Discrepancy for Generalizable Synthetic Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7128711246",
+          "title": "Decision-Driven Orthogonal Learning with Complementary Feature Mining for Robust Synthetic Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4321854539",
+          "title": "ArtiFact: A Large-Scale Dataset with Artificial and Factual Images for Generalizable and Robust Synthetic Image Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4330340020",
+          "title": "Deep Image Fingerprint: Towards Low Budget Synthetic Image Detection and Model Lineage Analysis",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4415536770",
+          "title": "Detecting Synthetic Image by Cross-Modal Commonality Interaction",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7128592463",
+          "title": "A Survey on Deep-Learning-Based Techniques for Detecting AI-Generated Synthetic Images",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7154133541",
+          "title": "DIFC-Net: Diffusion-Intrinsic Feature Capture for AI-Generated Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4305032510",
+          "title": "Aggregating Layers for Deepfake Detection",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W7126004607",
+          "title": "D\u00e9tection d'images g\u00e9n\u00e9r\u00e9es par l'IA \u00e0 l'aide de l'apprentissage profond multimodal",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4394906682",
+          "title": "E3: Ensemble of Expert Embedders for Adapting Synthetic Image Detectors to New Generators Using Limited Data",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4408054937",
+          "title": "Deepfake Media Forensics: Status and Future Challenges",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7114907100",
+          "title": "Synthetic Image Physical Properties Detection (SIPD) dataset",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4414979736",
+          "title": "$\\bf{D^3}$QE: Learning Discrete Distribution Discrepancy-aware Quantization Error for Autoregressive-Generated Image Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4417052041",
+          "title": "Certifiably Robust Synthetic Image Detectors",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7130596691",
+          "title": "Synthetic Image Differentiation Using Multimodal Feature Fusion via Clustering",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4410429099",
+          "title": "Enhanced Synthetic Images Classification with Vision Transformers and Effective Data Augmentation Techniques",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4315865725",
+          "title": "Deepfakes Generation and Detection: A Short Survey",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4415495361",
+          "title": "Hybrid intelligence approach for detecting synthetic art",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7117340004",
+          "title": "Beyond Artifacts: Real-Centric Envelope Modeling for Reliable AI-Generated Image Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7148408602",
+          "title": "A Targeted Attack against Certifiably Robust Smoothed Classifiers",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4415348730",
+          "title": "VERITAS: Verification and Explanation of Realness in Images for Transparency in AI Systems",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7155245437",
+          "title": "Adaptive Forensic Feature Refinement via Intrinsic Importance Perception",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4417073353",
+          "title": "Time Step Generating: A Universal Synthesized Deepfake Image Detector",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4403885062",
+          "title": "TGIF: Text-Guided Inpainting Forgery Dataset",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4413146055",
+          "title": "CO-SPY: Combining Semantic and Pixel Features to Detect Synthetic Images by AI",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7133365254",
+          "title": "RA-Det: Towards Universal Detection of AI-Generated Images via Robustness Asymmetry",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4380993529",
+          "title": "GenImage: A Million-Scale Benchmark for Detecting AI-Generated Image",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W7117301698",
+          "title": "Beyond Artifacts: Real-Centric Envelope Modeling for Reliable AI-Generated Image Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4411446581",
+          "title": "IDIR: Interpolated Diffusion Image Reconstruction for\u00a0Generalizable Detection of\u00a0Synthetic Images",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4410343731",
+          "title": "Training super-recognisers\u2019 detection and discrimination of computer-generated faces",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7118014084",
+          "title": "Detecting StyleGAN-Generated Deepfake Faces with\u00a0Vision Transformers and\u00a0Latent Attention",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4414266830",
+          "title": "Prompt-Engineered Detection of AI-Generated Images",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4393878110",
+          "title": "VIPPrint: A Large Scale Dataset for Colored Printed Documents Authentication and Source Linking",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W7148177806",
+          "title": "TGIF2: Extended Text-Guided Inpainting Forgery Dataset & Benchmark",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7135187346",
+          "title": "Detection of AI-Generated Image Using DINOv2 and CLIP",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4400717610",
+          "title": "When Synthetic Traces Hide Real Content: Analysis of Stable Diffusion Image Laundering",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7133341761",
+          "title": "RA-Det: Towards Universal Detection of AI-Generated Images via Robustness Asymmetry",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7155100297",
+          "title": "Adaptive Forensic Feature Refinement via Intrinsic Importance Perception",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7118184574",
+          "title": "Hybrid Deep Learning for Image Authenticity: Distinguishing Between Real and AI-Generated Images",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7155515812",
+          "title": "TGIF2: Extended Text-Guided Inpainting Forgery Dataset & Benchmark",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7106304052",
+          "title": "Supervised Contrastive Learning for Few-Shot AI-Generated Image Detection and Attribution",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7106475740",
+          "title": "Supervised Contrastive Learning for Few-Shot AI-Generated Image Detection and Attribution",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7155501742",
+          "title": "TGIF2: Extended Text-Guided Inpainting Forgery Dataset & Benchmark",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7147506984",
+          "title": "TGIF2: Extended Text-Guided Inpainting Forgery Dataset &amp; Benchmark",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7153215624",
+          "title": "TGIF2: extended text-guided inpainting forgery dataset and benchmark",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4400504889",
+          "title": "Detecting images generated by diffusers",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4384268537",
+          "title": "Exposing the Fake: Effective Diffusion-Generated Images Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W7119021839",
+          "title": "A robust synthetic face detector in OSN context based on Gradient of Color features",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4409367167",
+          "title": "C2P-CLIP: Injecting Category Common Prompt in CLIP to Enhance Generalization in Deepfake Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7154498460",
+          "title": "Local-Fake Knee Radiograph Dataset and Detector Artifacts for Cross-Source Deepfake Detection (v1)",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7154531304",
+          "title": "Local-Fake Knee Radiograph Dataset and Detector Artifacts for Cross-Source Deepfake Detection (v1)",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4387140156",
+          "title": "AI vs. AI: Can AI Detect AI-Generated Images?",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4412810251",
+          "title": "Unmasking AI-created visual content: a review of generated images and deepfake detection technologies",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4399205244",
+          "title": "AiGen-FoodReview: A Multimodal Dataset of Machine-Generated Restaurant Reviews and Images on Social Media",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4284895444",
+          "title": "An Eyes-Based Siamese Neural Network for the Detection of GAN-Generated Face Images",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4297878838",
+          "title": "Creating, Using, Misusing, and Detecting Deep Fakes",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4395484003",
+          "title": "Beyond Deepfake Images: Detecting AI-Generated Videos",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4408009045",
+          "title": "Improved YOLOv12 with LLM-Generated Synthetic Data for Enhanced Apple Detection and Benchmarking Against YOLOv11 and YOLOv10",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4403577912",
+          "title": "UGAD: Universal Generative AI Detector utilizing Frequency Fingerprints",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4362574774",
+          "title": "Deepfakes as a threat to a speaker and facial recognition: An overview of tools and attack vectors",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4206471449",
+          "title": "CodeFace: A Deep Learning Printer-Proof Steganography for Face Portraits",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4409368310",
+          "title": "WildFake: A Large-Scale and Hierarchical Dataset for AI-Generated Images Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4367000238",
+          "title": "Improving Synthetically Generated Image Detection in Cross-Concept Settings",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4393146707",
+          "title": "TraceEvader: Making DeepFakes More Untraceable via Evading the Forgery Model Attribution",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4308165186",
+          "title": "On the detection of synthetic images generated by diffusion models",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4396546542",
+          "title": "Reliable Out-of-Distribution Recognition of Synthetic Images",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4391987733",
+          "title": "WildFake: A Large-scale Challenging Dataset for AI-Generated Images Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4410566457",
+          "title": "Training humans for synthetic face image detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4404239152",
+          "title": "Evaluating the Effectiveness of Attack-Agnostic Features for Morphing Attack Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4410356706",
+          "title": "GAN or DM? In-depth Analysis and Evaluation of AI-generated Face Data for Generalizable Deepfake Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4409346508",
+          "title": "GIM: A Million-scale Benchmark for Generative Image Manipulation Detection and Localization",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4416252067",
+          "title": "AI-GenBench: A New Ongoing Benchmark for AI-Generated Image Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4221145767",
+          "title": "Detecting GAN-generated Images by Orthogonal Training of Multiple CNNs",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4395022613",
+          "title": "Robust CLIP-Based Detector for Exposing Diffusion Model-Generated Images",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4386875656",
+          "title": "Security and Privacy on Generative Data in AIGC: A Survey",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4391811740",
+          "title": "Synthetic images aid the recognition of human-made art forgeries",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W3198636526",
+          "title": "Ensembling Shallow Siamese Neural Network Architectures for Printed Documents Verification in Data-Scarcity Scenarios",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4389520128",
+          "title": "Multimodal Automated Fact-Checking: A Survey",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4392453284",
+          "title": "A siamese-based verification system for open-set architecture attribution of synthetic images",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4411241923",
+          "title": "GenConViT: Deepfake Video Detection Using Generative Convolutional Vision Transformer",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4409369406",
+          "title": "SUMI-IFL: An Information-Theoretic Framework for Image Forgery Localization with Sufficiency and Minimality Constraints",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4406744389",
+          "title": "Unmasking AI-Created Visual Content: A Review of Generated Images and Deepfake Detection Technologies",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4401510319",
+          "title": "Generated or Not Generated (GNG): The Importance of Background in the Detection of Fake Images",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4410636363",
+          "title": "CubeRobot: Grounding Language in Rubik's Cube Manipulation via Vision-Language Model",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4403786860",
+          "title": "Zero-Shot Detection of AI-Generated Images",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4400222289",
+          "title": "A Sanity Check for AI-generated Image Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4415162233",
+          "title": "AI-generated images of familiar faces are indistinguishable from real photographs",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4399930926",
+          "title": "Applied Cryptography and Network Security Workshops",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4401809746",
+          "title": "Synthetic Face Discrimination via Learned Image Compression",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4409292484",
+          "title": "Reconciling Performance and Ethics: A Critical Analysis of Modern AI Image Generation Systems",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4393063559",
+          "title": "Deepfake Detection without Deepfakes: Generalization via Synthetic Frequency Patterns Injection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4317107673",
+          "title": "Frequency-Domain-Based Structure Losses for CycleGAN-Based Cone-Beam Computed Tomography Translation",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4393284560",
+          "title": "LaRE$^2$: Latent Reconstruction Error Based Method for Diffusion-Generated Image Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4404307460",
+          "title": "The Cat and Mouse Game: The Ongoing Arms Race Between Diffusion Models and Detection Methods",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4403570480",
+          "title": "ForgeryGPT: A Multimodal LLM for Interpretable Image Forgery Detection and Localization",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W3034635030",
+          "title": "A monocular wide-field vision system for geolocation with uncertainties in urban scenes",
+          "publication_year": 2020
+        },
+        {
+          "id": "https://openalex.org/W4401201872",
+          "title": "Exploring the Adversarial Robustness of CLIP for AI-generated Image Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4409367220",
+          "title": "Memory Efficient Matting with Adaptive Token Routing",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4413030494",
+          "title": "Explainable Dual\u2010Stream Attention Network for Image Forgery Detection and Localisation Using Contrastive Learning",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4406033618",
+          "title": "Enhanced Detection of Diffusion Model-Generated Deepfakes Using CNN Feature Maps and Forgery Traces",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4392780880",
+          "title": "Premonition: Using Generative Models to Preempt Future Data Changes in Continual Learning",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4405768297",
+          "title": "A Bias-Free Training Paradigm for More General AI-generated Image Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4403972496",
+          "title": "Detecting computer-generated images by using only real images",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4387355958",
+          "title": "AI-Generated Images as Data Source: The Dawn of Synthetic Era",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4365601153",
+          "title": "Intriguing properties of synthetic images: from generative adversarial networks to diffusion models",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4402827386",
+          "title": "Real or virtual: a video conferencing background manipulation-detection system",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7128674854",
+          "title": "GReX-Bench: Benchmarking Generalization, Robustness, and Explainability in AI-Generated Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4407683639",
+          "title": "E2LVLM:Evidence-Enhanced Large Vision-Language Model for Multimodal Out-of-Context Misinformation Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4404854822",
+          "title": "Advances in AI-Generated Images and Videos.",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4410348872",
+          "title": "GPT-ImgEval: A Comprehensive Benchmark for Diagnosing GPT4o in Image Generation",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4395064829",
+          "title": "FakeBench: Probing Explainable Fake Image Detection via Large Multimodal Models",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4389820666",
+          "title": "GenDet: Towards Good Generalizations for AI-Generated Image Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4415135871",
+          "title": "DFBench: Benchmarking Deepfake Image Detection Capability of Large Multimodal Models",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4381586506",
+          "title": "The Age of Synthetic Realities: Challenges and Opportunities",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4411960917",
+          "title": "RADAR: Reasoning AI-Generated Image Detection for Semantic Fakes",
+          "publication_year": 2025
+        }
+      ],
+      "group_by": []
+    },
+    {
+      "meta": {
+        "count": 414,
+        "db_response_time_ms": 74,
+        "page": 2,
+        "per_page": 200,
+        "groups_count": null,
+        "cost_usd": 0.001
+      },
+      "results": [
+        {
+          "id": "https://openalex.org/W4395444150",
+          "title": "The Adversarial AI-Art: Understanding, Generation, Detection, and Benchmarking",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4416553684",
+          "title": "Detection of AI generated images using combined uncertainty measures and particle swarm optimised rejection mechanism",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4403581582",
+          "title": "ANALISIS SENTIMEN APLIKASI X PADA GOOGLE PLAY STORE MENGGUNAKAN ALGORITMA NA\u00cfVE BAYES DAN SUPPORT VECTOR MACHINE (SVM)",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W3043764230",
+          "title": "Adolescente v\u00edtima de homic\u00eddio: uma an\u00e1lise espacial e sua rela\u00e7\u00e3o com o tr\u00e1fico de drogas",
+          "publication_year": 2020
+        },
+        {
+          "id": "https://openalex.org/W4406185320",
+          "title": "AI-Generated Abstract Expressionism Inspiring Creativity Through Ismail A Mageed's Internal Monologues in Poetic Form",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4221145770",
+          "title": "Detecting High-Quality GAN-Generated Face Images using Neural Networks",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4402345919",
+          "title": "Towards Understanding Unsafe Video Generation",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4403819868",
+          "title": "A Hitchhikers Guide to Fine-Grained Face Forgery Detection Using Common Sense Reasoning",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4402335756",
+          "title": "SlideCraft: Synthetic Slides Generation for\u00a0Robust Slide Analysis",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4401307242",
+          "title": "Deepfake Media Forensics: State of the Art and Challenges Ahead",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4389325598",
+          "title": "Raising the Bar of AI-generated Image Detection with CLIP",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4394803802",
+          "title": "Reducing risk posed by synthetic content an overview of technical approaches to digital content transparency",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4384919490",
+          "title": "A Siamese-based Verification System for Open-set Architecture Attribution of Synthetic Images",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4404346766",
+          "title": "Language-guided Hierarchical Fine-grained Image Forgery Detection and Localization",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4399695708",
+          "title": "A Large-scale Universal Evaluation Benchmark For Face Forgery Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4389912093",
+          "title": "Latent Diffusion Models with Image-Derived Annotations for Enhanced AI-Assisted Cancer Diagnosis in Histopathology",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4378464562",
+          "title": "Multimodal Automated Fact-Checking: A Survey",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4400716502",
+          "title": "A Survey of Defenses Against AI-Generated Visual Media: Detection,Disruption, and Authentication",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4405622410",
+          "title": "Catalog of General Ethical Requirements for AI Certification",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4309566572",
+          "title": "GLFF: Global and Local Feature Fusion for AI-synthesized Image Detection",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4409326587",
+          "title": "Autonomous Mobile Station for Artificial Intelligence Monitoring of Mining Equipment and Risks",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4416329425",
+          "title": "Novel metaheuristic optimized latent diffusion framework for automated oral disease detection in public health screening",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4403555693",
+          "title": "FIDAVL: Fake Image Detection and Attribution using Vision-Language Model",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7114530111",
+          "title": "Synthetic images at MediaEval 2025 : advancing detection of generative AI in real-world online images",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7124700339",
+          "title": "\u4eba\u5de5\u667a\u80fd\u751f\u6210\u56fe\u50cf\u68c0\u6d4b\u6280\u672f\u7efc\u8ff0",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4403523317",
+          "title": "Evolution of Detection Performance throughout the Online Lifespan of Synthetic Images",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4416790887",
+          "title": "Generalized Design Choices for Deepfake Detectors",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7159891840",
+          "title": "Frequency-Aware Semantic Fusion with Gated Injection for AI-generated Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4414746156",
+          "title": "DeeCLIP: A Robust and Generalizable Transformer-Based Framework for Detecting AI-Generated Images",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7152330916",
+          "title": "Beyond Semantics: Uncovering the Physics of Fakes via Universal Physical Descriptors for Cross-Modal Synthetic Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7161091819",
+          "title": "EditSleuth: A Dataset of Grounded Reasoning Chains for Image-Edit Forensics",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4415338199",
+          "title": "OmniDFA: A Unified Framework for Open Set Synthesis Image Detection and Few-Shot Attribution",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4396601143",
+          "title": "Synthetic Image Verification in the Era of Generative AI: What Works and What Isn't There Yet",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4406484960",
+          "title": "Few-Shot Learner Generalizes Across AI-Generated Image Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4210422770",
+          "title": "Image and Video Forensics",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4416149370",
+          "title": "Fully AI-Generated Image Detection: Definition, Recent Advances and Challenges",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4414978765",
+          "title": "Redefining Generalization in Visual Domains: A Two-Axis Framework for Fake Image Detection with FusionDetect",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4416184934",
+          "title": "OmniAID: Decoupling Semantic and Artifacts for Universal AI-Generated Image Detection in the Wild",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7120219576",
+          "title": "AI-Generated Image Identification Using Explainable AI Techniques",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4415248055",
+          "title": "Robustness in AI-Generated Detection: Enhancing Resistance to Adversarial Attacks",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7139144211",
+          "title": "EvoGuard: An Extensible Agentic RL-based Framework for Practical and Evolving AI-Generated Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4403348586",
+          "title": "HyperDet: Generalizable Detection of Synthesized Images by Generating and Merging A Mixture of Hyper LoRAs",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7155654614",
+          "title": "UniGenDet: A Unified Generative-Discriminative Framework for Co-Evolutionary Image Generation and Generated Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4417529984",
+          "title": "Code-in-the-Loop Forensics: Agentic Tool Use for Image Forgery Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7152330439",
+          "title": "SPARK-IL: Spectral Retrieval-Augmented RAG for Knowledge-driven Deepfake Detection via Incremental Learning",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7133363592",
+          "title": "CTForensics: A Comprehensive Dataset and Method for AI-Generated CT Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4417071442",
+          "title": "Bridging the Gap Between Ideal and Real-World Evaluation: Benchmarking AI-Generated Image Detection in Challenging Scenarios",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4416374043",
+          "title": "Locate-Then-Examine: Grounded Region Reasoning Improves Detection of AI-Generated Images",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7160968137",
+          "title": "Decoupling Semantics and Fingerprints: A Universal Representation for AI-Generated Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7161452777",
+          "title": "Reduce the Artifacts Bias for More Generalizable AI-Generated Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7137976262",
+          "title": "SynerDetect: Hierarchical Synergistic Learning for Generalizable AI-Generated Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7161452915",
+          "title": "Venus-DeFakerOne: Unified Fake Image Detection & Localization",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4403662156",
+          "title": "DeCLIP: Decoding CLIP representations for deepfake localization",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7135429529",
+          "title": "ForensicZip: More Tokens are Better but Not Necessary in Forensic Vision-Language Models",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4417453606",
+          "title": "Scaling Up AI-Generated Image Detection with Generator-Aware Prototypes",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4415330533",
+          "title": "Towards Generalizable AI-Generated Image Detection via Image-Adaptive Prompt Learning",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7128548732",
+          "title": "\u53cc\u5b66\u4e60\u8303\u5f0fAI\u751f\u6210\u56fe\u50cf\u68c0\u6d4b\u53d6\u8bc1\u6280\u672f\u7efc\u8ff0",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4397050429",
+          "title": "ENHANCED SECURITY MEASURES FOR NATIONAL IDENTITY CARD USING IMAGE STEGANOGRAPHY",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4385713148",
+          "title": "Fake Face Detection in Identity Cards Using Stegoface",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W7160429386",
+          "title": "Automated In-the-Wild Data Collection for Continual AI Generated Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4399115405",
+          "title": "Detecting Adversarial Data via Perturbation Forgery",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7133365247",
+          "title": "Leveraging Arbitrary Data Sources for AI-Generated Image Detection Without Sacrificing Generalization",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7105506767",
+          "title": "CINEMAE: Leveraging Frozen Masked Autoencoders for Cross-Generator AI Image Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7125476297",
+          "title": "Integration of Squeeze-and-Excitation in Densenet-121 for Classifying Real and AI-Generated Images",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7139104673",
+          "title": "Beyond Semantic Features: Pixel-level Mapping for Generalized AI-Generated Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4416562145",
+          "title": "Dual Data Alignment Makes AI-Generated Image Detector Easier Generalizable",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7127541366",
+          "title": "Simplicity Prevails: The Emergence of Generalizable AIGI Detection in Visual Foundation Models",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7140634248",
+          "title": "Toward Generalizable Forgery Detection and Reasoning",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4402502310",
+          "title": "C2P-CLIP: Injecting Category Common Prompt in CLIP to Enhance Generalization in Deepfake Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7155244626",
+          "title": "Towards Generalizable Deepfake Image Detection with Vision Transformers",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4414586758",
+          "title": "Guard Me If You Know Me: Protecting Specific Face-Identity from Deepfakes",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4416610394",
+          "title": "RSFAKE-1M: A Large-Scale Dataset for Detecting Diffusion-Generated Remote Sensing Forgeries",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4402699836",
+          "title": "ForgeLens: Data-Efficient Forgery Focus for Generalizable Forgery Image Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7124736037",
+          "title": "\u9762\u5411\u5149\u5f71\u4e00\u81f4\u6027\u5206\u6790\u7684\u7269\u7406\u5c5e\u6027\u5408\u6210\u6570\u636e\u96c6\u53ca\u4f2a\u9020\u68c0\u6d4b\u65b9\u6cd5",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7140346872",
+          "title": "FeatDistill: A Feature Distillation Enhanced Multi-Expert Ensemble Framework for Robust AI-generated Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4409408635",
+          "title": "The Dual Edge of Algorithmic Creativity: A Critical Analysis of AI-Generated Media in Digital Society",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4407424304",
+          "title": "Exploring Active Data Selection Strategies for Continuous Training in Deepfake Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4416361369",
+          "title": "DGS-Net: Distillation-Guided Gradient Surgery for CLIP Fine-Tuning in AI-Generated Image Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4416550355",
+          "title": "How Noise Benefits AI-generated Image Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7104183574",
+          "title": "AI-Generated Image Detection: An Empirical Study and Future Research Directions",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4417114708",
+          "title": "RAID: A Dataset for Testing the Adversarial Robustness of AI-Generated Image Detectors",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4387964082",
+          "title": "Local Statistics for Generative Image Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4406880229",
+          "title": "Dual Frequency Branch Framework with Reconstructed Sliding Windows Attention for AI-Generated Image Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7152331030",
+          "title": "LOGER: Local--Global Ensemble for Robust Deepfake Detection in the Wild",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7148175878",
+          "title": "Generalizable Detection of AI Generated Images with Large Models and Fuzzy Decision Tree",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4399991151",
+          "title": "Landscape More Secure Than Portrait? Zooming Into the Directionality of Digital Images With Security Implications",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7140346116",
+          "title": "VIGIL: Part-Grounded Structured Reasoning for Generalizable Deepfake Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7109457848",
+          "title": "Rethinking the Use of Vision Transformers for AI-Generated Image Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4414854758",
+          "title": "Adversarially Robust AI-Generated Image Detection for Free: An Information Theoretic Perspective",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7127542479",
+          "title": "Your AI-Generated Image Detector Can Secretly Achieve SOTA Accuracy, If Calibrated",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4406032224",
+          "title": "Knowledge-Guided Prompt Learning for Deepfake Facial Image Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4403985571",
+          "title": "Diffusion model-generated video dataset and detection benchmarks",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7160670827",
+          "title": "Detecting Deepfakes via Hamiltonian Dynamics",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4416435591",
+          "title": "Detecting Generated Images by Fitting Natural Image Distributions",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4415025023",
+          "title": "Multimodal Conditional Information Bottleneck for Generalizable AI-Generated Image Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7113453842",
+          "title": "AI-generated images of familiar faces are indistinguishable from real photographs",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7138905163",
+          "title": "Exploring the Janus Face of Synthetic Images: From Privacy-secure Biometrics to Universal and Robust Deepfake Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7106559104",
+          "title": "FakeSegment: Deep Feature Maps Analysis and Visualization for Enhancing of Synthetic Image Realism",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4417209611",
+          "title": "Training-free Detection of AI-generated images via Cropping Robustness",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4415785155",
+          "title": "Critical Review of Object Detection Techniques for Traffic Light Detection in Intelligent Transportation Systems",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7154539800",
+          "title": "Context Matters: Vision-Based Depression Detection Comparing Classical and Deep Approaches",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4391835395",
+          "title": "Towards the Detection of AI-Synthesized Human Face Images",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7139096423",
+          "title": "RealNet: Efficient and Unsupervised Detection of AI-Generated Images via Real-Only Representation Learning",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4415927708",
+          "title": "Who Made This? Fake Detection and Source Attribution with Diffusion Features",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4379931359",
+          "title": "MAD \u201923 Workshop: Multimedia AI against Disinformation",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4399403244",
+          "title": "DA-HFNet: Progressive Fine-Grained Forgery Image Detection and Localization Based on Dual Attention",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7137962300",
+          "title": "GenVidBench: A 6-Million Benchmark for AI-Generated Video Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7154655974",
+          "title": "Boosting Robust AIGI Detection with LoRA-based Pairwise Training",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4416024873",
+          "title": "Proto-LeakNet: Towards Signal-Leak Aware Attribution in Synthetic Human Face Imagery",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4402712093",
+          "title": "FastForensics: Efficient Two-Stream Design for Real-Time Image Manipulation Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4403885133",
+          "title": "Explainable Artifacts for Synthetic Western Blot Source Attribution",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4417449415",
+          "title": "Aperture: a patch-aware framework for joint forgery detection and localization",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7138281165",
+          "title": "Dual-Branch Asymmetric Discrepancy Learning Based on Fake Image Pattern-Coexistence for AI-Generated Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4405468265",
+          "title": "Memory Efficient Matting with Adaptive Token Routing",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4406735094",
+          "title": "GenVidBench: A 6-Million Benchmark for AI-Generated Video Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7126123590",
+          "title": "Exploiting the Final Component of Generator Architectures for AI-Generated Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4415372211",
+          "title": "Explainable Image-Centric Forgery Detection: A Survey",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4388483528",
+          "title": "SPS Members, You Are All Heirs of Fourier! [From the Editor]",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W7155245930",
+          "title": "The Synthetic Media Shift: Tracking the Rise, Virality, and Detectability of AI-Generated Multimodal Misinformation",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7128159442",
+          "title": "Transformer Based on Multi-Domain Feature Fusion for AI-Generated Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7137954683",
+          "title": "Aggregating Diverse Cue Experts for AI-Generated Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7124227603",
+          "title": "Aggregating Diverse Cue Experts for AI-Generated Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4405562640",
+          "title": "Unsupervised Region-Based Image Editing of Denoising Diffusion Models",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4409364229",
+          "title": "Unsupervised Region-Based Image Editing of Denoising Diffusion Models",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4415318137",
+          "title": "Are We Using the Right Benchmark: An Evaluation Framework for Visual Token Compression Methods",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4402345181",
+          "title": "<scp>DeepClair:</scp> Utilizing Market Forecasts for Effective Portfolio Selection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4410290796",
+          "title": "Enhancing Fake Image Detection with Ensembled Convolutional Neural Networks",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7154655303",
+          "title": "Bridging the Micro--Macro Gap: Frequency-Aware Semantic Alignment for Image Manipulation Localization",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7139090785",
+          "title": "DySy-Det: A Synergistic Framework with Dynamic Reconstruction-Path Consistency for AI-Generated Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4405433182",
+          "title": "SUMI-IFL: An Information-Theoretic Framework for Image Forgery Localization with Sufficiency and Minimality Constraints",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4396847434",
+          "title": "ENHANCING DEEPFAKE DETECTION: LEVERAGING MTCNN AND INCEPTION RESNET",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4405095387",
+          "title": "SIDA: Social Media Image Deepfake Detection, Localization and Explanation with Large Multimodal Model",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7159733847",
+          "title": "TAP into the Patch Tokens: Leveraging Vision Foundation Model Features for AI-Generated Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4415539466",
+          "title": "RealHD: A High-Quality Dataset for Robust Detection of State-of-the-Art AI-Generated Images",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4417209616",
+          "title": "HiEAG: Evidence-Augmented Generation for Out-of-Context Misinformation Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4416897658",
+          "title": "GenPTW: Latent Image Watermarking for Provenance Tracing and Tamper Localization",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4393118929",
+          "title": "CFPL-FAS: Class Free Prompt Learning for Generalizable Face Anti-spoofing",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4416377683",
+          "title": "Deepfake detection in the era of large models",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7161353710",
+          "title": "Skill-Aligned Annotation for Reliable Evaluation in Text-to-Image Generation",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4404407873",
+          "title": "Towards More Accurate Fake Detection on Images Generated from Advanced Generative and Neural Rendering Models",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4399991031",
+          "title": "Improving Interpretability and Robustness for the Detection of AI-Generated Images",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7155247252",
+          "title": "Incentivizing Parametric Knowledge via Reinforcement Learning with Verifiable Rewards for Cross-Cultural Entity Translation",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4415936841",
+          "title": "Detecting AI-Generated Images via Diffusion Snap-Back Reconstruction: A Forensic Approach",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4411021920",
+          "title": "CIFAKE:A Transparent Approach To Identifying and Categorizing Images Generated by AI",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4402701748",
+          "title": "Localization of Synthetic Manipulations in Western Blot Images",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4416013268",
+          "title": "DATA: Multi-Disentanglement based Contrastive Learning for Open-World Semi-Supervised Deepfake Attribution",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7128481732",
+          "title": "Robust Detection and Localization of Image Copy-Move Forgery Using Multi-Feature Fusion",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4414786786",
+          "title": "Semantic-Aware Reconstruction Error for Detecting AI-Generated Images",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7138930689",
+          "title": "Deepfake Detection Using Multimodal CLIP-Based SigLIP-2 Vision Transformers",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4386405961",
+          "title": "On the detection of synthetic images generated by diffusion models",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4392972288",
+          "title": "Artifact Feature Purification for Cross-domain Detection of AI-generated Images",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4415193662",
+          "title": "Deepfake Detection that Generalizes Across Benchmarks",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4411625765",
+          "title": "Print and Scan Simulation for Adversarial Attacks on Printed Images",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7154865569",
+          "title": "Deepfake Detection Generalization with Diffusion Noise",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4405254427",
+          "title": "Take Fake as Real: Realistic-like Robust Black-box Adversarial Attack to Evade AIGC Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4407308224",
+          "title": "Lost in Edits? A $\u03bb$-Compass for AIGC Provenance",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7127540697",
+          "title": "Fact or Fake? Assessing the Role of Deepfake Detectors in Multimodal Misinformation Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7125459880",
+          "title": "Diffusion Epistemic Uncertainty with Asymmetric Learning for Diffusion-Generated Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7147567380",
+          "title": "Trustworthy generative AI through security, safety, grounding, and verification",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7134819311",
+          "title": "\u5927\u6a21\u578b\u65f6\u4ee3\u7684\u89c6\u9891\u4e0e\u56fe\u50cf\u5b89\u5168\u7814\u7a76\u8fdb\u5c55",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4402338143",
+          "title": "Pick the Largest Margin for Robust Detection of Splicing",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7125352051",
+          "title": "VTONGuard: Automatic Detection and Authentication of AI-Generated Virtual Try-On Content",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4405031434",
+          "title": "Forensics Adapter: Unleashing CLIP for Generalizable Face Forgery Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4392119846",
+          "title": "VGMShield: Mitigating Misuse of Video Generative Models",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4415318248",
+          "title": "AudioMarathon: A Comprehensive Benchmark for Long-Context Audio Understanding and Efficiency in Audio LLMs",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7161091998",
+          "title": "FraudBench: A Multimodal Benchmark for Detecting AI-Generated Fraudulent Refund Evidence",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4416786393",
+          "title": "AVFakeBench: A Comprehensive Audio-Video Forgery Detection Benchmark for AV-LMMs",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7120003829",
+          "title": "Deep Learning for Image Watermarking: A Comprehensive Review and Analysis of Techniques, Challenges, and Applications",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4404650275",
+          "title": "Dealing with Synthetic Data Contamination in Online Continual Learning",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7125520991",
+          "title": "A Comprehensive Review on Deep Learning Approaches for Classifying Real and AI generated Images",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7133570315",
+          "title": "A Browser-based Open Source Assistant for Multimodal Content Verification",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4392866962",
+          "title": "Unveiling the Truth: Exploring Human Gaze Patterns in Fake Images",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7161354070",
+          "title": "Backbone is All You Need: Assessing Vulnerabilities of Frozen Foundation Models in Synthetic Image Forensics",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7140085197",
+          "title": "A Browser-based Open Source Assistant for Multimodal Content Verification",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4417056138",
+          "title": "FakeScope: Large Multimodal Expert Model for Transparent AI-Generated Image Forensics",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7139147763",
+          "title": "Flash-Unified: A Training-Free and Task-Aware Acceleration Framework for Native Unified Models",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4405253634",
+          "title": "Epistemic Uncertainty for Generated Image Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4402706548",
+          "title": "Semantics-Oriented Multitask Learning for DeepFake Detection: A Joint Embedding Approach",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4386114393",
+          "title": "Open Set Synthetic Image Source Attribution",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W7140346226",
+          "title": "Efficient Zero-Shot AI-Generated Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4408750013",
+          "title": "Towards Understanding Unsafe Video Generation",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4413472487",
+          "title": "Source Verification of Printed Logos for Anti-Counterfeiting Applications",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4415281142",
+          "title": null,
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4396615729",
+          "title": "Exploring Self-Supervised Vision Transformers for Deepfake Detection: A Comparative Analysis",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7133364051",
+          "title": "Deepfake Forensics Adapter: A Dual-Stream Network for Generalizable Deepfake Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7127541003",
+          "title": "Provenance Verification of AI-Generated Images via a Perceptual Hash Registry Anchored on Blockchain",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7141771622",
+          "title": "Powerful Teachers Matter: Text-Guided Multi-view Knowledge Distillation with Visual Prior Enhancement",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4415281079",
+          "title": "Towards Robust Detection of AI-Generated Text and Image Using Language and Vision Neural Models",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4412426857",
+          "title": "Semi-supervised data-integrated feature importance enhances performance and interpretability of biological classification tasks",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7132864801",
+          "title": "Generation and Generalized Detection of Fully Synthetic Photorealistic Images",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4417170906",
+          "title": "TrueFake: A Real World Case Dataset of Last Generation Fake Images also Shared on Social Networks",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4417517299",
+          "title": "LAMM-ViT: AI Face Detection via Layer-Aware Modulation of Region-Guided Attention",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4389260622",
+          "title": "Rethinking Image Editing Detection in the Era of Generative AI Revolution",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W7149421179",
+          "title": "Governing Artificial Intelligence in the Evolving Academic Publishing Ecosystem",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7131319999",
+          "title": "TextShield-R1: Reinforced Reasoning for Tampered Text Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7131731195",
+          "title": "TranX-Adapter: Bridging Artifacts and Semantics within MLLMs for Robust AI-generated Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7160389994",
+          "title": "Application of Two-Stream Late Fusion on EfficientNetV2 based on Transfer Learning to classify AI-generated paintings",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7161090684",
+          "title": "Evidence-based Decision Modeling for Synthetic Face Detection with Uncertainty-driven Active Learning",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7119233786",
+          "title": "GRRE: Leveraging G-Channel Removed Reconstruction Error for Robust Detection of AI-Generated Images",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4415134962",
+          "title": "Enhancing Abnormality Identification: Robust Out-of-Distribution Strategies for Deepfake Detection",
+          "publication_year": 2025
+        }
+      ],
+      "group_by": []
+    },
+    {
+      "meta": {
+        "count": 414,
+        "db_response_time_ms": 56,
+        "page": 3,
+        "per_page": 200,
+        "groups_count": null,
+        "cost_usd": 0.001
+      },
+      "results": [
+        {
+          "id": "https://openalex.org/W7161091340",
+          "title": "Only Train Once: Uncertainty-Aware One-Class Learning for Face Authenticity Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4401581384",
+          "title": "Just Dance: detection of human body reenactment fake videos",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4405561833",
+          "title": "Towards a Universal Synthetic Video Detector: From Face or Background Manipulations to Fully AI-Generated Content",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7160893934",
+          "title": "Generative Artificial Intelligence and Visual Communication: A Systematic Review of Transformations in Image Production, Audience Reception, and Meaning-Making in Digital Media",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4377865043",
+          "title": "Towards generalizing deep-audio fake detection networks",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W7128022611",
+          "title": "Explainable Artificial Intelligence for Deepfake Detection: Pipeline, Open Source and Comparisons",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4399759244",
+          "title": "BiVLC: Extending Vision-Language Compositionality Evaluation with Text-to-Image Retrieval",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4403853743",
+          "title": "Adversarial Robustness of AI-Generated Image Detectors in the Real World",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4415194436",
+          "title": "SPRINT: Robust Model Attribution of Generated Images via Secret Pixel Reconstruction",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7141772406",
+          "title": "When Understanding Becomes a Risk: Authenticity and Safety Risks in the Emerging Image Generation Paradigm",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4414651049",
+          "title": "Building a Universal Detector of AI\u2010Generated Images Without Training on Them",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4413987675",
+          "title": "Foundation Models and Biometrics: A Survey and Outlook",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4386596880",
+          "title": "Table of Contents",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4402500827",
+          "title": "Penny-Wise and Pound-Foolish in Deepfake Detection",
+          "publication_year": 2024
+        }
+      ],
+      "group_by": []
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "query": "\"AI-generated carousel detection\"",
+  "pages": [
+    {
+      "meta": {
+        "count": 0,
+        "db_response_time_ms": 35,
+        "page": 1,
+        "per_page": 200,
+        "groups_count": null,
+        "cost_usd": 0.001
+      },
+      "results": [],
+      "group_by": []
+    }
+  ]
+}

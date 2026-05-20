@@ -1,0 +1,15 @@
+{
+  "n_formats": 8,
+  "spearman_rho": -0.49705186109309374,
+  "p_one_sided_less": 0.10507641481471813,
+  "bootstrap_n": 10000,
+  "bootstrap_seed": 20260521,
+  "bootstrap_ci_95": [
+    -0.9813067629253164,
+    0.42652607244784174
+  ],
+  "bootstrap_valid_samples": 9994,
+  "alpha": 0.05,
+  "decision": "H2 not supported (falsified at alpha=0.05)",
+  "falsified": true
+}

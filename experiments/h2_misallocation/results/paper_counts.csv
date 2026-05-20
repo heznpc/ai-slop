@@ -1,0 +1,9 @@
+format,pca,ddi,pda,deduped_count,any_query_capped
+video,3,2,2.5,5083,True
+audio,3,2,2.5,1642,False
+image,4,3,3.5,946,False
+text,5,4,4.5,1926,False
+hybrid_card_news,5,5,5.0,0,False
+fake_reviews,5,4,4.5,1428,False
+academic_papers,4,4,4.0,2,False
+news_articles,4,3,3.5,18,False

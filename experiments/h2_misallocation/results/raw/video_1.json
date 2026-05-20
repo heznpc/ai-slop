@@ -1,0 +1,428 @@
+{
+  "query": "\"AI-generated video detection\"",
+  "pages": [
+    {
+      "meta": {
+        "count": 82,
+        "db_response_time_ms": 173,
+        "page": 1,
+        "per_page": 200,
+        "groups_count": null,
+        "cost_usd": 0.001
+      },
+      "results": [
+        {
+          "id": "https://openalex.org/W4404195418",
+          "title": "AI-Generated Video Detection via Spatial-Temporal Anomaly Learning",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4399252117",
+          "title": "DeMamba: AI-Generated Video Detection on Million-Scale GenVideo Benchmark",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7137962300",
+          "title": "GenVidBench: A 6-Million Benchmark for AI-Generated Video Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4406735094",
+          "title": "GenVidBench: A 6-Million Benchmark for AI-Generated Video Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7128674523",
+          "title": "GenVidBench: A 6-Million Benchmark for AI-Generated Video Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4399062245",
+          "title": "Distinguish Any Fake Videos: Unleashing the Power of Large-scale Data and Motion Features",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7161571769",
+          "title": "A Cross-Dataset Framework for AI-Generated Video Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7140000911",
+          "title": "GenVideoLens: Where LVLMs Fall Short in AI-Generated Video Detection?",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7139946370",
+          "title": "GenVideoLens: Where LVLMs Fall Short in AI-Generated Video Detection?",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4393213475",
+          "title": "AI-Generated Video Detection via Spatio-Temporal Anomaly Learning",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7161694841",
+          "title": "SpecSem-Net: Integrating Spectral and Semantic Features for Robust AI-generated Video Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7124689123",
+          "title": "Your One-Stop Solution for AI-Generated Video Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7124817796",
+          "title": "Your One-Stop Solution for AI-Generated Video Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7116210301",
+          "title": "Skyra: AI-Generated Video Detection via Grounded Artifact Reasoning",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7116073493",
+          "title": "Skyra: AI-Generated Video Detection via Grounded Artifact Reasoning",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7130763189",
+          "title": "EA-Swin: An Embedding-Agnostic Swin Transformer for AI-Generated Video Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7152330897",
+          "title": "Preserving Forgery Artifacts: AI-Generated Video Detection at Native Scale",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7151347064",
+          "title": "Preserving Forgery Artifacts: AI-Generated Video Detection at Native Scale",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7130736605",
+          "title": "EA-Swin: An Embedding-Agnostic Swin Transformer for AI-Generated Video Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4417295121",
+          "title": "RobustSora: De-Watermarked Benchmark for Robust AI-Generated Video Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7137877593",
+          "title": "RobustSora: De-Watermarked Benchmark for Robust AI-Generated Video Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4415310480",
+          "title": "Leveraging Pre-Trained Visual Models for AI-Generated Video Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7128527672",
+          "title": "VideoVeritas: AI-Generated Video Detection via Perception Pretext Reinforcement Learning",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4411755548",
+          "title": "Interpretable AI-Generated Videos Detection using Deep Learning and Integrated Gradients",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7128555767",
+          "title": "VideoVeritas: AI-Generated Video Detection via Perception Pretext Reinforcement Learning",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7160360332",
+          "title": "CMTA: Leveraging Cross-Modal Temporal Artifacts for Generalizable AI-Generated Video Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4414928227",
+          "title": "VidGuard-R1: AI-Generated Video Detection and Explanation via Reasoning MLLMs and RL",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7160968628",
+          "title": "Towards multi-modal forgery representation learning for AI-generated video detection and localization",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7160077529",
+          "title": "D3: Training-Free AI-Generated Video Detection Using Second-Order Features",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4417539293",
+          "title": "Seeing What Matters: Generalizable AI-generated Video Detection with Forensic-Oriented Augmentation",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7160866180",
+          "title": "Towards multi-modal forgery representation learning for AI-generated video detection and localization",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7160129485",
+          "title": "CMTA: Leveraging Cross-Modal Temporal Artifacts for Generalizable AI-Generated Video Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7154167108",
+          "title": "Temporal Artifact Analysis for AI-Generated Video Detection Using Hybrid CNN-LSTM Architecture",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4417357138",
+          "title": "GenWorld: Towards Detecting AI-generated Real-world Simulation Videos",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4415709667",
+          "title": "Detecting AI-Generated Video via Frame Consistency",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4415332903",
+          "title": "DAVID-XR1: Detecting AI-Generated Videos with Explainable Reasoning",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7160726791",
+          "title": "Detecting AI-Generated Videos with Spiking Neural Networks",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7160594774",
+          "title": "Detecting AI-Generated Videos with Spiking Neural Networks",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4406525805",
+          "title": "OpenAI's Sora and Google's Veo 2 in Action: A Narrative Review of Artificial Intelligence-driven Video Generation Models Transforming Healthcare",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4407190633",
+          "title": "Generative Artificial Intelligence and the Evolving Challenge of Deepfake Detection: A Systematic Analysis",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4396821255",
+          "title": "Visual Mamba: A Survey and New Outlooks",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4414115529",
+          "title": "Integrating perceptual quality analysis and caption-based features for robust deepfake video detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4403885673",
+          "title": "Mamba in Vision: A Comprehensive Survey of Techniques and Applications",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4404854822",
+          "title": "Advances in AI-Generated Images and Videos.",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4400716502",
+          "title": "A Survey of Defenses Against AI-Generated Visual Media: Detection,Disruption, and Authentication",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4410348872",
+          "title": "GPT-ImgEval: A Comprehensive Benchmark for Diagnosing GPT4o in Image Generation",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4391335213",
+          "title": "A Survey on Future Frame Synthesis: Bridging Deterministic and Generative Approaches",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7126281507",
+          "title": "MPF-Net: Exposing High-Fidelity AI-Generated Video Forgeries via Hierarchical Manifold Deviation and Micro-Temporal Fluctuations",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7149548245",
+          "title": "Explainable Multimodal Deepfake Detection with Blockchain-based Forensic Provenance",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7152331617",
+          "title": "ATSS: Detecting AI-Generated Videos via Anomalous Temporal Self-Similarity",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4416933465",
+          "title": "MVAD: A Benchmark Dataset for Multimodal AI-Generated Video-Audio Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7127541366",
+          "title": "Simplicity Prevails: The Emergence of Generalizable AIGI Detection in Visual Foundation Models",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7149874177",
+          "title": "Moir\u00e9 Video Authentication: A Physical Signature Against AI Video Generation",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4417301672",
+          "title": "BusterX: MLLM-Powered AI-Generated Video Forgery Detection and Explanation",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7155245751",
+          "title": "DVAR: Adversarial Multi-Agent Debate for Video Authenticity Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4407957401",
+          "title": "Construction and Validation of Datasets for Detecting AI-Generated Music",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7160968340",
+          "title": "Advancing Reliable Synthetic Video Detection: Insights from the SAFE Challenge",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4416223703",
+          "title": "DBINDS -- Can Initial Noise from Diffusion Model Inversion Help Reveal AI-Generated Videos?",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4406479758",
+          "title": "T2VEval: Benchmark Dataset and Objective Evaluation Method for T2V-generated Videos",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7161204644",
+          "title": "CaC: Advancing Video Reward Models via Hierarchical Spatiotemporal Concentrating",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4396814331",
+          "title": "Exposing AI-generated Videos: A Benchmark Dataset and a Local-and-Global Temporal Defect Based Detection Method",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7134916624",
+          "title": "Detection of AI-Generated Images and Videos Using Vision Transformers",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7133494780",
+          "title": "Vision Forgery Trace Enhanced VLMs for Generalized AIGC Video Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7128745605",
+          "title": "Fake-HR1: Rethinking Reasoning of Vision Language Model for Synthetic Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7152330916",
+          "title": "Beyond Semantics: Uncovering the Physics of Fakes via Universal Physical Descriptors for Cross-Modal Synthetic Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7161354070",
+          "title": "Backbone is All You Need: Assessing Vulnerabilities of Frozen Foundation Models in Synthetic Image Forensics",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7139148140",
+          "title": "Pixel-level Scene Understanding in One Token: Visual States Need What-is-Where Composition",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7161092176",
+          "title": "Sub-JEPA: Subspace Gaussian Regularization for Stable End-to-End World Models",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4407368653",
+          "title": "Survey on AI-Generated Media Detection: From Non-MLLM to MLLM",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7134860605",
+          "title": "SWIFT: Sliding Window Reconstruction for Few-Shot Training-Free Generated Video Attribution",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4405561833",
+          "title": "Towards a Universal Synthetic Video Detector: From Face or Background Manipulations to Fully AI-Generated Content",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7135429153",
+          "title": "Temporal Straightening for Latent Planning",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4417170934",
+          "title": "Advance Fake Video Detection via Vision Transformers",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7128864830",
+          "title": "The Observer Effect in World Models: Invasive Adaptation Corrupts Latent Physics",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7139144211",
+          "title": "EvoGuard: An Extensible Agentic RL-based Framework for Practical and Evolving AI-Generated Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7140238461",
+          "title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4416786393",
+          "title": "AVFakeBench: A Comprehensive Audio-Video Forgery Detection Benchmark for AV-LMMs",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4400025003",
+          "title": "Venturing into Uncharted Waters: The Navigation Compass from Transformer to Mamba",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4404624473",
+          "title": "The Future of <scp>GenAI</scp> in Cybersecurity",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7149874358",
+          "title": "Scale over Preference: The Impact of AI-Generated Content on Online Content Ecology",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7131731484",
+          "title": "Beyond Static Artifacts: A Forensic Benchmark for Video Deepfake Reasoning in Vision Language Models",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7155654614",
+          "title": "UniGenDet: A Unified Generative-Discriminative Framework for Co-Evolutionary Image Generation and Generated Image Detection",
+          "publication_year": 2026
+        }
+      ],
+      "group_by": []
+    }
+  ]
+}

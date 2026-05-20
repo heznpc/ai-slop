@@ -1,0 +1,28 @@
+{
+  "query": "\"synthetic review detection\"",
+  "pages": [
+    {
+      "meta": {
+        "count": 2,
+        "db_response_time_ms": 90,
+        "page": 1,
+        "per_page": 200,
+        "groups_count": null,
+        "cost_usd": 0.001
+      },
+      "results": [
+        {
+          "id": "https://openalex.org/W7128947579",
+          "title": "Impact of Synthetic Review Filtering on the Performance of Sentiment Analysis: A Category-wise Analysis Using BERT+CRF",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4415735646",
+          "title": "Detecting LLM-Generated Fake Reviews: A Leakage-Free Multi-Model Framework",
+          "publication_year": 2025
+        }
+      ],
+      "group_by": []
+    }
+  ]
+}
