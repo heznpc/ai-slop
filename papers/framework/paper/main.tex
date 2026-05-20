@@ -282,7 +282,7 @@ This paradox is not merely an observation about current research priorities. It 
 
 \subsection{Quantifying the Paradox}
 
-The paradox can be quantified along two axes: Detection Difficulty (from the AMSM DDI dimension) and Research Investment (approximated by the number of academic papers and dedicated benchmarks in each modality).
+The paradox can be quantified along two axes: Detection Difficulty (from the AMSM DDI dimension) and Research Investment. In the figure below, Detection Difficulty values are reproduced directly from the AMSM matrix (\S\ref{sec:amsm}). Research Investment Gap values are \emph{preliminary expert estimates pending bibliometric validation under H2} (see \S\ref{sec:agenda}); they encode the author's reading of the literature volume per modality on a 1--5 scale (1\,=\,most-studied, 5\,=\,least-studied) and are explicitly subject to revision once the bibliometric analysis prescribed in H2 is executed. The figure is therefore offered as an organizing hypothesis, not as a measurement result.
 
 \begin{figure}[htbp]
 \centering
@@ -364,7 +364,7 @@ The paradox can be quantified along two axes: Detection Difficulty (from the AMS
 
 \end{axis}
 \end{tikzpicture}
-\caption{The Production--Detection Paradox. Detection Difficulty Index (DDI) vs.\ Research Investment Gap (inverted scale: 5\,=\,least research). Bubble size is proportional to Ecosystem Damage Potential (EDP). The shaded upper-right region marks the ``danger zone''---formats that are hard to detect, under-researched, and cause significant harm. Points in the danger zone are shaded in red; points outside in blue.}
+\caption{The Production--Detection Paradox (organizing hypothesis). Detection Difficulty Index (DDI, x-axis) is reproduced from the AMSM matrix. The Research Investment Gap (y-axis, inverted scale: 5\,=\,least research) is a \emph{preliminary expert estimate awaiting bibliometric validation under H2}; numeric positions on the y-axis encode the author's literature-volume reading and are explicitly subject to revision. Bubble size is proportional to Ecosystem Damage Potential (EDP). The shaded upper-right region marks the ``danger zone''---formats that are hard to detect, under-researched (under the current estimate), and cause significant harm. Points in the danger zone are shaded in red; points outside in blue.}
 \label{fig:paradox}
 \end{figure}
 
@@ -519,30 +519,36 @@ Each experiment tests a specific causal claim. If the co-evolution model is corr
 
 The AMSM framework, the Production--Detection Paradox, and the Algorithm--Slop Co-evolution Model together generate a research agenda organized by priority. Hypotheses are ranked by a combination of feasibility (data accessibility, methodological maturity) and impact (severity of the knowledge gap, policy relevance).
 
+% TODO(review-2026-05-21,m1): For H-CoEv1 (sock puppet audit), specify the planned
+%   n based on the Baumann 2026 / FAccT 2025 precedent of n=120 sock puppets; include
+%   a power analysis (effect size detectable at n=120 vs. 240 vs. 60) before any
+%   data collection.
+% TODO(review-2026-05-21,m3): Pre-register H-Text, H-Prev, H-CoEv1-3, H-Adapt, H-Econ,
+%   H-Spill on OSF before any data collection that has not yet started.
 \subsection{Priority Hypotheses}
 
 \begin{table}[H]
 \centering
-\caption{Research agenda: seven priority hypotheses.}
+\caption{Research agenda: seven priority items. Items marked with \textsuperscript{\dag} are predictive hypotheses with explicit falsification conditions; item H-Gap is a literature-state claim with a constructive corollary (a benchmark whose absence is itself the testable artefact). Predictive hypotheses are intended for the family-wise correction policy described in the companion Perspectives paper.}
 \label{tab:agenda}
 \small
 \begin{tabularx}{\textwidth}{@{}c X l l c c c @{}}
 \toprule
-\textbf{\#} & \textbf{Hypothesis} & \textbf{Format} & \textbf{Method} & \textbf{Feas.} & \textbf{Impact} & \textbf{Plat.?} \\
+\textbf{\#} & \textbf{Hypothesis / Priority} & \textbf{Format} & \textbf{Method} & \textbf{Feas.} & \textbf{Impact} & \textbf{Plat.?} \\
 \midrule
-1 & H-Gap: No detection capability exists for hybrid image-text slop & Card News & Build first hybrid detection pipeline & Med & V.\ High & No \\
+1 & H-Gap (literature-state claim): No published detection method, as of the May 2026 literature snapshot, achieves AUROC $> 0.60$ on a curated hybrid image-text card-news benchmark; the constructive corollary is the first such benchmark. \textit{Refuted if:} a published method achieving AUROC $> 0.60$ on hybrid image-text card-news content is identified. & Card News & Build first hybrid detection pipeline; document baseline failure of existing text/image detectors & Med & V.\ High & No \\
 \addlinespace
-2 & H-Text: Text detection falls below useful thresholds under adversarial conditions while video detection remains above 0.70 & Text vs.\ Video & Adversarial benchmark evaluation & High & V.\ High & No \\
+2\textsuperscript{\dag} & H-Text: Text detection falls below useful thresholds under adversarial conditions while video detection remains above 0.70 & Text vs.\ Video & Adversarial benchmark evaluation & High & V.\ High & No \\
 \addlinespace
-3 & H-Prev: AI text penetration exceeds AI video penetration by $\geq$\,2$\times$ & Text vs.\ Video & Web crawl + video feed audit & High & High & No \\
+3\textsuperscript{\dag} & H-Prev: AI text penetration exceeds AI video penetration by $\geq$\,2$\times$ & Text vs.\ Video & Web crawl + video feed audit & High & High & No \\
 \addlinespace
-4 & H-CoEv1: Algorithms exhibit measurable positive bias toward AI slop & All (Shorts) & Sock puppet audit & Med & High & No \\
+4\textsuperscript{\dag} & H-CoEv1: Algorithms exhibit measurable positive bias toward AI slop & All (Shorts) & Sock puppet audit & Med & High & No \\
 \addlinespace
-5 & H-Adapt: Interventions produce $<$\,6 months of disruption before adaptation & Video, Image & DiD analysis of 2026 interventions & High & High & Partial \\
+5\textsuperscript{\dag} & H-Adapt: Interventions produce $<$\,6 months of disruption before adaptation & Video, Image & DiD analysis of 2026 interventions & High & High & Partial \\
 \addlinespace
-6 & H-Econ: AI slop produces measurable economic displacement of authentic creators & Video, Text & Social Blade data + creator surveys & Med & V.\ High & Partial \\
+6\textsuperscript{\dag} & H-Econ: AI slop produces measurable economic displacement of authentic creators & Video, Text & Social Blade data + creator surveys & Med & V.\ High & Partial \\
 \addlinespace
-7 & H-Spill: Cross-format contamination pipeline exists (academic $\to$ news $\to$ blog) & Text (multi) & Citation/content tracing & Med & High & No \\
+7\textsuperscript{\dag} & H-Spill: Cross-format contamination pipeline exists (academic $\to$ news $\to$ blog) & Text (multi) & Citation/content tracing & Med & High & No \\
 \bottomrule
 \end{tabularx}
 \end{table}
@@ -634,6 +640,10 @@ This section acknowledges several limitations of the AMSM framework and the anal
 \textbf{Practitioner positionality.} The author's background as an independent developer provides direct familiarity with production tools and pipelines, but this vantage point may introduce blind spots regarding institutional research dynamics or regulatory processes. The production cost estimates, while grounded in documented tool capabilities, have not been independently validated through controlled studies.
 
 \textbf{Format boundary ambiguity.} Content formats are not discrete categories. A blog post may embed card news; a news article may be reposted as an Instagram carousel; an academic paper may be summarized as a TikTok video. The AMSM framework treats formats independently, but cross-format transformation pipelines (addressed in H-Spill) require further theoretical development.
+
+\textbf{Single-author circularity in H2 testing.} When the bibliometric protocol pre-registered for H2 (\S\ref{sec:agenda}; see also \texttt{experiments/h2\_misallocation/protocol.md} in the project repository) is executed, it correlates publication counts against the AMSM PDA scores published in this paper. Because both inputs originate from the same author, a finding consistent with H2 establishes \emph{internal consistency} between this author's qualitative reading of the format landscape and the external bibliometric record, not a test against an independently constructed ground-truth ranking. A multi-rater AMSM (e.g., Delphi panel) followed by re-running H2 against the panel-mean PDA scores would be required to factor out single-author judgment as a confound.
+
+\textbf{Dual-use risk of the framework.} The AMSM matrix and the Production--Detection Paradox jointly identify, for any adversarial reader, the formats at which detection investment is currently weakest and where slop production is therefore most likely to evade response. Card news in particular is named as the format with the largest detection gap. This paper proceeds on the judgment that the dual-use risk of \emph{naming} the gap is outweighed by the policy and research benefit of making the misallocation legible, given that the production economics of these formats are already widely known among practitioners and slop-pipeline vendors (see \S\ref{sec:amsm}). Future versions of this work should consider partitioning the most operationally sensitive findings (e.g., detailed adversarial-attack budgets per format) into a separate venue with restricted distribution.
 
 
 % ============================================================
