@@ -1,0 +1,1571 @@
+{
+  "query": "\"voice spoofing detection\"",
+  "pages": [
+    {
+      "meta": {
+        "count": 308,
+        "db_response_time_ms": 88,
+        "page": 1,
+        "per_page": 200,
+        "groups_count": null,
+        "cost_usd": 0.001
+      },
+      "results": [
+        {
+          "id": "https://openalex.org/W3127781933",
+          "title": "One-Class Learning Towards Synthetic Voice Spoofing Detection",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4317358019",
+          "title": "Cross-modal information fusion for voice spoofing detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4220772625",
+          "title": "A robust voice spoofing detection system using novel CLS-LBP features and LSTM",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4381786130",
+          "title": "Generalized Voice Spoofing Detection via Integral Knowledge Amalgamation",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W3198370097",
+          "title": "Physiological-physical feature fusion for automatic voice spoofing detection",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4387272110",
+          "title": "Lightweight Voice Spoofing Detection Using Improved One-Class Learning and Knowledge Distillation",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4323794554",
+          "title": "Experimental Case Study of Self-Supervised Learning for Voice Spoofing Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4386505700",
+          "title": "A voice spoofing detection framework for IoT systems with feature pyramid and online knowledge distillation",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4319862226",
+          "title": "The Clever Hans Effect in Voice Spoofing Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4387533986",
+          "title": "Voice spoofing detection for multiclass attack classification using deep learning",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4226338771",
+          "title": "Voice spoofing detection based on acoustic and glottal flow features using conventional machine learning techniques",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4376480427",
+          "title": "Voice Spoofing Detection Through Residual Network, Max Feature Map, and Depthwise Separable Convolution",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4388821527",
+          "title": "Improved One-class Learning for Voice Spoofing Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W2972017669",
+          "title": "Voice spoofing detection corpus for single and multi-order audio replays",
+          "publication_year": 2020
+        },
+        {
+          "id": "https://openalex.org/W4386030140",
+          "title": "A Pre-Training Framework Based on Multi-Order Acoustic Simulation for Replay Voice Spoofing Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W3033511663",
+          "title": "A Light-Weight Replay Detection Framework For Voice Controlled IoT Devices",
+          "publication_year": 2020
+        },
+        {
+          "id": "https://openalex.org/W4401767353",
+          "title": "Metaheuristic Algorithms for\u00a0Enhancing Multicepstral Representation in\u00a0Voice Spoofing Detection: An Experimental Approach",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W3096631145",
+          "title": "One-class learning towards generalized voice spoofing detection.",
+          "publication_year": 2020
+        },
+        {
+          "id": "https://openalex.org/W4313412868",
+          "title": "Low-Key Shallow Learning Voice Spoofing Detection System",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4392270819",
+          "title": "Experimental Study: Enhancing Voice Spoofing Detection Models with wav2vec 2.0",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4403955819",
+          "title": "ASVspoof 5 Challenge: advanced ResNet architectures for robust voice spoofing detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4396237593",
+          "title": "Hybrid Feature Optimization for Voice Spoof Detection Using CNN-LSTM",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4312298622",
+          "title": "Light-weight Frequency Information Aware Neural Network Architecture for Voice Spoofing Detection",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4214909824",
+          "title": "Voice spoofing detection with raw waveform based on Dual Path Res2net",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4407900433",
+          "title": "Enhancing Voice Spoofing Detection: A Hybrid Approach With VGGish-LSTM Model for Improved Security in Automatic Speaker Verification Systems",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4389916462",
+          "title": "Voice spoofing detection using a neural networks assembly considering spectrograms and mel frequency cepstral coefficients",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4362677138",
+          "title": "A two-stage training approach for voice spoofing detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4220832730",
+          "title": "Voice spoofing detector: A unified anti-spoofing framework",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4405633805",
+          "title": "UCSYSpoof: A Myanmar Language Dataset for Voice Spoofing Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4207008605",
+          "title": "A hybrid noise robust model for multireplay attack detection in Automatic speaker verification systems",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4386716597",
+          "title": "An Experimental Analysis on\u00a0Mapping Strategies for\u00a0Cepstral Coefficients Multi-projection in\u00a0Voice Spoofing Detection Problem",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4297385931",
+          "title": "Synthetic Voice Spoofing Detection Based on Online Hard Example Mining",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4385822837",
+          "title": "Synthetic Voice Spoofing Detection based on Feature Pyramid Conformer",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4412990480",
+          "title": "Improving Voice Spoofing Detection Through Extensive Analysis of Multicepstral Feature Reduction",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4226346368",
+          "title": "A Countermeasure Based on CQT Spectrogram for Deepfake Speech Detection",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4291908931",
+          "title": "LSTM-GTCC based Approach for Audio Spoof Detection",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4382941026",
+          "title": "Generalized Spoof Detection and Incremental Algorithm Recognition for Voice Spoofing",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W3201237299",
+          "title": "End-to-End Voice Spoofing Detection Employing Time Delay Neural Networks and Higher Order Statistics",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4412721043",
+          "title": "A Recurrent Neural Network-Based Multi-Parameter Sub-Band, Sub-Second Analysis for Voice Spoofing and Cloning Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4292002651",
+          "title": "A Multi-task Conformer for Spoofing Aware Speaker Verification",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W3196842095",
+          "title": "Complementing Handcrafted Features with Raw Waveform Using a Light-weight Auxiliary Model",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4403541615",
+          "title": "Publicly available datasets analysis and spectrogram-ResNet41 based improved features extraction for audio spoof attack detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4394786886",
+          "title": "Noise Robust Audio Spoof Detection Using Hybrid Feature Extraction and LCNN",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4385396350",
+          "title": "Pre-training of Multi-order Acoustic Simulation for Replay Voice Spoofing Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4401114211",
+          "title": "A voice spoofing Detection Model based on Dilated Residual Attentional Feature-fusion Net with Enhanced Feature Extraction",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4379115453",
+          "title": "Voice Presentation Attacks Detection using Acoustic MLTP Features and BiLSTM",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4416334482",
+          "title": "iWAX: interpretable Wav2vec-AASIST-XGBoost framework for voice spoofing detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4298141735",
+          "title": "Physiological-Physical Feature Fusion for Automatic Voice Spoofing Detection",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4413513000",
+          "title": "Voice Spoofing Detection Using Long Short-Term Memory Models with Mel-Spectrogram Analysis",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4412675492",
+          "title": "Exploring multicepstral features in a new classical machine learning-based framework for replay attack detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4414063422",
+          "title": "Advancements in Voice Spoofing Detection: A Comprehensive Review",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4407707181",
+          "title": "Voice Spoofing Detection using Feature Adaptive One-Class Classification Based on Graph Neural Network",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7140764632",
+          "title": "A Unified SSL-Based Framework for Voice Spoof Detection and Speaker Verification Using XEUS",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4413878318",
+          "title": "Comparative Analysis Of ML/DL Models for Voice Spoofing Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4410192325",
+          "title": "Forensic Investigation of Synthetic Voice Spoofing Detection in Social App",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7106532320",
+          "title": "AI based Voice Spoofing Detection using ML and DL",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7108448007",
+          "title": "AI based Voice Spoofing detection using ML and DL",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7106577866",
+          "title": "AI based Voice Spoofing Detection using ML and DL",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7108467281",
+          "title": "AI based Voice Spoofing detection using ML and DL",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4406534093",
+          "title": "Lightweight noise robust spoofing attack detection using Cochleagram and ResNet amalgamated features",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4283079141",
+          "title": "Investigation on Mixup Strategies for End-to-End Voice Spoof Detection System",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4417052326",
+          "title": "Voice Spoofing Detection Based on the RVC Deep Learning CNN Model",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4297409694",
+          "title": "Synthetic Voice Spoofing Detection Based On Online Hard Example Mining",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4408017508",
+          "title": "Extreme Learning Machine-Based Unified Voice Spoofing Detection System",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7120778675",
+          "title": "Improving voice spoofing detection through extensive analysis of multicepstral feature reduction",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4410323797",
+          "title": "Optimized Voice Spoofing Detection Using One Class Learning to Combat Identity Theft and Fraud",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4404853137",
+          "title": "Discriminative deep learning based hybrid spectro-temporal features for synthetic voice spoofing detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4407152765",
+          "title": "Enhancing voice spoofing detection in noisy environments using frequency feature masking augmentation",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4403209781",
+          "title": "Deep feature synthesis approach using selective graph attention for replay attack voice spoofing detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7134037614",
+          "title": "Advancing voice spoofing detection in Thai : a comprehensive dataset and performance analysis on speaking styles and channel effects",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4407914572",
+          "title": "Dimensionality Reduction in\u00a0Multicepstral Features for\u00a0Voice Spoofing Detection: Case Studies with\u00a0Singular Value Decomposition, Genetic Algorithm, and\u00a0Auto-Encoder",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4205858138",
+          "title": "Voice Spoofing Countermeasure for Logical Access Attacks Detection",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4308013150",
+          "title": "Generalized Spoof Detection and Incremental Algorithm Recognition for Spoofing Voice",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W3154807520",
+          "title": "Deep Audio-visual Learning: A Survey",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4413205381",
+          "title": "Modified Heterogeneous Auto-Similarities of Characteristic for Voice Spoofing Attack Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4389633690",
+          "title": "Deepfake Generation and Detection: Case Study and Challenges",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4406692153",
+          "title": "TargetCLP: clathrin proteins prediction combining transformed and evolutionary scale modeling-based multi-view features via weighted feature integration approach",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4313984387",
+          "title": "Audio deepfakes: A survey",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4393160839",
+          "title": "What to Remember: Self-Adaptive Continual Learning for Audio Deepfake Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4318828948",
+          "title": "A Novel Smart Deepfake Video Detection System",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4385189362",
+          "title": "Data augmentation and hybrid feature amalgamation to detect audio deep fake attacks",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4415779148",
+          "title": "Impact of neural-vocoder\u2013generated spoofed speech on spoofing-detection performance",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4405810589",
+          "title": "Securing Cloud-Based Internet of Things: Challenges and Mitigations",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4221165534",
+          "title": "The Vicomtech Audio Deepfake Detection System based on Wav2Vec2 for the 2022 ADD Challenge",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W7128999646",
+          "title": "Replay Attack Detection: A Group Delay Cepstral Perspective",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4414528887",
+          "title": "Enhancing ASV Security: An Integrated Ensemble Detector for\u00a0Logical Access and\u00a0DeepFake Attacks",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W3216102001",
+          "title": "\ub370\uc774\ud130 \uc99d\uac15\uae30\ubc95\uc744 \uc774\uc6a9\ud55c \uc74c\uc131 \uc704\uc870 \uacf5\uaca9 \ud0d0\uc9c0\ubaa8\ud615\uc758 \uc131\ub2a5 \ud5a5\uc0c1\uc5d0 \ub300\ud55c \uc5f0\uad6c",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4221140846",
+          "title": "A Probabilistic Fusion Framework for Spoofing Aware Speaker Verification",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4388622895",
+          "title": "EDL-Det: A Robust TTS Synthesis Detector Using VGG19-Based YAMNet and Ensemble Learning Block",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4388740187",
+          "title": "Audio Deepfake Approaches",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4399048893",
+          "title": "Deepfake forensics: a survey of digital forensic methods for multimodal deepfake identification on social media",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4385255575",
+          "title": "Gaussian-Filtered High-Frequency-Feature Trained Optimized BiLSTM Network for Spoofed-Speech Classification",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4402084085",
+          "title": "SQL injection attack: Detection, prioritization &amp; prevention",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4386302282",
+          "title": "Audio Deepfake Detection: A Survey",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4396785992",
+          "title": "Training-Free Deepfake Voice Recognition by Leveraging Large-Scale Pre-Trained Models",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4395065405",
+          "title": "A Survey on Speech Deepfake Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4394699045",
+          "title": "Korean Voice Phishing Detection Applying NER With Key Tags and Sentence-Level N-Gram",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W3187722398",
+          "title": "A survey on presentation attack detection for automatic speaker verification systems: State-of-the-art, taxonomy, issues and future direction",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4225904138",
+          "title": "Explainable Deepfake and Spoofing Detection: An Attack Analysis Using SHapley Additive exPlanations",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4398205317",
+          "title": "Faked speech detection with zero prior knowledge",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4389687094",
+          "title": "Enhancing Security and Accountability in Autonomous Vehicles through Robust Speaker Identification and Blockchain-Based Event Recording",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4406388795",
+          "title": "Lightweight Noise Robust Spoofing Attack Detection using Cochleagram and ResNet Amalgamated Features",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4413991433",
+          "title": "Robust DeepFake Audio Detection via an Improved NeXt-TDNN with Multi-Fused Self-Supervised Learning Features",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7161597526",
+          "title": "HAC-MVC: A Multimodal Dataset of Human, AI-Generated, and Cloned Malicious Voice Commands for Deepfake Detection and Neural Audio Fingerprinting",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7134920476",
+          "title": "HAC-MVC: A Multimodal Dataset of Human, AI-Generated, and Cloned Malicious Voice Commands for Deepfake Detection and Neural Audio Fingerprinting",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7134915867",
+          "title": "HAC-MVC: A Multimodal Dataset of Human, AI-Generated, and Cloned Malicious Voice Commands for Deepfake Detection and Neural Audio Fingerprinting",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4402112426",
+          "title": "One-class learning with adaptive centroid shift for audio deepfake detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W3198740031",
+          "title": "Efficient Attention Branch Network with Combined Loss Function for Automatic Speaker Verification Spoof Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4402112185",
+          "title": "Exploring Self-supervised Embeddings and Synthetic Data Augmentation for Robust Audio Deepfake Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4381187661",
+          "title": "Synthesized Speech Attribution Using The Patchout Spectrogram Attribution Transformer",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4205226775",
+          "title": "User Authentication Method via Speaker Recognition and Speech Synthesis Detection",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4401042610",
+          "title": "Heterogeneity over Homogeneity: Investigating Multilingual Speech Pre-Trained Models for Detecting Audio Deepfake",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4385822591",
+          "title": "Robust Audio Anti-Spoofing with Fusion-Reconstruction Learning on Multi-Order Spectrograms",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4225649083",
+          "title": "Does Audio Deepfake Detection Generalize?",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4402760830",
+          "title": "SSRL-UAVs: A Self-Supervised Deep Representation Learning Approach for GPS Spoofing Attack Detection in Small Unmanned Aerial Vehicles",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4376163495",
+          "title": "VSMask: Defending Against Voice Synthesis Attack via Real-Time Predictive Perturbation",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W3087119365",
+          "title": "Light Convolutional Neural Network with Feature Genuinization for Detection of Synthetic Speech Attacks",
+          "publication_year": 2020
+        },
+        {
+          "id": "https://openalex.org/W4311136106",
+          "title": "A comparison of different support vector machine kernels for artificial speech detection",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4319603224",
+          "title": "Voice Spoofing Attacks and Countermeasures: A Systematic Review, Analysis, and Experimental Evaluation",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4383221407",
+          "title": "Deepfake CAPTCHA: A Method for Preventing Fake Calls",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W3186180969",
+          "title": "Channel-wise Gated Res2Net: Towards Robust Detection of Synthetic Speech Attacks",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4411780477",
+          "title": "A comprehensive survey of audio forgery detection: challenges and novel trends",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4390479001",
+          "title": "Speech Spoofing Detection Based on Graph Attention Networks with Spectral and Temporal Information",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4401726147",
+          "title": "Multi Pattern Features-Based Spoofing Detection Mechanism Using One Class Learning",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4285220839",
+          "title": "A Comparative Performance of Optimizers and Tuning of Neural Networks for Spoof Detection Framework",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W3183948972",
+          "title": "End-to-End Spectro-Temporal Graph Attention Networks for Speaker Verification Anti-Spoofing and Speech Deepfake Detection",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W3022119147",
+          "title": "Discriminative features based on modified log magnitude spectrum for playback speech detection",
+          "publication_year": 2020
+        },
+        {
+          "id": "https://openalex.org/W3140934869",
+          "title": "An Empirical Study on Channel Effects for Synthetic Voice Spoofing Countermeasure Systems",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4411874050",
+          "title": "DeepLASD countermeasure for logical access audio spoofing",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4408799803",
+          "title": "Audio Deepfake Detection: What Has Been Achieved and What Lies Ahead",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4286911373",
+          "title": "AASIST: Audio Anti-Spoofing using Integrated Spectro-Temporal Graph Attention Networks",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4405239879",
+          "title": "Speech Emotion Recognition Using Multi-Scale Global\u2013Local Representation Learning with Feature Pyramid Network",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4417146899",
+          "title": "Deepfake Audio Detection in Voice Authentication: A Spectral and CNN-Based Comprehensive Review",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W3183763412",
+          "title": "UR Channel-Robust Synthetic Speech Detection System for ASVspoof 2021",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4308599814",
+          "title": "On the application of conformers to logical access voice spoofing attack detection",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4404609248",
+          "title": "Targeted Augmented Data for Audio Deepfake Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4298054525",
+          "title": "Deepfake audio detection by speaker verification",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4399556870",
+          "title": "Is Audio Spoof Detection Robust to Laundering Attacks?",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4296151440",
+          "title": "Detecting Synthetic Speech Manipulation in Real Audio Recordings",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4298397149",
+          "title": "Acoustic or Pattern? Speech Spoofing Countermeasure based on Image Pre-training Models",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4386841418",
+          "title": "One-Class Knowledge Distillation for Spoofing Speech Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4386876127",
+          "title": "Frame-to-Utterance Convergence: A Spectra-Temporal Approach for Unified Spoofing Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4385681750",
+          "title": "Do You Remember? Overcoming Catastrophic Forgetting for Fake Audio Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W3132516638",
+          "title": "Data Augmentation with Signal Companding for Detection of Logical Access Attacks",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4313420008",
+          "title": "Texture and material classification with multi-scale ternary and septenary patterns",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W3146788459",
+          "title": "Graph Attention Networks for Anti-Spoofing",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4402343748",
+          "title": "Forensic Perspective on Voice Biometrics and AI : A Review",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4405031696",
+          "title": "Parallel Stacked Aggregated Network for Voice Authentication in IoT-Enabled Smart Devices",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4403956257",
+          "title": "ASASVIcomtech: the Vicomtech-UGR speech deepfake detection and SASV systems for the ASVspoof5 Challenge",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4412036232",
+          "title": "Deepfake Audio Detection Using Feature-Based and Deep Learning Approaches: ANN vs ResNet50",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4402955095",
+          "title": "USTC-KXDIGIT System Description for ASVspoof5 Challenge",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4390482908",
+          "title": "A Lightweight and Efficient Model for Audio Anti-Spoofing",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4394064609",
+          "title": "THE EFFECT OF SPEAKER VARIABILITY ON DISTINGUISHABILITY OF BONAFIDE AND SYNTHETIZED SPEECH",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4296460211",
+          "title": "Research on English Vocabulary and Speech Corpus Recognition Based on Deep Learning",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4389286232",
+          "title": "Effective Zero-Shot Multi-Speaker Text-to-Speech Technique Using Information Perturbation and a Speaker Encoder",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4297783641",
+          "title": "Spoofing-Aware Speaker Verification by Multi-Level Fusion",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4384834403",
+          "title": "Spoofed Speech Detection with Weighted Phase Features and Convolutional Networks",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4400188193",
+          "title": "Toward Improving Synthetic Audio Spoofing Detection Robustness via Meta-Learning and Disentangled Training With Adversarial Examples",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4404083962",
+          "title": "Multi-scale Information Aggregation for Spoofing Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4402466902",
+          "title": "SLIM: Style-Linguistics Mismatch Model for Generalized Audio Deepfake Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4323076341",
+          "title": "Learning From Yourself: A Self-Distillation Method for Fake Speech Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4387492501",
+          "title": "Residual-based feature enhancement for forgery audio detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4327486018",
+          "title": "Can spoofing countermeasure and speaker verification systems be jointly optimised?",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4411379406",
+          "title": "CBAM-ResNet: A Lightweight ResNet Network Focusing on Time Domain Features for End-to-End Deepfake Speech Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4386794738",
+          "title": "SVDD Challenge 2024: A Singing Voice Deepfake Detection Challenge (CtrSVDD Track, Test Set)",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W7125682641",
+          "title": "Voiceprint-Based Hardware Authentication System with Spoof Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4382491653",
+          "title": "Multi-perspective Information Fusion Res2Net with RandomSpecmix for Fake Speech Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4394937575",
+          "title": "Derin Sahte Ses Manip\u00fclasyonu Tespit Sistemleri \u00dczerine Bir Derleme",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4320085706",
+          "title": "The DKU-OPPO System for the 2022 Spoofing-Aware Speaker Verification Challenge",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4378446151",
+          "title": "TO-Rawnet: Improving RawNet with TCN and Orthogonal Regularization for Fake Audio Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4399447943",
+          "title": "Generalized Fake Audio Detection via Deep Stable Learning",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4391505459",
+          "title": "Securing Cloud-Based Internet of Things: Challenges and Mitigations",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4378711574",
+          "title": "Betray Oneself: A Novel Audio DeepFake Detection Model via Mono-to-Stereo Conversion",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4292560453",
+          "title": "Software Simulation in English Translation Platform Based on Gaussian Hybrid Model",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4399447939",
+          "title": "Generalized Source Tracing: Detecting Novel Audio Deepfake Algorithm with Real Emphasis and Fake Dispersion Strategy",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4403525055",
+          "title": "AASIST3: KAN-Enhanced AASIST Speech Deepfake Detection using SSL Features and Additional Regularization for the ASVspoof 2024 Challenge",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4281562487",
+          "title": "Speaker-targeted Synthetic Speech Detection",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4362508876",
+          "title": "Design of a optimization algorithm for binary classification",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4394577195",
+          "title": "A Comprehensive Analysis of Exploring the Efficacy of Machine Learning Algorithms in Text, Image, and Speech Analysis",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4389911846",
+          "title": "What to Remember: Self-Adaptive Continual Learning for Audio Deepfake Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4412815937",
+          "title": "Evaluation framework for deepfake speech detection: a comparative study of state-of-the-art deepfake speech detectors",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4401024682",
+          "title": "Improved Rank Aggregation Under Fairness Constraint",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4402053245",
+          "title": "A blended framework for audio spoof detection with sequential models and bags of auditory bites",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4387119230",
+          "title": "MCHeart: Multi-Channel-Based Heart Signal Processing Scheme for Heart Noise Detection Using Deep Learning",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4306154606",
+          "title": "Study of approaches to the synthesis and detection of cloned voices (DeepFake)",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4411377616",
+          "title": "Robust Multilingual Audio Deepfake Detection Through Hybrid Modeling",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4395483811",
+          "title": "CLAD: Robust Audio Deepfake Detection Against Manipulation Attacks with Contrastive Learning",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4328007740",
+          "title": "Leveraging Domain Features for Detecting Adversarial Attacks Against Deep Speech Recognition in Noise",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4401024105",
+          "title": "Modality-Fair Preference Optimization for Trustworthy MLLM Alignment",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4403781069",
+          "title": "A Comprehensive Survey with Critical Analysis for Deepfake Speech Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4413265845",
+          "title": "SIBERIA: A Self-Sovereign Identity and Multi-Factor Authentication Framework for Industrial Access",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4413042690",
+          "title": "Sample preparation for sugar and melanoidin measurement during the Maillard reaction",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4403483965",
+          "title": "Classifying the content of online notepad services using active learning",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4415022859",
+          "title": "Source Verification for Speech Deepfakes",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4403623444",
+          "title": "VoiceWukong: Benchmarking Deepfake Voice Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4401582003",
+          "title": "Research progress on speech deepfake and its detection techniques",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4327486613",
+          "title": "Constrained Adversarial Learning for Automated Software Testing: a literature review",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W3137110025",
+          "title": "A Comparative Study on Recent Neural Spoofing Countermeasures for Synthetic Speech Detection",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4403666849",
+          "title": "SafeEar: Content Privacy-Preserving Audio Deepfake Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4415586450",
+          "title": "A Comprehensive Survey of DeepFake Generation and Detection Techniques in Audio-Visual Media",
+          "publication_year": 2025
+        }
+      ],
+      "group_by": []
+    },
+    {
+      "meta": {
+        "count": 308,
+        "db_response_time_ms": 31,
+        "page": 2,
+        "per_page": 200,
+        "groups_count": null,
+        "cost_usd": 0.001
+      },
+      "results": [
+        {
+          "id": "https://openalex.org/W4403364064",
+          "title": "Toward Robust Real-World Audio Deepfake Detection: Closing the Explainability Gap",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4403952481",
+          "title": "Deep Speech Synthesis and Its Implications for News Verification: Lessons Learned in the RTVE-UGR Chair",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4388963689",
+          "title": "Comprehensive Survey: Biometric User Authentication Application, Evaluation, and Discussion",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4411119223",
+          "title": "Synthetic Lyrics Detection Across Languages and Genres",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4399312784",
+          "title": "LITIGANTES IND\u00cdGENAS Y PROCESOS JUR\u00cdDICOS EN BOLIVIA",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4415131230",
+          "title": "A Unified Framework for Detecting Diverse Voice Spoofing Attacks",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7115945457",
+          "title": "A METHOD FOR DETECTING SYNTHETIC SPEECH IN DIGITAL AUDIO RECORDINGS USING SPEECH ACOUSTIC FEATURES",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4414580644",
+          "title": "ASVspoof2019 vs. ASVspoof5: Assessment and Comparison",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4386907987",
+          "title": "Bridging the Spoof Gap: A Unified Parallel Aggregation Network for Voice Presentation Attacks",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4394659898",
+          "title": "Securing Voice Biometrics: One-Shot Learning Approach for Audio Deepfake Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W7140526421",
+          "title": "Uzman Kar\u0131\u015f\u0131m\u0131 F\u00fczyonu ile \u00d6z-Denetimli Ses Temsilleri Kullanarak Derin Sahte Ses Tespiti",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4398250660",
+          "title": "End-to-End Modeling for Speech Spoofing and Deepfake Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4310647412",
+          "title": "Tackling Spoofing-Aware Speaker Verification with Multi-Model Fusion",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4386134315",
+          "title": "Multi pattern features based spoofing detection mechanism using one class learning",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4387724946",
+          "title": "Leveraging Knowledge Distillation for Efficient Deep Reinforcement Learning in Resource-Constrained Environments",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4414070199",
+          "title": "A Research on Deepfake Face Detection Techniques Based on Multimodal Biometric Cross \u2013 Verification",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4400064829",
+          "title": "Beyond Silence: Bias Analysis through Loss and Asymmetric Approach in Audio Anti-Spoofing",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4406638198",
+          "title": "Speaker-Specific Method of Spoofing Attack Detection Based on Anomaly Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7131476297",
+          "title": "Assessing the Impact of Speaker Identity in Speech Spoofing Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4417053449",
+          "title": "Impact of Microphone Array Mismatches to Learning-Based Replay Speech Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4388821359",
+          "title": "Authors Index",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4387559954",
+          "title": "An Initial Investigation of Neural Replay Simulator for Over-the-Air Adversarial Perturbations to Automatic Speaker Verification",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4386841302",
+          "title": "HM-Conformer: A Conformer-based audio deepfake detection system with hierarchical pooling and multi-level classification token aggregation methods",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4386556335",
+          "title": "An Efficient Temporary Deepfake Location Approach Based Embeddings for Partially Spoofed Audio Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W7160926036",
+          "title": "Deepfake Voice Detection Techniques for Cybercrime Prevention and Secure Digital Communication",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4384392915",
+          "title": "Uncovering the Deceptions: An Analysis on Audio Spoofing Detection and Future Prospects",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4408345647",
+          "title": "FADEL: Uncertainty-aware Fake Audio Detection with Evidential Deep Learning",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4226364519",
+          "title": "The Vicomtech Spoofing-Aware Biometric System for the SASV Challenge",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4415178012",
+          "title": "AI-Driven Identity Verification: Using Facial Recognition, Voice Analysis, and Document Verification to Prevent Identity Theft",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4400601051",
+          "title": "Targeted Augmented Data for Audio Deepfake Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4393118807",
+          "title": "Exploring Green AI for Audio Deepfake Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4411236715",
+          "title": "VOCAL THREATS IN THE DIGITAL AGE: ANALYSIS OF VOICE-BASED CYBER-ATTACKS",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4400025011",
+          "title": "One-Class Learning with Adaptive Centroid Shift for Audio Deepfake Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W3143181649",
+          "title": "Partially-Connected Differentiable Architecture Search for Deepfake and Spoofing Detection",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4405767444",
+          "title": "Tandem spoofing-robust automatic speaker verification based on time-domain embeddings",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4406840802",
+          "title": "Generalizable Audio Deepfake Detection via Latent Space Refinement and Augmentation",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4399758771",
+          "title": "Frequency-mix Knowledge Distillation for Fake Speech Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4379251606",
+          "title": "How to Construct Perfect and Worse-than-Coin-Flip Spoofing Countermeasures: A Word of Warning on Shortcut Learning",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4309129407",
+          "title": "Low Pass Filtering and Bandwidth Extension for Robust Anti-spoofing Countermeasure Against Codec Variabilities",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4399447844",
+          "title": "Singing Voice Graph Modeling for SingFake Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4415311832",
+          "title": "A Comparative Study on Proactive and Passive Detection of Deepfake Speech",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4399424724",
+          "title": "How Do Neural Spoofing Countermeasures Detect Partially Spoofed Audio?",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4387156629",
+          "title": "Synthia's Melody: A Benchmark Framework for Unsupervised Domain Adaptation in Audio",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4406799747",
+          "title": "What Does an Audio Deepfake Detector Focus on? A Study in the Time Domain",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4399911559",
+          "title": "A Multi-Stream Fusion Approach with One-Class Learning for Audio-Visual Deepfake Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4304194571",
+          "title": "Synthetic Voice Detection and Audio Splicing Detection using SE-Res2Net-Conformer Architecture",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4403006855",
+          "title": "ASASVIcomtech: The Vicomtech-UGR Speech Deepfake Detection and SASV Systems for the ASVspoof5 Challenge",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4403364016",
+          "title": "Learn from Real: Reality Defender's Submission to ASVspoof5 Challenge",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4415432905",
+          "title": "STOPA: A Dataset of Systematic VariaTion Of DeePfake Audio for Open-Set Source Tracing and Attribution",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4308610390",
+          "title": "SAMO: Speaker Attractor Multi-Center One-Class Learning for Voice Anti-Spoofing",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4394992443",
+          "title": "INCREASING ROBUSTNESS OF I-VECTORS VIA MASKING: A CASE STUDY IN SYNTHETIC SPEECH DETECTION",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4403535514",
+          "title": "Speech Foundation Model Ensembles for the Controlled Singing Voice Deepfake Detection (CtrSVDD) Challenge 2024",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4393724850",
+          "title": "Heterogeneity over Homogeneity: Investigating Multilingual Speech Pre-Trained Models for Detecting Audio Deepfake",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4403883296",
+          "title": "Augmentation through Laundering Attacks for Audio Spoof Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4294203935",
+          "title": "An improved normalized gain-based score normalization technique for spoof detection algorithm",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4379251524",
+          "title": "Multi-Dataset Co-Training with Sharpness-Aware Optimization for Audio Anti-spoofing",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W3184034591",
+          "title": "Raw Differentiable Architecture Search for Speech Deepfake and Spoofing Detection",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W7128801618",
+          "title": "Deepfake Detection and AI\u2019s Role in Preventing Digital Fraud",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7115742843",
+          "title": "Tekrar oynatma sald\u0131r\u0131lar\u0131n\u0131n tespitinde genlik ve faz spektrumu tabanl\u0131 \u00f6zniteliklerin derin \u00f6\u011frenme ile kar\u015f\u0131la\u015ft\u0131rmal\u0131 analizi",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4402427276",
+          "title": "Temporal Variability and Multi-Viewed Self-Supervised Representations to Tackle the ASVspoof5 Deepfake Challenge",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7134094136",
+          "title": "Hierarchical Decoding for Discrete Speech Synthesis with Multi-Resolution Spoof Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4406582419",
+          "title": "Advancing Voice Anti-Spoofing Systems: Self-Supervised Learning and Indonesian Dataset Integration for Enhanced Generalization",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7153977956",
+          "title": "AUDIO DEEPFAKE DETECTION USING HYBRID CNN-BiLSTM WITH FEATURE FUSION OF MFCC AND MEL SPECTROGRAM",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7126123613",
+          "title": "Audio Deepfake Detection in the Age of Advanced Text-to-Speech models",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4402502536",
+          "title": "SZU-AFS Antispoofing System for the ASVspoof 5 Challenge",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7140238260",
+          "title": "Audio Avatar Fingerprinting: An Approach for Authorized Use of Voice Cloning in the Era of Synthetic Audio",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7115904869",
+          "title": null,
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4405037864",
+          "title": "Optimasi Teknologi WAV2Vec 2.0 menggunakan Spectral Masking untuk meningkatkan Kualitas Transkripsi Teks Video bagi Tuna Rungu",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7128064771",
+          "title": "Tendencias en las arquitecturas de chatbots",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4410445877",
+          "title": "Toward almost-zero fault acceptance of deep learning-based voice authentication using small training dataset",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7131655244",
+          "title": "Optimizing Bullying News Detection on Social Media: An Ensemble Deep Learning Approach with Enhanced Optimization Algorithm",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4286899444",
+          "title": "A Study On Data Augmentation In Voice Anti-Spoofing",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W7153670155",
+          "title": "DeepFense: A Unified, Modular, and Extensible Framework for Robust Deepfake Audio Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7125459889",
+          "title": "WeDefense: A Toolkit to Defend Against Fake Audio",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7142557761",
+          "title": "SAVe: Self-Supervised Audio-visual Deepfake Detection Exploiting Visual Artifacts and Audio-visual Misalignment",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4319862467",
+          "title": "Table Of Contents",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4391906967",
+          "title": "Optimizing dual modal biometric authentication: hybrid HPO-ANFIS and HPO-CNN framework",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4415132773",
+          "title": "Trusted Fake Audio Detection Based on Dirichlet Distribution",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4386557329",
+          "title": "Towards Robust Plant Disease Diagnosis with Hard-sample Re-mining Strategy",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4389471199",
+          "title": "Detecting Voice Cloning Attacks via Timbre Watermarking",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4205328261",
+          "title": "Table of Contents",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4389708634",
+          "title": "A Practical Survey on Emerging Threats from AI-driven Voice Attacks: How Vulnerable are Commercial Voice Control Systems?",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W7154990148",
+          "title": "A Fala: Como tra\u00e7ar e proteger o perfil de um falante",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4315588602",
+          "title": "Deepfake CAPTCHA: A Method for Preventing Fake Calls",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W7127158971",
+          "title": "FRAMEWORK PENCEGAHAN SERANGAN DEEPFAKE DAN VOICE PHISHING MENGGUNAKAN MULTI-FACTOR BIOMETRIC AUTHENTICATION",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7129718020",
+          "title": "GSNet: A Hybrid Graph Siamese Network for Robust Deepfake Audio Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7134017045",
+          "title": "Cyclostationarity Analysis as a Complement to Self-Supervised Representations for Speech Deepfake Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7160017014",
+          "title": "AI-Driven Multi- Modal Fake Content Detection System Using Audio-Text Fusion and Transformer Network",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4387687197",
+          "title": "Dual-Branch Knowledge Distillation for Noise-Robust Synthetic Speech Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4415481061",
+          "title": "Dynamic knowledge condensation with audio-selective transformer for audio deepfake detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4391157494",
+          "title": "Generalizing Speaker Verification for Spoof Awareness in the Embedding Space",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4386148108",
+          "title": "Complex-valued neural networks for voice anti-spoofing",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4399598052",
+          "title": "Clever Hans Effect Found in Automatic Detection of Alzheimer's Disease through Speech",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4400612023",
+          "title": "From Real to Cloned Singer Identification",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4388821406",
+          "title": "Table of Contents",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W7134809568",
+          "title": "SeVoAuth: Secure Voiceprint Authentication With Hash-Based Feature Transformation",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4408749894",
+          "title": "Characterizing the Impact of Audio Deepfakes in the Presence of Cochlear Implant",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4410270388",
+          "title": "Spoofing-robust speaker verification based on time-domain embedding",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7133251745",
+          "title": "A Review of Crime at Machine Speed: Criminological Aspects of Artificial Intelligence\u2019s Industrialisation of Deception",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4387156644",
+          "title": "Privacy-preserving and Privacy-attacking Approaches for Speech and Audio -- A Survey",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4400378270",
+          "title": "Spoofing-robust Automatic Speaker Verification : Architecture, Explainability and Joint Optimisation",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W3147897919",
+          "title": "Algorithms for Data-Efficient Training of Deep Neural Networks",
+          "publication_year": 2020
+        },
+        {
+          "id": "https://openalex.org/W7140102079",
+          "title": "Revealing the Truth with ConLLM for Detecting Multi-Modal Deepfakes",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7117490285",
+          "title": "Sesle \u0130lgili Derin Sahte (Deepfake) Kavram ve Uygulamalar\u0131n\u0131 Konu Alan Bilimsel Ara\u015ft\u0131rmalara Y\u00f6nelik Performans Analizi ve Bilimsel Haritalama Tabanl\u0131 Bibliyometrik Analiz",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4206987186",
+          "title": "2021 Index IEEE Signal Processing Letters Vol. 28",
+          "publication_year": 2021
+        },
+        {
+          "id": "https://openalex.org/W4399991190",
+          "title": "Synthetic Lyrics Detection Across Languages and Genres",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4392465474",
+          "title": "Deep learning applied to speech processing: development of novel models and techniques",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W7137574264",
+          "title": "\u8074\u899a\u77e5\u899a\u306b\u95a2\u9023\u3059\u308b\u97f3\u97ff\u7279\u5fb4\u3092\u7528\u3044\u305f\u4eba\u9593\u6a21\u5023\u97f3\u58f0\u691c\u51fa",
+          "publication_year": 2025
+        }
+      ],
+      "group_by": []
+    }
+  ]
+}

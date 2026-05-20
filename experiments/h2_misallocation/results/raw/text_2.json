@@ -1,0 +1,2219 @@
+{
+  "query": "\"LLM-generated text detection\"",
+  "pages": [
+    {
+      "meta": {
+        "count": 435,
+        "db_response_time_ms": 56,
+        "page": 1,
+        "per_page": 200,
+        "groups_count": null,
+        "cost_usd": 0.001
+      },
+      "results": [
+        {
+          "id": "https://openalex.org/W4406236959",
+          "title": "A Survey on LLM-Generated Text Detection: Necessity, Methods, and Future Directions",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4387946871",
+          "title": "A Survey on LLM-Generated Text Detection: Necessity, Methods, and Future Directions",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4402352366",
+          "title": "Adaptive Ensembles of Fine-Tuned Transformers for LLM-Generated Text Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4377864459",
+          "title": "DPIC: Decoupling Prompt and Intrinsic Characteristics for LLM Generated Text Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4410396921",
+          "title": "Understanding the effects of human-written paraphrases in LLM-generated text detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4391230058",
+          "title": "Beyond Lexical Boundaries: LLM-Generated Text Detection for Romanian Digital Libraries",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4324299222",
+          "title": "The Science of Detecting LLM-Generated Texts",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4389520675",
+          "title": "Beat LLMs at Their Own Game: Zero-Shot LLM-Generated Text Detection via Querying ChatGPT",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4404347138",
+          "title": "DetectRL: Benchmarking LLM-Generated Text Detection in Real-World Scenarios",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4410627658",
+          "title": "SILTD: Structural Information for LLM-Generated Text Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4415796180",
+          "title": "DetectRL: Benchmarking LLM-Generated Text Detection in Real-World Scenarios",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4393063240",
+          "title": "Adaptive Ensembles of Fine-Tuned Transformers for LLM-Generated Text Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4396788239",
+          "title": "Who Wrote This? The Key to Zero-Shot LLM-Generated Text Detection Is GECScore",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4412945564",
+          "title": "Learning to Rewrite: Generalized LLM-Generated Text Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4414118304",
+          "title": "An Efficient Finetuning Method for LLM generated text detection in Power Grid",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4404368749",
+          "title": "Understanding the Effects of Human-written Paraphrases in LLM-generated Text Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4402604693",
+          "title": "Towards Persona-Oriented LLM-Generated Text Detection: Benchmark Dataset and\u00a0Method",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4409657361",
+          "title": "Beyond Binary: Towards Fine-Grained LLM-Generated Text Detection via Role Recognition and Involvement Measurement",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4403443430",
+          "title": "Learning to Rewrite: Generalized LLM-Generated Text Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4401042113",
+          "title": "Werkzeug at SemEval-2024 Task 8: LLM-Generated Text Detection via Gated Mixture-of-Experts Fine-Tuning",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4411120558",
+          "title": "PRDetect: Perturbation-Robust LLM-generated Text Detection Based on Syntax Tree",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4406939734",
+          "title": "Authorship Attribution in the Era of LLMs: Problems, Methodologies, and Challenges",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4391876565",
+          "title": "Red Teaming Language Model Detectors with Language Models",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4388717458",
+          "title": "How You Prompt Matters! Even Task-Oriented Constraints in Instructions Affect LLM-Generated Text Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4401138455",
+          "title": "Survey for Detecting AI-generated Content",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4379087432",
+          "title": "Red Teaming Language Model Detectors with Language Models",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4402526726",
+          "title": "SILTD: Structural Information for LLM-generated Text Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7106830482",
+          "title": "A Survey on LLM-Generated Text Detection: Necessity, Methods, and Future Directions",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7129777712",
+          "title": "Variation is the Key: A Variation-Based Framework for LLM-Generated Text Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7130237308",
+          "title": "Variation is the Key: A Variation-Based Framework for LLM-Generated Text Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4396517805",
+          "title": "Beyond Binary: A Multi-Class Approach to Large Language Model-Generated Text Percentage Estimation",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7155667546",
+          "title": "LLM-generated text detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4416258014",
+          "title": "Overview of\u00a0the\u00a0NLPCC 2025 Shared Task 1: LLM-Generated Text Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4402502927",
+          "title": "Authorship Attribution in the Era of LLMs: Problems, Methodologies, and Challenges",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7115899278",
+          "title": "A smaller model can be better: Domain adaptation for LLM-generated text detection via soft prompt-tuning",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4403344566",
+          "title": "Training-free LLM-generated Text Detection by Mining Token Probability Sequences",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7148176275",
+          "title": "EnsemJudge: Enhancing Reliability in Chinese LLM-Generated Text Detection through Diverse Model Ensembles",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7147045028",
+          "title": "EnsemJudge: Enhancing Reliability in Chinese LLM-Generated Text Detection through Diverse Model Ensembles",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7152934167",
+          "title": "Beyond the Final Actor: Modeling the Dual Roles of Creator and Editor for Fine-Grained LLM-Generated Text Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7105809274",
+          "title": "EnsemJudge: Enhancing Reliability in\u00a0Chinese LLM-Generated Text Detection Through Diverse Model Ensembles",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4413044389",
+          "title": "GigaCheck: Detecting LLM-generated Content",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4412888214",
+          "title": "EvoBench: Towards Real-world LLM-Generated Text Detection Benchmarking for Evolving Large Language Models",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7151320332",
+          "title": "Beyond the Final Actor: Modeling the Dual Roles of Creator and Editor for Fine-Grained LLM-Generated Text Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4400104727",
+          "title": "Detecting Machine-Generated Texts: Not Just \"AI vs Humans\" and Explainability is Complicated",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4405470088",
+          "title": "Glimpse: Enabling White-Box Methods to Use Proprietary Models for Zero-Shot LLM-Generated Text Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4415742646",
+          "title": "Exploring Generalized Features For LLM-Generated Text Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7135372272",
+          "title": "On the Robustness of LLM-Generated Text Detection Against Instruction Diversity",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7124563911",
+          "title": "AkabraJaved1142/LLM-Generated-Text_Detection: LLM-generated Text detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4415798513",
+          "title": "DPIC: Decoupling Prompt and Intrinsic Characteristics for LLM Generated Text Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7154571917",
+          "title": "Collaborative Multi-Agent Method for Zero-Shot LLM-Generated Text Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7125952497",
+          "title": "MFGAF: Multi-faceted Granular Analysis Framework for LLM-Generated Text Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7138838628",
+          "title": "Model-Agnostic Sentiment Distribution Stability Analysis for Robust LLM-Generated Texts Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4416178454",
+          "title": "Model-Agnostic Sentiment Distribution Stability Analysis for Robust LLM-Generated Texts Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4414969208",
+          "title": "ALHD: A Large-Scale and Multigenre Benchmark Dataset for Arabic LLM-Generated Text Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4417490846",
+          "title": "Beyond Easy Wins: A Text Hardness-Aware Benchmark for LLM-generated Text Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7161655389",
+          "title": "DetectRL-X: Towards Reliable Multilingual and Real-World LLM-Generated Text Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7161540158",
+          "title": "DetectRL-X: Towards Reliable Multilingual and Real-World LLM-Generated Text Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7140818591",
+          "title": "LLM-generated text detection: enhancing accuracy using XLM-RoBERTa &amp; DistilBERT model",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4404781221",
+          "title": "How You Prompt Matters! Even Task-Oriented Constraints in Instructions Affect LLM-Generated Text Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7127439257",
+          "title": "Minimizing Mismatch Risk: A Prototype-Based Routing Framework for Zero-shot LLM-generated Text Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7127541618",
+          "title": "Minimizing Mismatch Risk: A Prototype-Based Routing Framework for Zero-shot LLM-generated Text Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4403995664",
+          "title": "Beyond Binary: Towards Fine-Grained LLM-Generated Text Detection via Role Recognition and Involvement Measurement",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7149873362",
+          "title": "$k$NNProxy: Efficient Training-Free Proxy Alignment for Black-Box Zero-Shot LLM-Generated Text Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7148861242",
+          "title": "$k$NNProxy: Efficient Training-Free Proxy Alignment for Black-Box Zero-Shot LLM-Generated Text Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4392563948",
+          "title": "The Science of Detecting LLM-Generated Text",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4403680773",
+          "title": "Scalable watermarking for identifying large language model outputs",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7155654916",
+          "title": "Zero-Shot Detection of LLM-Generated Text via Implicit Reward Model",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7155529097",
+          "title": "Zero-Shot Detection of LLM-Generated Text via Implicit Reward Model",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4415976082",
+          "title": "Short-PHD: Detecting Short LLM-generated Text with Topological Data Analysis After Off-topic Content Insertion",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4415337848",
+          "title": "Who's Your Judge? On the Detectability of LLM-Generated Judgments",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4393146641",
+          "title": "OUTFOX: LLM-Generated Essay Detection Through In-Context Learning with Adversarially Generated Examples",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7160565166",
+          "title": "Segmenting Human-LLM Co-authored Text via Change Point Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4415334291",
+          "title": "PhantomHunter: Detecting Unseen Privately-Tuned LLM-Generated Text via Family-Aware Learning",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4416036691",
+          "title": "DivScore: Zero-Shot Detection of LLM-Generated Text in Specialized Domains",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4404391023",
+          "title": "Robust Detection of LLM-Generated Text: A Comparative Analysis",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7160390883",
+          "title": "Segmenting Human-LLM Co-authored Text via Change Point Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4402197779",
+          "title": "Generative AI detection in higher education assessments",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7117730533",
+          "title": "Detection of Large Language Model-Generated Text: A Comprehensive Review",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4411560162",
+          "title": "Who is the\u00a0Writer? Identifying the\u00a0Generative Model by\u00a0Writing Style",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4417119639",
+          "title": "DivScore: Zero-Shot Detection of LLM-Generated Text in Specialized Domains",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4402684293",
+          "title": "Large Language Models Can Learn Temporal Reasoning",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4391557617",
+          "title": "Reviewing the performance of AI detection tools in differentiating between AI-generated and human-written texts: A literature and integrative hybrid review",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7138433427",
+          "title": "SpecDetect: Simple, Fast, and Training-Free Detection of LLM-Generated Text via Spectral Analysis",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4415270729",
+          "title": "StyleDecipher: Robust and Explainable Detection of LLM-Generated Texts with Stylistic Analysis",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7155574551",
+          "title": "Saying More Than They Know: A Framework for Quantifying Epistemic-Rhetorical Miscalibration in Large Language Models",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4413169625",
+          "title": "Ensemble Large Language Models: A Survey",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4318239126",
+          "title": "AI vs. Human -- Differentiation Analysis of Scientific Content Generation",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W7128703976",
+          "title": "SpecDetect: Simple, Fast, and Training-Free Detection of LLM-Generated Text via Spectral Analysis",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7155418230",
+          "title": "Saying More Than They Know: A Framework for Quantifying Epistemic-Rhetorical Miscalibration in Large Language Models",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7159631634",
+          "title": "Saying More Than They Know: A Framework for Quantifying Epistemic-Rhetorical Miscalibration in Large Language Models",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4414458052",
+          "title": "SpecDetect: Simple, Fast, and Training-Free Detection of LLM-Generated Text via Spectral Analysis",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4412991249",
+          "title": "Detecting Large Language Model Generated Korean Essays Using Curriculum Learning",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4384920109",
+          "title": "Challenges and Applications of Large Language Models",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4407811705",
+          "title": "On Continually Tracing Origins of LLM-Generated Text and Its Application in Detecting Cheating in Student Coursework",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4404783082",
+          "title": "Text Fluoroscopy: Detecting LLM-Generated Text through Intrinsic Features",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4392745757",
+          "title": "DeepTextMark: A Deep Learning-Driven Text Watermarking Approach for Identifying Large Language Model Generated Text",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4404782329",
+          "title": "Zero-Shot Detection of LLM-Generated Text using Token Cohesiveness",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4402672003",
+          "title": "RAID: A Shared Benchmark for Robust Evaluation of Machine-Generated Text Detectors",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4403692711",
+          "title": "Gotcha GPT: Ensuring the Integrity in Academic Writing",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4384616026",
+          "title": "Detecting LLM-Generated Text in Computing Education: A Comparative Study for ChatGPT Cases",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4409258158",
+          "title": "Detecting AI-Generated Text: Factors Influencing Detectability with Current Methods",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4411802553",
+          "title": "Enhancing the Robustness of AI-Generated Text Detectors: A Survey",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4394707607",
+          "title": "Accuracy pecking order \u2013 How 30 AI detectors stack up in detecting generative artificial intelligence content in university English L1 and English L2 student essays",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4394007712",
+          "title": "InsectMamba: Insect Pest Classification with State Space Model",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4399539799",
+          "title": "Dose My Opinion Count? A CNN-LSTM Approach for Sentiment Analysis of Indian General Elections",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4385649078",
+          "title": "MFD: Multi-Feature Detection of LLM-Generated Text",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4414142808",
+          "title": "A Survey of Large Language Models: Evolution, Architectures, Adaptation, Benchmarking, Applications, Challenges, and Societal Implications",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4378771137",
+          "title": "Game of Tones: Faculty detection of GPT-4 generated content in university assessments",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4385227490",
+          "title": "OUTFOX: LLM-Generated Essay Detection Through In-Context Learning with Adversarially Generated Examples",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4412888800",
+          "title": "The Two Paradigms of LLM Detection: Authorship Attribution vs. Authorship Verification",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4393299271",
+          "title": "Residual-based Language Models are Free Boosters for Biomedical Imaging",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4406123748",
+          "title": "Leveraging Explainable AI for LLM Text Attribution: Differentiating Human-Written and Multiple LLMs-Generated Text",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4401041989",
+          "title": "SemEval-2024 Task 8: Multidomain, Multimodel and Multilingual Machine-Generated Text Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4405585317",
+          "title": "Distinguishing Human From Machine: A Review of Advances and Challenges in AI-Generated Text Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4403515983",
+          "title": "Legal aspects of generative artificial intelligence and large language models in examinations and theses",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4400611399",
+          "title": "On LLM Wizards: Identifying Large Language Models' Behaviors for Wizard of Oz Experiments",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4411051117",
+          "title": "Can Generative AI Replace Search Engines for Learning? Understanding Student Preferences, Use and Perceived Proficiency in Using AI",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4402671730",
+          "title": "GumbelSoft: Diversified Language Model Watermarking via the GumbelMax-trick",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4401043701",
+          "title": "AISPACE at SemEval-2024 task 8: A Class-balanced Soft-voting System for Detecting Multi-generator Machine-generated Text",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4412631748",
+          "title": "CurveMark: Detecting AI-Generated Text via Probabilistic Curvature and Dynamic Semantic Watermarking",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4413184142",
+          "title": "A Survey of Large Language Models: Evolution, Architectures, Adaptation, Benchmarking, Applications, Challenges, and Societal Implications",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4414023729",
+          "title": "Leveraging Explainable AI for LLM Text Attribution: Differentiating Human-Written and Multiple LLM-Generated Text",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4409362845",
+          "title": "Imitate Before Detect: Aligning Machine Stylistic Preference for Machine-Revised Text Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4391559705",
+          "title": "Finite State Automata on Multi-Word Units for Efficient Text-Mining",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4389600487",
+          "title": "Contra generative AI detection in higher education assessments",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4416034370",
+          "title": "How to Generalize the Detection of AI-Generated Text: Confounding Neurons",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4390961219",
+          "title": "Large Language Models Can Learn Temporal Reasoning",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4412875486",
+          "title": "<i>TH-Bench:</i> Evaluating Evading Attacks via Humanizing AI Text on Machine-Generated Text Detectors",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4410037420",
+          "title": "AI-Powered System to Facilitate Personalized Adaptive Learning in Digital Transformation",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4402684250",
+          "title": "Spotting AI\u2019s Touch: Identifying LLM-Paraphrased Spans in Text",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4411113350",
+          "title": "MAiDE-up: Multilingual Deception Detection of AI-generated Hotel Reviews",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4401753089",
+          "title": "Online Transfer Learning for RSV Case Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4401043131",
+          "title": "UMUTeam at SemEval-2024 Task 8: Combining Transformers and Syntax Features for Machine-Generated Text Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4416036803",
+          "title": "SenDetEX: Sentence-Level AI-Generated Text Detection for Human-AI Hybrid Content via Style and Context Fusion",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4405591004",
+          "title": "Identification of Scientific Texts Generated by Large Language Models Using Machine Learning",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4396786657",
+          "title": "MemoryMamba: Memory-Augmented State Space Model for Defect Recognition",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4402670273",
+          "title": "Efficient Detection of LLM-generated Texts with a Bayesian Surrogate Model",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4378713567",
+          "title": "Efficient Detection of LLM-generated Texts with a Bayesian Surrogate Model",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4412378248",
+          "title": "ID-Free Not Risk-Free: LLM-Powered Agents Unveil Risks in ID-Free Recommender Systems",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4394803802",
+          "title": "Reducing risk posed by synthetic content an overview of technical approaches to digital content transparency",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7140085647",
+          "title": "FAID: Fine-grained AI-generated Text Detection using Multi-task Auxiliary and Multi-level Contrastive Learning",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7139102683",
+          "title": "M-DAIGT: A Shared Task on Multi-Domain Detection of AI-Generated Text",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4409593396",
+          "title": "Unleashing the power of text for credit default prediction: Comparing human-written and generative AI-refined texts",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4396821555",
+          "title": "A Survey on the Real Power of ChatGPT",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4415537106",
+          "title": "The machine in the manuscript: editorial dilemmas",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4412944290",
+          "title": "WeQA: A Benchmark for Retrieval Augmented Generation in Wind Energy Domain",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4415282304",
+          "title": "Can We Trust AI Content Detection Tools for Critical Decision-Making?",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4414543355",
+          "title": "Watermarking Fine-Tuning Datasets for Robust Provenance",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4408029827",
+          "title": "Comparing the performance of a large language model and naive human interviewers in interviewing children about a witnessed mock-event",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4392490627",
+          "title": "A Survey of AI-generated Text Forensic Systems: Detection, Attribution, and Characterization",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4404783824",
+          "title": "Detecting LLM-Assisted Cheating on Open-Ended Writing Tasks on Language Proficiency Tests",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4405864591",
+          "title": "Robust detection of LLM-generated text through transfer learning with pre-trained Distilled BERT model",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4402671581",
+          "title": "Navigating the Shadows: Unveiling Effective Disturbances for Modern AI Content Detectors",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7130598489",
+          "title": "SBASH: a Framework for Designing and Evaluating RAG vs. Prompt-Tuned LLM Honeypots",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4390041215",
+          "title": "User Modeling in the Era of Large Language Models: Current Research and Future Directions",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4417213636",
+          "title": "Linguistic features of AI mis/disinformation and the detection limits of LLMs",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4403754259",
+          "title": "ESPERANTO: Evaluating Synthesized Phrases to Enhance Robustness in AI Detection for Text Origination",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4403027403",
+          "title": "EConTab: Explainable Contrastive Tabular Representation Learning with Regularization",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4393284416",
+          "title": "Chain-of-Action: Faithful and Multimodal Question Answering through Large Language Models",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4411439295",
+          "title": "TextAugLLMEdge: A Text Augmentation Framework Using Localized Large Language Models for Resource-Constrained Edge",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4415822400",
+          "title": "AI or Human? Understanding Perceptions of Embodied Robots with LLMs",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4416034894",
+          "title": "Breaking the Reviewer: Assessing the Vulnerability of Large Language Models in Automated Peer Review Under Textual Adversarial Attacks",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4393027333",
+          "title": "Securing Large Language Models: Threats, Vulnerabilities and Responsible Practices",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4402538002",
+          "title": "Active Learning with Task Adaptation Pre-training for Speech Emotion Recognition",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4412945222",
+          "title": "Reliably Bounding False Positives: A Zero-Shot Machine-Generated Text Detection Framework via Multiscaled Conformal Prediction",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4404781673",
+          "title": "SimLLM: Detecting Sentences Generated by Large Language Models Using Similarity between the Generation and its Re-generation",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4416417144",
+          "title": "Preserving Culinary Heritage Through AI: Sustainable Digitisation of Granny Josie\u2019s Notebooks",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4404570626",
+          "title": "TabDeco: A Comprehensive Contrastive Framework for Decoupled Representations in Tabular Data",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4394673366",
+          "title": "Deep Representation Learning for Multi-functional Degradation Modeling of Community-dwelling Aging Population",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4388652756",
+          "title": "Practical Membership Inference Attacks against Fine-tuned Large Language Models via Self-prompt Calibration",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4409589410",
+          "title": "Does a Large Language Model Really Speak in Human\u2010Like Language?",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4402427043",
+          "title": "Harnessing Earnings Reports for Stock Predictions: A QLoRA-Enhanced LLM Approach",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4416036132",
+          "title": "Unmasking Fake Careers: Detecting Machine-Generated Career Trajectories via Multi-layer Heterogeneous Graphs",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4400023764",
+          "title": "Investigating the Influence of Prompt-Specific Shortcuts in AI Generated Text Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4406172870",
+          "title": "Currently Available GenAI-Powered Large Language Models and Low-Resource Languages: Any Offerings? Wait Until You See",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4404782604",
+          "title": "PostMark: A Robust Blackbox Watermark for Large Language Models",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4411119906",
+          "title": "Analyzing Large Language Models\u2019 pastiche ability: a case study on a 20th century Romanian author",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4393399114",
+          "title": "The New Agronomists: Language Models are Experts in Crop Management",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7127044430",
+          "title": "Evaluating the accuracy and reliability of AI content detectors in academic contexts",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7140103333",
+          "title": "elfen: A Python Package for Efficient Linguistic Feature Extraction for Natural Language Datasets",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4412377823",
+          "title": "LEMSS: LLM-Based Platform for Multi-Agent Competitive Search Simulation",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4412396441",
+          "title": "An Empirical Study of Evaluating Long-form Question Answering",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4402671728",
+          "title": "Threads of Subtlety: Detecting Machine-Generated Texts Through Discourse Motifs",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4416034897",
+          "title": "Identifying Aspects in Peer Reviews",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4398230502",
+          "title": "Spotting AI's Touch: Identifying LLM-Paraphrased Spans in Text",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4396914143",
+          "title": "RAID: A Shared Benchmark for Robust Evaluation of Machine-Generated Text Detectors",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4415328795",
+          "title": "Your Language Model Can Secretly Write Like Humans: Contrastive Paraphrase Attacks on LLM-Generated Text Detectors",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7140281905",
+          "title": "Exploring Teacher-Chatbot Interaction and Affect in Block-Based Programming",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4417288519",
+          "title": "When AI Gives Advice: Evaluating AI and Human Responses to Online Advice-Seeking for Well-Being",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4404304643",
+          "title": "Literature Meets Data: A Synergistic Approach to Hypothesis Generation",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4412886929",
+          "title": "Literature Meets Data: A Synergistic Approach to Hypothesis Generation",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4412813955",
+          "title": "Using KeyGraph and ChatGPT to Detect and Track Topics Related to AI Ethics in Media Outlets",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4416017478",
+          "title": "Trustworthy AI Psychotherapy: Multi-Agent LLM Workflow for Counseling and Explainable Mental Disorder Diagnosis",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4411119362",
+          "title": "Kill two birds with one stone: generalized and robust AI-generated text detection via dynamic perturbations",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4395065663",
+          "title": "SemEval-2024 Task 8: Multidomain, Multimodel and Multilingual Machine-Generated Text Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4390489488",
+          "title": "Large Language Models for Conducting Advanced Text Analytics Information Systems Research",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4376166895",
+          "title": "DeepTextMark: A Deep Learning-Driven Text Watermarking Approach for Identifying Large Language Model Generated Text",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4400025492",
+          "title": "Detecting AI-Generated Text: Factors Influencing Detectability with Current Methods",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7160727401",
+          "title": "Lightweight Stylistic Consistency Profiling: Robust Detection of LLM-Generated Textual Content for Multimedia Moderation",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7140113170",
+          "title": "SearchLLM: Detecting LLM Paraphrased Text by Measuring the Similarity with Regeneration of the Candidate Source via Search Engine",
+          "publication_year": 2026
+        }
+      ],
+      "group_by": []
+    },
+    {
+      "meta": {
+        "count": 435,
+        "db_response_time_ms": 37,
+        "page": 2,
+        "per_page": 200,
+        "groups_count": null,
+        "cost_usd": 0.001
+      },
+      "results": [
+        {
+          "id": "https://openalex.org/W4399695596",
+          "title": "Towards Reliable Detection of LLM-Generated Texts: A Comprehensive Evaluation Framework with CUDRT",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7120272997",
+          "title": "When AI Settles Down: Late-Stage Stability as a Signature of AI-Generated Text Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4409987769",
+          "title": "Semantic Diffusion as a Semasiological, Conflictological and Legal Linguistic Category in the Digital Dimension",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4396787052",
+          "title": "Vietnamese AI Generated Text Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4415126282",
+          "title": "Technique for Identifying Texts Generated by Large Language Models",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7140238153",
+          "title": "Semantic Delta: An Interpretable Signal Differentiating Human and LLMs Dialogue",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4221141811",
+          "title": "Automatic Debate Evaluation with Argumentation Semantics and Natural Language Argument Graph Networks",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W7126207768",
+          "title": "Learn-to-Distance: Distance Learning for Detecting LLM-Generated Text",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7140113827",
+          "title": "XLMR-Urdu at AbjadGenEval Shared Task: A Data-Centric Transformer-Based Approach for AI-Generated Urdu Text Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7126281322",
+          "title": "Learn-to-Distance: Distance Learning for Detecting LLM-Generated Text",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7128539424",
+          "title": "BuST: A Siamese Transformer Model for AI Text Detection in Bulgarian",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7160360443",
+          "title": "DeGenTWeb: A First Look at LLM-dominant Websites",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4403784690",
+          "title": "Zero-Shot Detection of LLM-Generated Text using Token Cohesiveness",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4416236333",
+          "title": "Sure! Here's a short and concise title for your paper: \"Contamination in Generated Text Detection Benchmarks\"",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7126123714",
+          "title": "From Intuition to Calibrated Judgment: A Rubric-Based Expert-Panel Study of Human Detection of LLM-Generated Korean Text",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4417290300",
+          "title": "Identifying Bias in Machine-generated Text Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4416034243",
+          "title": "SENTRA: Selected-Next-Token Transformer for LLM Text Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7155659232",
+          "title": "TSM-Bench:Detecting LLM-Generated Text in Real-World Wikipedia Editing Practices",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7140130117",
+          "title": "NileUn at AbjadGenEval Shared Task: Contrastive Learning with Stacking Ensemble for Efficient Arabic AI-Generated Text Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7154392484",
+          "title": "Can AI Recognize Its Own Reflection? Self-Detection Performance of LLMs in Computing Education",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7120272527",
+          "title": "DP-MGTD: Privacy-Preserving Machine-Generated Text Detection via Adaptive Differentially Private Entity Sanitization",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4404648176",
+          "title": "SEFD: Semantic-Enhanced Framework for Detecting LLM-Generated Text",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7117850879",
+          "title": "Can AI Recognize Its Own Reflection? Self-Detection Performance of LLMs in Computing Education",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4417295752",
+          "title": "Semantic Reconstruction of Adversarial Plagiarism: A Context-Aware Framework for Detecting and Restoring \"Tortured Phrases\" in Scientific Literature",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7155245724",
+          "title": "Alignment Imprint: Zero-Shot AI-Generated Text Detection via Provable Preference Discrepancy",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7142557786",
+          "title": "Exons-Detect: Identifying and Amplifying Exonic Tokens via Hidden-State Discrepancy for Robust AI-Generated Text Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4405468029",
+          "title": "Imitate Before Detect: Aligning Machine Stylistic Preference for Machine-Revised Text Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4414766228",
+          "title": "Charting Truth, Trust, and Transformers: A Critical Look at AI Text Detection and Recommendations for Medical Journals",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7128302738",
+          "title": "What Distinguishes AI-Generated from Human Writing? A Rapid Review of the Literature",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4407696154",
+          "title": "ExaGPT: Example-Based Machine-Generated Text Detection for Human Interpretability",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4414649427",
+          "title": "UNMASKING SYNTHETIC LANGUAGE: ADVANCES IN DEEPFAKE TEXT DETECTION AND EVALUATION",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7138955275",
+          "title": "AI-Generated Text Detection Using DeBERTa with Auxiliary Stylometric Features",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7140128149",
+          "title": "Unsupervised Detection of LLM-Generated Text in Korean Using Syntactic and Semantic Cues",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4410427714",
+          "title": "Unmasking Users in IoC: LLMs, Text Profiling, and Privacy Implications",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7160727403",
+          "title": "Chainwash: Multi-Step Rewriting Attacks on Diffusion Language Model Watermarks",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4393731548",
+          "title": "AISPACE at SemEval-2024 task 8: A Class-balanced Soft-voting System for Detecting Multi-generator Machine-generated Text",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4415964451",
+          "title": "DETree: DEtecting Human-AI Collaborative Texts via Tree-Structured Hierarchical Representation Learning",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7155245910",
+          "title": "Spotlights and Blindspots: Evaluating Machine-Generated Text Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4400104447",
+          "title": "Unmasking the Imposters: How Censorship and Domain Adaptation Affect the Detection of Machine-Generated Tweets",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4416037688",
+          "title": "LMSA at AraGenEval Shared Task: Ensemble-Based Detection of AI-Generated Arabic Text Using Multilingual and Arabic-Specific Models",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4412889229",
+          "title": "Can GPTZero\u2019s AI Vocabulary Distinguish Between LLM-Generated and Student-Written Essays?",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7134992427",
+          "title": "TA-Mem: Tool-Augmented Autonomous Memory Retrieval for LLM in Long-Term Conversational QA",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7118459482",
+          "title": "What Distinguishes AI-Generated from Human Writing? A Rapid Review of the Literature",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7114917836",
+          "title": "RepreGuard: Detecting LLM-Generated Text by Revealing Hidden Representation Patterns",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4416034559",
+          "title": "Benchmarking the Detection of LLMs-Generated Modern Chinese Poetry",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4401042071",
+          "title": "Team art-nat-HHU at SemEval-2024 Task 8: Stylistically Informed Fusion Model for MGT-Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7159734012",
+          "title": "DSIPA: Detecting LLM-Generated Texts via Sentiment-Invariant Patterns Divergence Analysis",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4393212855",
+          "title": "BIMCV-R: A Landmark Dataset for 3D CT Text-Image Retrieval",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7154539217",
+          "title": "C-ReD: A Comprehensive Chinese Benchmark for AI-Generated Text Detection Derived from Real-World Prompts",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4417315060",
+          "title": "Modification and Generated-Text Detection: Achieving Dual Detection Capabilities for the Outputs of LLM by Watermark",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7147463613",
+          "title": "Avant-propos - Foreword",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4399144164",
+          "title": "ReMoDetect: Reward Models Recognize Aligned LLM's Generations",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7123371870",
+          "title": "AutoMonitor-Bench: Evaluating the Reliability of LLM-Based Misbehavior Monitor",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7124182116",
+          "title": "Exploring the Usage of Knowledge Graphs in Identifying Human and LLM-Generated Fake Reviews",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7134291090",
+          "title": "NOTAI.AI: Explainable Detection of Machine-Generated Text via Curvature and Feature Attribution",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4416037192",
+          "title": "Automotive Document Labeling Using Large Language Models",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7117254389",
+          "title": "ADAPTIVE INTERFACES IN AI-POWERED ART GALLERIES",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7138186755",
+          "title": "MGT-Prism: Enhancing Domain Generalization for Machine-Generated Text Detection via Spectral Alignment",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7111416760",
+          "title": "Restoring the Credibility of AIGC Rate: An AIGC Rate Calibration Framework Based on Metacognitive Contribution (MS) and Machine Evidence (MR)",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4413000682",
+          "title": "Comparative Statistical Analysis of Word Frequencies in Human-Written and AI-Generated Texts",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7161298523",
+          "title": "SAMP: Source-Aware Multi-Prototype Learning for Machine-Generated Text Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7128190501",
+          "title": "A Systematic Review of AI-Generated Text Detection: Approaches, Tools, and Datasets",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4412855717",
+          "title": "Combating Fake Science in the Age of Generative Artificial Intelligence: A Biomedical Perspective.",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7140117928",
+          "title": "DAMASHA: Detecting AI in Mixed Adversarial Texts via Segmentation with Human-interpretable Attribution",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7140104575",
+          "title": "AbjadGenEval: Abjad AI Generated Text Detection Shared Task for Languages Using Arabic Script at AbjadNLP 2026",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7109457310",
+          "title": "DAMASHA: Detecting AI in Mixed Adversarial Texts via Segmentation with Human-interpretable Attribution",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7140346206",
+          "title": "CALVO: Improve Serving Efficiency for LLM Inferences with Intense Network Demands",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7140117773",
+          "title": "Ranking Human and LLM Texts Using Locality Statistics",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7161204938",
+          "title": "The Algorithmic Caricature: Auditing LLM-Generated Political Discourse Across Crisis Events",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4414257431",
+          "title": "Why Mathematicians Resist AI: Between Rigor, Risk, and Opportunity ?",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4415097153",
+          "title": "Learning to Rewrite Prompts for Bootstrapping LLMs on Downstream Tasks",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4415421640",
+          "title": "Do LLMs dream of antique hermeneutics? Critical remarks on automated text interpretation",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4410075053",
+          "title": "An Empirical Analysis of ChatGPT Translation Error Types in Texts of Chinese Red Culture Based on the MQM Quality Assessment Framework",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7159546683",
+          "title": "MGTEVAL: An Interactive Platform for Systemtic Evaluation of Machine-Generated Text Detectors",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4416034840",
+          "title": "How Sampling Affects the Detectability of Machine-written texts: A Comprehensive Study",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4394662837",
+          "title": "Application of the Modular Bayesian Approach for Inverse Uncertainty Quantification in Nuclear Thermal-Hydraulics Systems",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7114820842",
+          "title": "PolyLingua: Margin-based Inter-class Transformer for Robust Cross-domain Language Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7140106402",
+          "title": "Stylistic Transfer from Annotator Communities to Large Language Models",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7153670867",
+          "title": "Attribution-Driven Explainable Intrusion Detection with Encoder-Based Large Language Models",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4416070653",
+          "title": "Token-Importance Guided Direct Preference Optimization",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4415917286",
+          "title": "Identifying the Periodicity of Information in Natural Language",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4415277227",
+          "title": "How Sampling Affects the Detectability of Machine-written texts: A Comprehensive Study",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7104563321",
+          "title": "Detecting LLM-Generated Text with Trigram\u2013Cosine Stylometric Delta: An Unsupervised and Interpretable Approach",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7160968112",
+          "title": "MELD: Multi-Task Equilibrated Learning Detector for AI-Generated Text",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7119802851",
+          "title": "Efficient detection of AI-generated scientific abstracts with a lightweight transformer",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4411119122",
+          "title": "DART: An AIGT Detector using AMR of Rephrased Text",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7140141130",
+          "title": "H-MEM: Hierarchical Memory for High-Efficiency Long-Term Reasoning in LLM Agents",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4416036981",
+          "title": "MoSEs: Uncertainty-Aware AI-Generated Text Detection via Mixture of Stylistics Experts with Conditional Thresholds",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4416035559",
+          "title": "OpenTuringBench: An Open-Model-based Benchmark and Framework for Machine-Generated Text Detection and Attribution",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4416052741",
+          "title": "OpenTuringBench: An Open-Model-based Benchmark and Framework for Machine-Generated Text Detection and Attribution",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7154843526",
+          "title": "PeerPrism: Peer Evaluation Expertise vs Review-writing AI",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4415854756",
+          "title": "Understanding the Ability of LLMs to Handle Character-Level Perturbation",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4390897607",
+          "title": "Between Lines of Code: Unraveling the Distinct Patterns of Machine and Human Programmers",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4416801073",
+          "title": "Detecci\u00f3n de Textos Generados por Inteligencia Artificial Utilizando Deep Learning",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4405470009",
+          "title": "DART: An AIGT Detector using AMR of Rephrased Text",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7112052858",
+          "title": "Uuring suurte keelemudelite v\u00f5imekusest tuvastada AI-genereeritud akadeemilisi tekste",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7159892116",
+          "title": "From Coarse to Fine: Benchmarking and Reward Modeling for Writing-Centric Generation Tasks",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7155452189",
+          "title": "Reasoning-Aware AIGC Detection via Alignment and Reinforcement",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7138130039",
+          "title": "Robust Detection of Synthetic Tabular Data Under Schema Variability",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4414252472",
+          "title": "Evaluating the Accuracy and Reliability of AI Content Detectors in Academic Contexts",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4414814666",
+          "title": "AdaDetectGPT: Adaptive Detection of LLM-Generated Text with Statistical Guarantees",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4414936544",
+          "title": "Reliably Bounding False Positives: A Zero-Shot Machine-Generated Text Detection Framework via Multiscaled Conformal Prediction",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4415804627",
+          "title": "DETECTION OF AI-GENERATED TEXT THROUGH CLASSICAL MACHINE LEARNING AND DEEP LEARNING APPROACHES",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7135428541",
+          "title": "Language Generation with Replay: A Learning-Theoretic View of Model Collapse",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4416036913",
+          "title": "Enhancing LLM Text Detection with Retrieved Contexts and Logits Distribution Consistency",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4393247530",
+          "title": "Towards Low-Energy Adaptive Personalization for Resource-Constrained Devices",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7134017275",
+          "title": "On Google's SynthID-Text LLM Watermarking System: Theoretical Analysis and Empirical Validation",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7140038553",
+          "title": "Fair Grades or Flawed Models? Evaluating the Trustworthiness of LLMs in Educational Settings",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7134017187",
+          "title": "Code Fingerprints: Disentangled Attribution of LLM-Generated Code",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4411113349",
+          "title": "InspAIred: Cross-cultural Inspiration Detection and Analysis in Real and LLM-generated Social Media Data",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7149918848",
+          "title": "Decoding AI authorship: can LLMs truly mimic human style across literature and politics?",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7140954034",
+          "title": "Decoding AI Authorship: Can LLMs Truly Mimic Human Style Across Literature and Politics?",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7128745773",
+          "title": "From Collapse to Improvement: Statistical Perspectives on the Evolutionary Dynamics of Iterative Training on Contaminated Sources",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7147026211",
+          "title": "Game-Specific RAG-LLM for Automated QA Generation and Player Support",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7160287967",
+          "title": "Knowledge Base Scope Matters: A Comparative Study of Retrieval-Augmented Generation in Academic Library Collection Development",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7140113150",
+          "title": "Utterance-level Detection Framework for LLM-Involved Content Detection in Conversational Setting",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7128586212",
+          "title": "Supervised Fine-Tuning Needs to Unlock the Potential of Token Priority",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4415986829",
+          "title": "Misleading Large Language Models used (or misused) in Scientific Peer-Reviewing via Hidden Prompt-Injection Attacks",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4415270405",
+          "title": "When Personalization Tricks Detectors: The Feature-Inversion Trap in Machine-Generated Text Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7128095768",
+          "title": "Different Time, Different Language: Revisiting the Bias Against Non-Native Speakers in GPT Detectors",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4398796165",
+          "title": "Slaves to the Law of Large Numbers: An Asymptotic Equipartition Property for Perplexity in Generative Language Models",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4416070637",
+          "title": "The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7158422404",
+          "title": "Evaluating Jailbreaking Vulnerabilities in LLMs Deployed as Assistants for Smart Grid Operations: A Benchmark Against NERC Standards",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4403788846",
+          "title": "WeQA: A Benchmark for Retrieval Augmented Generation in Wind Energy Domain",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7127118820",
+          "title": "Controlled Generation of Synthetic Spanish Texts: A Dataset Using LLMs with and Without Contextual Retrieval",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7140108634",
+          "title": "Different Time, Different Language: Revisiting the Bias Against Non-Native Speakers in GPT Detectors",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4391591853",
+          "title": "Online Transfer Learning for RSV Case Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4416394486",
+          "title": "Black-Box Detection of LLM-Generated Text Using Generalized Jensen-Shannon Divergence",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4412944761",
+          "title": "XDAC: XAI-Driven Detection and Attribution of LLM-Generated News Comments in Korean",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7128096131",
+          "title": "Have Large Language Models Enhanced the Way Civil & Environmental Engineers Write? A Quantitative Analysis of Scholarly Communication over 25 Years",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4406486042",
+          "title": "GenAI Content Detection Task 3: Cross-Domain Machine-Generated Text Detection Challenge",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7134984508",
+          "title": "The New Editorial Gatekeepers: Understanding LLM-Based Interfaces, Their Benefits, Risks and Design",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4416024868",
+          "title": "Block Rotation is All You Need for MXFP4 Quantization",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4395022636",
+          "title": "Cross-cultural Inspiration Detection and Analysis in Real and LLM-generated Social Media Data",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4414809516",
+          "title": "Span-level Detection of AI-generated Scientific Text via Contrastive Learning and Structural Calibration",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4406841375",
+          "title": "Mitigating GenAI-powered Evidence Pollution for Out-of-Context Multimodal Misinformation Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7161092145",
+          "title": "GAMBIT: A Three-Mode Benchmark for Adversarial Robustness in Multi-Agent LLM Collectives",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4404344936",
+          "title": "Enhancing Authorship Attribution through Embedding Fusion: A Novel Approach with Masked and Encoder-Decoder Language Models",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7161354934",
+          "title": "Steer-to-Detect: Probing Hidden Representations for Detection of LLM-Generated Texts",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7154540651",
+          "title": "Who Wrote This Line? Evaluating the Detection of LLM-Generated Classical Chinese Poetry",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4416036471",
+          "title": "Balanced Multi-Factor In-Context Learning for Multilingual Large Language Models",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4416036664",
+          "title": "Beyond Checkmate: Exploring the Creative Choke Points for AI Generated Texts",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4411413373",
+          "title": "MultiLLM \u2013 Self Reflect Iterative Prompt Methodology based Automated Essay Scoring System",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4399794852",
+          "title": "Text Grafting: Near-Distribution Weak Supervision for Minority Classes in Text Classification",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4416158756",
+          "title": "Benchmarking LLMs for Fine-Grained Code Review with Enriched Context in Practice",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4415961090",
+          "title": "Justitia: Fair and Efficient Scheduling of Task-parallel LLM Agents with Selective Pampering",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4404390860",
+          "title": "CROPS: A Deployable Crop Management System Over All Possible State Availabilities",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4416381205",
+          "title": "An Empirical Study of Evaluating Long-form Question Answering",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4403746996",
+          "title": "ID-Free Not Risk-Free: LLM-Powered Agents Unveil Risks in ID-Free Recommender Systems",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4404782778",
+          "title": "Text Grafting: Near-Distribution Weak Supervision for Minority Classes in Text Classification",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4399695459",
+          "title": "Navigating the Shadows: Unveiling Effective Disturbances for Modern AI Content Detectors",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4416332434",
+          "title": "Transforming world and word: a longitudinal analysis of verb usage within English abstracts from medical articles",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4415500007",
+          "title": "Research topic detection in scientific articles using a hybrid BERT integrated telescopic vector tree model with emperor penguin enhanced NSGA II optimization",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4392012753",
+          "title": "GumbelSoft: Diversified Language Model Watermarking via the GumbelMax-trick",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4391833785",
+          "title": "Lying Blindly: Bypassing ChatGPT's Safeguards to Generate Hard-to-Detect Disinformation Claims",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7161354453",
+          "title": "Can LLM Agents Simulate Dynamic Networks? A Case Study on Email Networks with Phishing Synthesis",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4407091816",
+          "title": "Beyond checkmate: exploring the creative chokepoints in AI text",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4416037827",
+          "title": "The AraGenEval Shared Task on Arabic Authorship Style Transfer and AI Generated Text Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7140001436",
+          "title": "Cross-Lingual LLM-Judge Transfer via Evaluation Decomposition",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4406733716",
+          "title": "GenAI Content Detection Task 1: English and Multilingual Machine-Generated Text Detection: AI vs. Human",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7131320386",
+          "title": "All Cities are Equal: A Unified Human Mobility Generation Model Enabled by LLMs",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4414975211",
+          "title": "FAID: Fine-Grained AI-Generated Text Detection Using Multi-Task Auxiliary and Multi-Level Contrastive Learning",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4407308882",
+          "title": "Group-Adaptive Threshold Optimization for Robust AI-Generated Text Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4414077647",
+          "title": "Exploring AI in computer assisted language learning: pedAIgogies, prompts, personalisation and policies",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4406654484",
+          "title": "Los retos de la ling\u00fc\u00edstica forense en la era de la IA",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4414789792",
+          "title": "RLCracker: Evaluating the Worst-Case Vulnerability of LLM Watermarks with Adaptive RL Attacks",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7159890944",
+          "title": "The Impact of AI-Generated Text on the Internet",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4415135134",
+          "title": "HACo-Det: A Study Towards Fine-Grained Machine-Generated Text Detection under Human-AI Coauthoring",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7124228181",
+          "title": "MASH: Evading Black-Box AI-Generated Text Detectors via Style Humanization",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4395022625",
+          "title": "MAiDE-up: Multilingual Deception Detection of GPT-generated Hotel Reviews",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4412389842",
+          "title": "A Contrastive Semantic Watermarking Framework for Large Language Models",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4391988314",
+          "title": "Threads of Subtlety: Detecting Machine-Generated Texts Through Discourse Motifs",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7159547016",
+          "title": "Luminol-AIDetect: Fast Zero-shot Machine-Generated Text Detection based on Perplexity under Text Shuffling",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7154540502",
+          "title": "RLSpoofer: A Lightweight Evaluator for LLM Watermark Spoofing Resilience",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4416247100",
+          "title": "Machine Text Detectors are Membership Inference Attacks",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7124358662",
+          "title": "Empathy Applicability Modeling for General Health Queries",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7130237704",
+          "title": "A Geometric Analysis of Small-sized Language Model Hallucinations",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4416531035",
+          "title": "Identifying Aspects in Peer Reviews",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4388717423",
+          "title": "AI-generated text boundary detection with RoFT",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W7159891824",
+          "title": "Belief-Guided Inference Control for Large Language Model Services via Verifiable Observations",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7140628158",
+          "title": "Fine grained representation learning for low resource Yi script detection and dataset construction",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4407368653",
+          "title": "Survey on AI-Generated Media Detection: From Non-MLLM to MLLM",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7151425960",
+          "title": "Arabic News Dataset Collection and Generation for Deepfake-Text Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4405767551",
+          "title": "On the Generalization and Adaptation Ability of Machine-Generated Text Detectors in Academic Writing",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4415160335",
+          "title": "Characterizing LLM-driven Social Network: The Chirper.ai Case",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4406192875",
+          "title": "Not all tokens are created equal: Perplexity Attention Weighted Networks for AI generated text detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7140100325",
+          "title": "FiMMIA: scaling semantic perturbation-based membership inference across modalities",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7131320226",
+          "title": "Adaptive Data Augmentation with Multi-armed Bandit: Sample-Efficient Embedding Calibration for Implicit Pattern Recognition",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4392011973",
+          "title": "ToBlend: Token-Level Blending With an Ensemble of LLMs to Attack AI-Generated Text Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7159794425",
+          "title": "Akademik Yay\u0131nlarda Kullan\u0131lan Yapay Zek\u00e2 Detekt\u00f6rlerinin G\u00fcvenilirli\u011fi \u00dczerine Bir \u0130nceleme",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4403573016",
+          "title": "Exploring the Personality Traits of LLMs through Latent Features Steering",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4415335859",
+          "title": "Wikipedia in the Era of LLMs: Evolution and Risks",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4405561700",
+          "title": "NLLG Quarterly arXiv Report 09/24: What are the most influential current AI Papers?",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7160629925",
+          "title": "A Good College Essay but a Bad Police Report: A Triple-Blind Expert Evaluation of AI-Assisted Police Reporting",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7140131921",
+          "title": "Measuring LLMs\u2019 Sensitivity to Paraphrased Opinion Prompts",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7128586783",
+          "title": "The role of language models in the future of AI: future perspectives and research directions",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7140960214",
+          "title": "Out-of-distribution detection of machine generated text",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7152330698",
+          "title": "StoryScope: Investigating idiosyncrasies in AI fiction",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4404399851",
+          "title": "GigaCheck: Detecting LLM-generated Content via Object-Centric Span Localization",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7154539750",
+          "title": "Evaluating Cooperation in LLM Social Groups through Elected Leadership",
+          "publication_year": 2026
+        }
+      ],
+      "group_by": []
+    },
+    {
+      "meta": {
+        "count": 435,
+        "db_response_time_ms": 41,
+        "page": 3,
+        "per_page": 200,
+        "groups_count": null,
+        "cost_usd": 0.001
+      },
+      "results": [
+        {
+          "id": "https://openalex.org/W7140266311",
+          "title": "All Together Against Hate: Ensemble Based LLMs for Multi Class Hate Speech Classification in the Football Context",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7131217743",
+          "title": "All together against hate: ensemble based LLMs for multi class hate speech classification in the football context",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7143269642",
+          "title": "An\u00e1lisis comparativo de las caracter\u00edsticas ling\u00fc\u00edsticas y estil\u00edsticas de textos medi\u00e1ticos humanos y generados artificialmente",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4416248756",
+          "title": "Blackbox Model Provenance via Palimpsestic Membership Inference",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7160822924",
+          "title": "Guidance strategies for writing scientific articles based on international journals in indonesian language learning for nursing students",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4413641005",
+          "title": "A Framework for Evaluating the Implementation Cost of Attacks on Large Language Models",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4403885346",
+          "title": "Theoretically Grounded Framework for LLM Watermarking: A Distribution-Adaptive Approach",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4406548626",
+          "title": "Solving the Unsolvable: Translating Case Law in Hong Kong",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4396601335",
+          "title": "Active Learning with Task Adaptation Pre-training for Speech Emotion Recognition",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4415051830",
+          "title": "Large Language Models as Search Engines: Societal Challenges",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7134036496",
+          "title": "Large Language Models as Search Engines: Societal Challenges",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7128497740",
+          "title": "AI, Opinion Ecosystems, and Finance",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7109202062",
+          "title": "TUGAS dan FUNGSI PENGAWAS MUTU SIPIL (Civil QC Inspector)\u00a0 DALAM PENGERJAAN PEMBANGUNAN PELABUHAN (JETTY) PROYEK SUMBAWA LNG REGASDI PT. JGC INDONESIA",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4399399388",
+          "title": "FOCUS: Forging Originality through Contrastive Use in Self-Plagiarism for Language Models",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4402669693",
+          "title": "FOCUS: Forging Originality through Contrastive Use in Self-Plagiarism for Language Models",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4413429703",
+          "title": "Using KeyGraph and ChatGPT to Detect and Track Topics Related to AI Ethics in Media Outlets",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4415057942",
+          "title": "Paladin: Defending LLM-enabled Phishing Emails with a New Trigger-Tag Paradigm",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7146849148",
+          "title": "\u5b66\u8853\u8ad6\u6587\u57f7\u7b46\u306b\u304a\u3051\u308b LLM \u5408\u6210\u30c6\u30ad\u30b9\u30c8\u691c\u51fa\u5668\u306e\u5805\u7262\u6027\u306e\u5305\u62ec\u7684\u5206\u6790\u3068\u5f37\u5316",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7139146568",
+          "title": "When the Specification Emerges: Benchmarking Faithfulness Loss in Long-Horizon Coding Agents",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4403995634",
+          "title": "Unveiling Large Language Models Generated Texts: A Multi-Level Fine-Grained Detection Framework",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4399912153",
+          "title": "PostMark: A Robust Blackbox Watermark for Large Language Models",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7133364333",
+          "title": "DOCFORGE-BENCH: A Comprehensive Benchmark for Document Forgery Detection and Analysis",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4403753364",
+          "title": "Building Intelligence Identification System via Large Language Model Watermarking: A Survey and Beyond",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4417423213",
+          "title": "From LLMs to MLLMs to Agents: A Survey of Emerging Paradigms in Jailbreak Attacks and Defenses within LLM Ecosystem",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7133363974",
+          "title": "LIDS: LLM Summary Inference Under the Layered Lens",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4399991190",
+          "title": "Synthetic Lyrics Detection Across Languages and Genres",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4415248384",
+          "title": "A Comprehensive Survey of Large AI Models for Future Communications: Foundations, Applications and Challenges",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4417299422",
+          "title": "A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4404648956",
+          "title": "AIDBench: A benchmark for evaluating the authorship identification capability of large language models",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7138052623",
+          "title": "Can You Really Trust That Review? ProtoFewRoBERTa and DetectAIRev: A Prototypical Few-Shot Method and Multi-Domain Benchmark for Detecting AI-Generated Reviews",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7134021488",
+          "title": "Civil Rights and the EdTech Revolution",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7131739810",
+          "title": "ChatPPG: Multi-Modal Alignment of Large Language Models for Time-Series Forecasting in Table Tennis",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7140199215",
+          "title": "Misspellings in natural language processing: A survey of recent literature",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7138916702",
+          "title": "Person vs. situation: Explorations of individual language use across discourse types and personality traits",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4412886975",
+          "title": "Front Matter",
+          "publication_year": 2025
+        }
+      ],
+      "group_by": []
+    }
+  ]
+}

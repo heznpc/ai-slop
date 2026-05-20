@@ -1,0 +1,63 @@
+{
+  "_schema": "Locked per protocol.md (2026-05-21). Any change requires planning/decisions.md entry.",
+  "year_min": 2020,
+  "year_max": 2026,
+  "formats": [
+    {
+      "name": "video",
+      "queries": ["\"deepfake detection\"", "\"AI-generated video detection\"", "\"synthetic video detection\""],
+      "pda": 2.5,
+      "pca": 3,
+      "ddi": 2
+    },
+    {
+      "name": "audio",
+      "queries": ["\"audio deepfake detection\"", "\"synthetic speech detection\"", "\"voice spoofing detection\""],
+      "pda": 2.5,
+      "pca": 3,
+      "ddi": 2
+    },
+    {
+      "name": "image",
+      "queries": ["\"AI-generated image detection\"", "\"synthetic image detection\"", "\"GAN image detection\""],
+      "pda": 3.5,
+      "pca": 4,
+      "ddi": 3
+    },
+    {
+      "name": "text",
+      "queries": ["\"AI-generated text detection\"", "\"machine-generated text detection\"", "\"LLM-generated text detection\""],
+      "pda": 4.5,
+      "pca": 5,
+      "ddi": 4
+    },
+    {
+      "name": "hybrid_card_news",
+      "queries": ["\"AI-generated infographic detection\"", "\"AI-generated carousel detection\"", "\"card news detection\""],
+      "pda": 5.0,
+      "pca": 5,
+      "ddi": 5
+    },
+    {
+      "name": "fake_reviews",
+      "queries": ["\"fake review detection\"", "\"AI-generated review detection\"", "\"synthetic review detection\""],
+      "pda": 4.5,
+      "pca": 5,
+      "ddi": 4
+    },
+    {
+      "name": "academic_papers",
+      "queries": ["\"AI-generated academic paper detection\"", "\"AI-generated abstract detection\"", "\"GPT generated paper detection\""],
+      "pda": 4.0,
+      "pca": 4,
+      "ddi": 4
+    },
+    {
+      "name": "news_articles",
+      "queries": ["\"AI-generated news detection\"", "\"AI-generated news article detection\"", "\"synthetic news detection\""],
+      "pda": 3.5,
+      "pca": 4,
+      "ddi": 3
+    }
+  ]
+}

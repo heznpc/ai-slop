@@ -1,0 +1,103 @@
+{
+  "query": "\"synthetic video detection\"",
+  "pages": [
+    {
+      "meta": {
+        "count": 17,
+        "db_response_time_ms": 55,
+        "page": 1,
+        "per_page": 200,
+        "groups_count": null,
+        "cost_usd": 0.001
+      },
+      "results": [
+        {
+          "id": "https://openalex.org/W4402915976",
+          "title": "Beyond Deepfake Images: Detecting AI-Generated Videos",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4395484003",
+          "title": "Beyond Deepfake Images: Detecting AI-Generated Videos",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4407719537",
+          "title": "video-SALMONN-o1: Reasoning-enhanced Audio-visual Large Language Model",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7160968340",
+          "title": "Advancing Reliable Synthetic Video Detection: Insights from the SAFE Challenge",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7160822709",
+          "title": "Advancing Reliable Synthetic Video Detection: Insights from the SAFE Challenge",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4283796843",
+          "title": "Patch Diffusion: A General Module for Face Manipulation Detection",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4210354358",
+          "title": "The Threat of\u00a0Deepfakes to\u00a0Computer and\u00a0Human Visions",
+          "publication_year": 2022
+        },
+        {
+          "id": "https://openalex.org/W4393247739",
+          "title": "As Good As A Coin Toss: Human detection of AI-generated images, videos, audio, and audiovisual stimuli",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4381586506",
+          "title": "The Age of Synthetic Realities: Challenges and Opportunities",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4380186439",
+          "title": "Cash, Credibility, and Conversion: The Influence of Synthetic Media on Investment Behavior",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4394803802",
+          "title": "Reducing risk posed by synthetic content an overview of technical approaches to digital content transparency",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4405561833",
+          "title": "Towards a Universal Synthetic Video Detector: From Face or Background Manipulations to Fully AI-Generated Content",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7139144211",
+          "title": "EvoGuard: An Extensible Agentic RL-based Framework for Practical and Evolving AI-Generated Image Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4417170934",
+          "title": "Advance Fake Video Detection via Vision Transformers",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4417301672",
+          "title": "BusterX: MLLM-Powered AI-Generated Video Forgery Detection and Explanation",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7152331617",
+          "title": "ATSS: Detecting AI-Generated Videos via Anomalous Temporal Self-Similarity",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4407368653",
+          "title": "Survey on AI-Generated Media Detection: From Non-MLLM to MLLM",
+          "publication_year": 2025
+        }
+      ],
+      "group_by": []
+    }
+  ]
+}

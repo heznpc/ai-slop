@@ -1,0 +1,148 @@
+{
+  "query": "\"AI-generated review detection\"",
+  "pages": [
+    {
+      "meta": {
+        "count": 26,
+        "db_response_time_ms": 206,
+        "page": 1,
+        "per_page": 200,
+        "groups_count": null,
+        "cost_usd": 0.001
+      },
+      "results": [
+        {
+          "id": "https://openalex.org/W4388838176",
+          "title": "AI-Generated Review Detection",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4406619255",
+          "title": "A multigrained preference analysis method for product iterative design incorporating AI-generated review detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4407074960",
+          "title": "Deconstructing Review Deception: A Study on Counterfactual Explanation and XAI in Detecting Fake and GPT-Generated Reviews",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7130391094",
+          "title": "Can You Really Trust That Review? ProtoFewRoBERTa and DetectAIRev: A Prototypical Few-Shot Method and Multi-Domain Benchmark for Detecting AI-Generated Reviews",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7124331815",
+          "title": "AI-generated Google Reviews",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7124301165",
+          "title": "AI-generated Google Reviews",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4410081533",
+          "title": "Consumer Responses to Generative AI Chatbots Versus Search Engines for Product Evaluation",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4411603247",
+          "title": "Improving trust in online reviews: a machine learning approach to detecting artificial intelligence-generated reviews",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4411113528",
+          "title": "Team-Risers@DravidianLangTech 2025: AI-Generated Product Review Detection in Dravidian Languages Using Transformer-Based Embeddings",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7138052623",
+          "title": "Can You Really Trust That Review? ProtoFewRoBERTa and DetectAIRev: A Prototypical Few-Shot Method and Multi-Domain Benchmark for Detecting AI-Generated Reviews",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4411112892",
+          "title": "AnalysisArchitects@DravidianLangTech 2025: BERT Based Approach For Detecting AI Generated Product Reviews In Dravidian Languages",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4411113404",
+          "title": "NLP_goats_DravidianLangTech_2025__Detecting_AI_Written_Reviews_for_Consumer_Trust",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4411113426",
+          "title": "Necto@DravidianLangTech 2025: Fine-tuning Multilingual MiniLM for Text Classification in Dravidian Languages",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4411113339",
+          "title": "CUET_NLP_FiniteInfinity@DravidianLangTech 2025: Exploring Large Language Models for AI-Generated Product Review Classification in Malayalam",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4411113411",
+          "title": "LexiLogic@DravidianLangTech 2025: Detecting Fake News in Malayalam and AI-Generated Product Reviews in Tamil and Malayalam",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4411113392",
+          "title": "CUET_NetworkSociety@DravidianLangTech 2025: A Transformer-Based Approach for Detecting AI-Generated Product Reviews in Low-Resource Dravidian Languages",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4407074636",
+          "title": "Introduction to the Minitrack on Conversational AI and Ethical Issues",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4415487637",
+          "title": "Design Optimization of Men\u2019s Suits Based on Consumer Preference",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4411113343",
+          "title": "Overview of the Shared Task on Detecting AI Generated Product Reviews in Dravidian Languages: DravidianLangTech@NAACL 2025",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7138210489",
+          "title": "Multimodal machine learning framework for fake review detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7128947579",
+          "title": "Impact of Synthetic Review Filtering on the Performance of Sentiment Analysis: A Category-wise Analysis Using BERT+CRF",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4413682984",
+          "title": "A Knowledge Recommendation Method for Product Form Design Integrating Crowd-Intelligence Context Similarity and Trust Relationships in Cloud Environments",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4411112963",
+          "title": "Girma@DravidianLangTech 2025: Detecting AI Generated Product Reviews",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W7117035853",
+          "title": "Large Language Model-Powered Generation of Multilingual Online Consumer Reviews for E-Commerce",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4417102694",
+          "title": "Data-Driven User Insights: Using AI to Shape Function, Interaction, and Product Value",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4405004505",
+          "title": "Deceptive Consumer Review Analysis",
+          "publication_year": 2024
+        }
+      ],
+      "group_by": []
+    }
+  ]
+}

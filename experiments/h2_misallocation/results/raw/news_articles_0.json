@@ -1,0 +1,78 @@
+{
+  "query": "\"AI-generated news detection\"",
+  "pages": [
+    {
+      "meta": {
+        "count": 12,
+        "db_response_time_ms": 77,
+        "page": 1,
+        "per_page": 200,
+        "groups_count": null,
+        "cost_usd": 0.001
+      },
+      "results": [
+        {
+          "id": "https://openalex.org/W4404781439",
+          "title": "MiRAGeNews: Multimodal Realistic AI-Generated News Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7140289616",
+          "title": "Pipeline for AI-generated News Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7140298321",
+          "title": "Pipeline for AI-generated News Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4403443881",
+          "title": "MiRAGeNews: Multimodal Realistic AI-Generated News Detection",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4410279449",
+          "title": "LMAT-ND: A Meta-Attention-Enhanced Llama-7B Model for AI-Generated News Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4410395128",
+          "title": "LMAT-ND: A Meta-Attention-Enhanced Llama-7B Model for AI-Generated News Detection",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4410586660",
+          "title": "Ensemble Transformer\u2013Based Detection of Fake and AI\u2013Generated News",
+          "publication_year": 2025
+        },
+        {
+          "id": "https://openalex.org/W4386554614",
+          "title": "J-Guard: Journalism Guided Adversarially Robust Detection of AI-generated News",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4400377834",
+          "title": "Fake News Detection: It\u2019s All in the Data!",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W4392490627",
+          "title": "A Survey of AI-generated Text Forensic Systems: Detection, Attribution, and Characterization",
+          "publication_year": 2024
+        },
+        {
+          "id": "https://openalex.org/W7142557598",
+          "title": "Probabilistic Concept Graph Reasoning for Multimodal Misinformation Detection",
+          "publication_year": 2026
+        },
+        {
+          "id": "https://openalex.org/W7124727018",
+          "title": "Detecting Fake News in the Era of Language Models",
+          "publication_year": 2025
+        }
+      ],
+      "group_by": []
+    }
+  ]
+}

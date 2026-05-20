@@ -1,0 +1,21 @@
+{
+  "started_at_utc": "2026-05-20T18:18:00.653575+00:00",
+  "finished_at_utc": "2026-05-20T18:19:05.580242+00:00",
+  "api": "https://api.openalex.org/works",
+  "user_agent": "ai-slop-paper-h2-misallocation/1.0 (mailto:wantcongz@gmail.com)",
+  "polite_email": "wantcongz@gmail.com",
+  "per_page": 200,
+  "max_page": 25,
+  "rate_sleep_seconds": 0.15,
+  "year_window": [
+    2020,
+    2026
+  ],
+  "api_call_count": 80,
+  "python_version": "3.13.11 (main, Dec 17 2025, 20:55:16) [Clang 21.1.4 ]",
+  "scipy_version": "1.17.1",
+  "numpy_version": "2.4.3",
+  "pandas_version": "3.0.1",
+  "requests_version": "2.32.5",
+  "failed_queries": []
+}

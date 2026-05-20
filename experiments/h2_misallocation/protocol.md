@@ -16,8 +16,9 @@ Reject H2 if Spearman's $\rho$ between per-format paper counts and per-format PD
 
 ## Data source
 
-- **Semantic Scholar Academic Graph API** (`api.semanticscholar.org/graph/v1/paper/search`).
-- No paid API. No web-scraping fallback.
+- **OpenAlex Works API** (`https://api.openalex.org/works`).
+- Polite-pool access via `mailto=wantcongz@gmail.com` query parameter. No API key required, no payment.
+- Original protocol (Semantic Scholar Academic Graph) was unusable from this IP — every request returned 429 with no results. Pivoted before any data was observed; rationale in `planning/decisions.md` (2026-05-21 entry).
 - Snapshot date: the date the script is executed. Recorded in `results/run_metadata.json`.
 
 ## Time window
@@ -43,7 +44,7 @@ Queries are case-insensitive on Semantic Scholar's side; exact-phrase quoting is
 
 ## Dedup
 
-Per format: union over the three queries, then deduplicate on `paperId`. A paper appearing in multiple format-queries (e.g., both text and academic) is counted once per format it appears in — this is intentional, because misallocation is measured per modality, not per paper.
+Per format: union over the three queries, then deduplicate on OpenAlex Work `id`. A paper appearing in multiple format-queries (e.g., both text and academic) is counted once per format it appears in — this is intentional, because misallocation is measured per modality, not per paper.
 
 ## PDA composite
 
@@ -80,18 +81,19 @@ This is a population census of Semantic Scholar over 8 formats, not a sample. Po
 
 ## Reproducibility
 
-- Python 3.12, `requests`, `scipy`, `numpy`, `pandas` only (pinned in `pyproject.toml`).
+- Python 3.13, `requests`, `scipy`, `numpy`, `pandas` only.
 - Random seed for bootstrap: `20260521`.
-- Raw API responses cached to `results/raw/<format>_<query_idx>.json` (one file per query, full JSON).
+- Raw API responses cached to `results/raw/<format>_<query_idx>.json` (one file per query, full concatenated JSON).
 - Final tally to `results/paper_counts.csv`.
 - Statistical output to `results/stats.json`.
-- Run metadata (Semantic Scholar API version header, snapshot date, total API calls) to `results/run_metadata.json`.
+- Run metadata (OpenAlex polite-pool email, snapshot date, total API calls) to `results/run_metadata.json`.
 
 ## Failure modes and fallback
 
-1. **Semantic Scholar API rate-limit hit**: protocol allows up to 3 retries per query with exponential backoff (`1s, 5s, 25s`). If still failing, the experiment halts and reports the failed query; no fallback to web scraping.
+1. **API rate-limit (HTTP 429)**: protocol allows up to 3 retries per page with exponential backoff. If still failing, the experiment halts and reports the failed query; no fallback to web scraping.
 2. **API returns < 5 results for a format with high PDA**: this is a *finding*, not a failure — report as-is.
 3. **Query returns clearly off-topic results in spot-check**: log to `results/limitations.md`; do not silently change the keyword set. If the spot-check shows the methodology is broken, halt and revise the protocol via `planning/decisions.md`.
+4. **Pagination cap (5000 results per query) reached for high-volume formats (e.g., video)**: documented in `results/limitations.md`. Rank ordering is preserved as long as capped formats are the higher-count ones, which is the direction H2 predicts.
 
 ## What this protocol does NOT do
 

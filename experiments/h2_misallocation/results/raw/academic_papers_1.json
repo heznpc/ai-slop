@@ -1,0 +1,28 @@
+{
+  "query": "\"AI-generated abstract detection\"",
+  "pages": [
+    {
+      "meta": {
+        "count": 2,
+        "db_response_time_ms": 76,
+        "page": 1,
+        "per_page": 200,
+        "groups_count": null,
+        "cost_usd": 0.001
+      },
+      "results": [
+        {
+          "id": "https://openalex.org/W4387709759",
+          "title": "The ChatGPT conundrum: Human-generated scientific manuscripts misidentified as AI creations by AI text detection tool",
+          "publication_year": 2023
+        },
+        {
+          "id": "https://openalex.org/W4403605341",
+          "title": "Toward the Adoption of Explainable Pre-Trained Large Language Models for Classifying Human-Written and AI-Generated Sentences",
+          "publication_year": 2024
+        }
+      ],
+      "group_by": []
+    }
+  ]
+}
