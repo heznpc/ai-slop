@@ -1,0 +1,14 @@
+1.
+Most AI vision models train on clean, controlled images — then fail the moment they face reality. Researchers built a crack detection dataset from actual field photos of a historic covered bridge in Guilin, China. Uneven lighting. Real grain texture. Real noise. That difference is everything.
+
+2.
+Four crack types. Four different structural stories. Split cracks follow the wood grain under stress. Shrinkage cracks form as timber dries unevenly over decades. Tearing and linear cracks carry their own signatures. Knowing which you're looking at tells you exactly how worried to be.
+
+3.
+Every image ships with a VOC-format XML annotation: crack location, crack category, ready to plug into detection or segmentation pipelines. No preprocessing gymnastics. The unglamorous work of precise labeling is what separates a research demo from a tool you can actually deploy in the field.
+
+4.
+Historic wooden bridges in humid southern China decay fast — and heritage status limits how aggressively you can intervene. Monitoring isn't just an engineering problem here. It's a preservation problem. Getting the detection right early means keeping the structure alive without destroying what makes it worth saving.
+
+5.
+The gap between lab performance and field performance is where most computer vision projects quietly die. A dataset deliberately built from messy, authentic conditions closes that gap before training begins. Foundational work like this rarely gets headlines. It's still the thing that makes everything else possible.

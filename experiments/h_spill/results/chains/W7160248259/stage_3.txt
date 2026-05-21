@@ -1,0 +1,14 @@
+**1**
+Medical AI keeps making the same mistake. Models trained on X-rays. Models trained on lab values. Models trained on genomes. All impressive. All isolated. But a doctor never consults a single test and stops. Real patients generate every signal at once. The field is finally starting to admit this.
+
+**2**
+Your health isn't stored in one format. It lives in MRI scans, physician notes, genomic data, and glucose readings your watch silently collects. No single signal tells the full story. Combine them — and suddenly the model is working from something closer to the actual picture of who you are.
+
+**3**
+Merging an MRI with a clinical note isn't natural. They don't sit in the same spreadsheet. When and how to fuse different data streams — fusion strategy — matters enormously, and the field hasn't agreed yet. Architecture is solvable. The messiness of real clinical data is the harder problem.
+
+**4**
+Here's what actually stalls medical AI: incomplete records. Demographic gaps baked into training sets. Predictions that arrive with no explanation a physician can act on. The architecture is solvable. The gap between a promising lab result and a usable clinical tool — that's where every one of these efforts stalls.
+
+**5**
+What's buried in the research timelines: earlier disease detection — potentially months or years before symptoms appear. Not incremental improvement. A fundamentally different kind of medicine. The blueprint exists. Evaluation standards are being written. The gap between lab result and clinical deployment is the problem worth watching.

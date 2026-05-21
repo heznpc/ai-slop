@@ -1,0 +1,14 @@
+**1.**
+Twitter sentiment analysis is a hard problem — short text, slang, sarcasm. Researchers tested eight algorithms, from Logistic Regression to XGBoost to LSTM. Classical models and even standard neural nets struggled. Only one approach consistently outperformed the field. The gap between transformer models and everything else is no longer close.
+
+**2.**
+DistilBERT didn't just win — it won with a handicap. Researchers skipped full fine-tuning and used LoRA instead: freeze most parameters, update only a small structured subset. Compute cost drops dramatically. Accuracy hit 82.38%. That's near-frontier performance without the infrastructure bill that usually comes with fine-tuning large language models.
+
+**3.**
+LoRA stands for Low-Rank Adaptation. Instead of retraining an entire model, you inject small trainable matrices into the frozen base. The math is elegant; the result is practical. You get most of the performance of full fine-tuning at a fraction of the cost — a realistic budget for small labs.
+
+**4.**
+Here's what this study actually challenges: the assumption that better results require more resources. Efficiency and accuracy stopped being a tradeoff somewhere along the way. Many practitioners are still operating as if renting GPU time and managing complex pipelines are unavoidable requirements. For text classification in 2025, they simply are not.
+
+**5.**
+If XGBoost is still your default for text classification tasks, this is the signal to reconsider. LoRA-enhanced transformers are accessible, affordable, and measurably better on real-world language data. The barrier that kept teams on classical methods has been removed. The question now isn't capability — it's whether you've updated your defaults.

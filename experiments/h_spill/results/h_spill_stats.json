@@ -1,0 +1,77 @@
+{
+  "n_chains": 20,
+  "n_judges": 2,
+  "stages": [
+    "academic",
+    "news",
+    "blog",
+    "carousel"
+  ],
+  "stage_mean_ai_probability": {
+    "0": 0.8009999999999999,
+    "1": 0.9015000000000001,
+    "2": 0.8644999999999999,
+    "3": 0.9075000000000003
+  },
+  "stage_std_ai_probability": {
+    "0": 0.2519586432229243,
+    "1": 0.03232645975048925,
+    "2": 0.03235900590497019,
+    "3": 0.03024026594146499
+  },
+  "stage_bootstrap_ci_95": {
+    "0": [
+      0.6844874999999998,
+      0.8955125
+    ],
+    "1": [
+      0.8869999999999999,
+      0.9140000000000003
+    ],
+    "2": [
+      0.8505,
+      0.8780000000000001
+    ],
+    "3": [
+      0.8935000000000002,
+      0.9195000000000002
+    ]
+  },
+  "per_chain_spearman_rho_mean": -0.055787044433509306,
+  "per_chain_spearman_rho_n_chains_valid": 20,
+  "permutation_p_one_sided_less": 0.3342,
+  "permutation_n": 10000,
+  "mann_kendall_S": 4,
+  "bootstrap_n": 10000,
+  "bootstrap_seed": 20260521,
+  "alpha": 0.05,
+  "decision": "H-Spill not supported at alpha=0.05",
+  "falsified": true,
+  "delta_stage0_to_stage3_ai_p_mean": 0.10650000000000037,
+  "stylo_stage_means": {
+    "0": {
+      "mean_sent_len": 24.986908369408372,
+      "var_sent_len": 169.04187728306047,
+      "ttr": 0.6755485516060269,
+      "word_count_mean": 212.35
+    },
+    "1": {
+      "mean_sent_len": 23.352409228843054,
+      "var_sent_len": 110.3690391668121,
+      "ttr": 0.6234796334840883,
+      "word_count_mean": 424.35
+    },
+    "2": {
+      "mean_sent_len": 15.587894742547878,
+      "var_sent_len": 78.2073446302697,
+      "ttr": 0.6544672738533921,
+      "word_count_mean": 321.8
+    },
+    "3": {
+      "mean_sent_len": 9.986707791271694,
+      "var_sent_len": 38.23230099546138,
+      "ttr": 0.689973600677192,
+      "word_count_mean": 248.7
+    }
+  }
+}

@@ -1,0 +1,75 @@
+[09:48:33] H-Spill runner start. snapshot=2026-05-21T09:48:33.576126+00:00
+[09:48:33] generator: Claude Sonnet 4.6
+[09:48:33] judges: ['Claude Opus 4.7', 'Gemini 2.5 Pro']
+[09:48:33] seeds.json exists, loading cached
+[09:48:33] seeds count: 20
+[09:48:33] === generation: 20 chains x 3 transformations = 60 calls ===
+[09:48:33] === generation done: cum_cost=$0.00 cum_wall=0.0s ===
+[09:48:33] === judging: 20 chains x 4 stages x 2 judges = 160 calls ===
+[09:48:59]   judge [ 44/160] W711502524/s1/gemini25pro PARSE-FAIL
+[09:49:20]   judge [ 46/160] W711502524/s2/gemini25pro PARSE-FAIL
+[09:49:46]   judge [ 48/160] W711502524/s3/gemini25pro PARSE-FAIL
+[09:50:14]   judge [ 50/160] W711500832/s0/gemini25pro PARSE-FAIL
+[09:50:41]   judge [ 52/160] W711500832/s1/gemini25pro PARSE-FAIL
+[09:51:08]   judge [ 54/160] W711500832/s2/gemini25pro PARSE-FAIL
+[09:51:33]   judge [ 56/160] W711500832/s3/gemini25pro PARSE-FAIL
+[09:51:55]   judge [ 58/160] W712605907/s0/gemini25pro PARSE-FAIL
+[09:52:16]   judge [ 60/160] W712605907/s1/gemini25pro PARSE-FAIL
+[09:52:42]   judge [ 62/160] W712605907/s2/gemini25pro PARSE-FAIL
+[09:53:02]   judge [ 64/160] W712605907/s3/gemini25pro PARSE-FAIL
+[09:53:21]   judge [ 66/160] W712601866/s0/gemini25pro PARSE-FAIL
+[09:53:43]   judge [ 68/160] W712601866/s1/gemini25pro PARSE-FAIL
+[09:54:04]   judge [ 70/160] W712601866/s2/gemini25pro PARSE-FAIL
+[09:54:24]   judge [ 72/160] W712601866/s3/gemini25pro PARSE-FAIL
+[09:54:45]   judge [ 74/160] W715375025/s0/gemini25pro PARSE-FAIL
+[09:55:08]   judge [ 76/160] W715375025/s1/gemini25pro PARSE-FAIL
+[09:55:29]   judge [ 78/160] W715375025/s2/gemini25pro PARSE-FAIL
+[09:55:50]   judge [ 80/160] W715375025/s3/gemini25pro PARSE-FAIL
+[09:56:10]   judge [ 82/160] W715378189/s0/gemini25pro PARSE-FAIL
+[09:56:33]   judge [ 84/160] W715378189/s1/gemini25pro PARSE-FAIL
+[09:56:55]   judge [ 86/160] W715378189/s2/gemini25pro PARSE-FAIL
+[09:57:17]   judge [ 88/160] W715378189/s3/gemini25pro PARSE-FAIL
+[09:57:43]   judge [ 90/160] W713107103/s0/gemini25pro PARSE-FAIL
+[09:58:04]   judge [ 92/160] W713107103/s1/gemini25pro PARSE-FAIL
+[09:58:26]   judge [ 94/160] W713107103/s2/gemini25pro PARSE-FAIL
+[09:58:50]   judge [ 96/160] W713107103/s3/gemini25pro PARSE-FAIL
+[09:59:20]   judge [ 98/160] W713113238/s0/gemini25pro PARSE-FAIL
+[09:59:43]   judge [100/160] W713113238/s1/gemini25pro PARSE-FAIL
+[10:00:06]   judge [102/160] W713113238/s2/gemini25pro PARSE-FAIL
+[10:00:26]   judge [104/160] W713113238/s3/gemini25pro PARSE-FAIL
+[10:00:50]   judge [106/160] W710794469/s0/gemini25pro PARSE-FAIL
+[10:01:14]   judge [108/160] W710794469/s1/gemini25pro PARSE-FAIL
+[10:01:39]   judge [110/160] W710794469/s2/gemini25pro PARSE-FAIL
+[10:01:57]   judge [112/160] W710794469/s3/gemini25pro PARSE-FAIL
+[10:02:19]   judge [114/160] W710794725/s0/gemini25pro PARSE-FAIL
+[10:02:42]   judge [116/160] W710794725/s1/gemini25pro PARSE-FAIL
+[10:03:05]   judge [118/160] W710794725/s2/gemini25pro PARSE-FAIL
+[10:03:28]   judge [120/160] W710794725/s3/gemini25pro PARSE-FAIL
+[10:03:51]   judge [122/160] W713402847/s0/gemini25pro PARSE-FAIL
+[10:04:15]   judge [124/160] W713402847/s1/gemini25pro PARSE-FAIL
+[10:05:04]   judge [126/160] W713402847/s2/gemini25pro PARSE-FAIL
+[10:05:40]   judge [128/160] W713402847/s3/gemini25pro PARSE-FAIL
+[10:06:15]   judge [130/160] W716084518/s0/gemini25pro PARSE-FAIL
+[10:07:01]   judge [132/160] W716084518/s1/gemini25pro PARSE-FAIL
+[10:07:48]   judge [134/160] W716084518/s2/gemini25pro PARSE-FAIL
+[10:08:27]   judge [136/160] W716084518/s3/gemini25pro PARSE-FAIL
+[10:09:02]   judge [138/160] W716082829/s0/gemini25pro PARSE-FAIL
+[10:09:44]   judge [140/160] W716082829/s1/gemini25pro PARSE-FAIL
+[10:10:18]   judge [142/160] W716082829/s2/gemini25pro PARSE-FAIL
+[10:10:51]   judge [144/160] W716082829/s3/gemini25pro PARSE-FAIL
+[10:11:33]   judge [146/160] W716024825/s0/gemini25pro PARSE-FAIL
+[10:12:22]   judge [148/160] W716024825/s1/gemini25pro PARSE-FAIL
+[10:13:14]   judge [150/160] W716024825/s2/gemini25pro PARSE-FAIL
+[10:14:07]   judge [152/160] W716024825/s3/gemini25pro PARSE-FAIL
+[10:14:55]   judge [154/160] W716031960/s0/gemini25pro PARSE-FAIL
+[10:15:36]   judge [156/160] W716031960/s1/gemini25pro PARSE-FAIL
+[10:16:11]   judge [158/160] W716031960/s2/gemini25pro PARSE-FAIL
+[10:16:44]   judge [160/160] W716031960/s3/gemini25pro PARSE-FAIL
+[10:16:44] === judging done: cum_cost=$0.00 cum_wall=0.0s parse_retries=118 failures=59 ===
+[10:16:44] === stylometric stats ===
+[10:16:45] stylo.csv written: 80 rows
+[10:16:45] === analysis ===
+[10:16:45]   stage means (panel ai_probability): {0: 0.8009999999999999, 1: 0.9015000000000001, 2: 0.8644999999999999, 3: 0.9075000000000003}
+[10:17:23]   mean per-chain Spearman rho = -0.0558  perm p (one-sided less) = 0.3342
+[10:17:23]   Mann-Kendall S on 4-stage means = 4 (monotonic decreasing if S < 0)
+[10:17:23] h_spill_stats.json written: decision = H-Spill not supported at alpha=0.05

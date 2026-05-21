@@ -1,0 +1,15 @@
+Two of astronomy's most ambitious observatories are about to start talking to each other — and the first tests suggest the conversation will be worth having.
+
+When the Vera C. Rubin Observatory begins full operations at its mountain-top site in Chile, it will scan the entire southern sky every few nights and flag roughly ten million cosmic events — called transients — every single night. Transients are objects that change in brightness over time: exploding stars, colliding neutron stars, flaring black holes. Rubin will produce more alerts in a single night than most previous surveys generated in a year.
+
+Meanwhile, the European Space Agency's Euclid satellite has spent the past two years building an extraordinarily detailed map of the sky in visible and near-infrared light — wavelengths that ground-based telescopes struggle to capture cleanly because of atmospheric interference. Euclid cannot respond quickly to new events the way Rubin can, but it covers enormous swaths of sky and sees it with a sharpness that ground facilities cannot match.
+
+A team of astronomers has now built and demonstrated a prototype pipeline that automatically cross-matches Rubin's flood of nightly alerts against Euclid's archive of deep images. When a match is found, the system generates a combined light curve — a record of how the object's brightness has changed over time — stitching together Rubin's rapid ground-based measurements with Euclid's space-based infrared data. It also produces side-by-side image cutouts from both observatories.
+
+Because Rubin is not yet online, the team used alerts from the Zwicky Transient Facility, an existing sky survey in California, as a stand-in. The results reveal two distinct ways the pairing pays off.
+
+For transients that Euclid itself happened to observe, the system can reach back into the archive and recover the explosion before anyone on the ground noticed it. One supernova in the test sample, designated SN 2024pvw, turned up in Euclid data roughly three days before any ground-based telescope caught it. Those extra days of early coverage tighten estimates of exactly when the star exploded — a constraint that matters for understanding the physics of the blast.
+
+For transients that Euclid did not directly detect, the benefit is different but equally useful. Euclid's deep, sharp imaging of the surrounding field gives astronomers a far cleaner picture of the host galaxy — its shape, structure, and whether the transient sits in a spiral arm, a nucleus, or an isolated patch of stars. That context shapes how the event is classified and interpreted.
+
+The prototype demonstrates that connecting these two observatories, one scanning fast and wide from the ground and one building a slow, deep archive from space, produces scientific value greater than either could deliver alone.

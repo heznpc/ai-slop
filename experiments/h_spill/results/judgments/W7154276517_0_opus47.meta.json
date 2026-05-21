@@ -1,0 +1,14 @@
+{
+  "seed_id": "W7154276517",
+  "stage": 0,
+  "stage_name": "academic",
+  "judge": "opus47",
+  "wall_s": 6.62,
+  "input_tokens": 6,
+  "output_tokens": 155,
+  "cache_read_tokens": 15605,
+  "cache_creation_tokens": 11884,
+  "total_cost_usd": 0.2579475,
+  "duration_ms": 5837,
+  "duration_api_ms": 5750
+}

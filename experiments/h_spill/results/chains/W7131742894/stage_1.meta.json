@@ -1,0 +1,13 @@
+{
+  "seed_id": "W7131742894",
+  "stage": 1,
+  "stage_name": "news",
+  "wall_s": 25.13,
+  "input_tokens": 3,
+  "output_tokens": 838,
+  "cache_read_tokens": 11193,
+  "cache_creation_tokens": 8219,
+  "total_cost_usd": 0.04675815,
+  "duration_ms": 24357,
+  "duration_api_ms": 24225
+}

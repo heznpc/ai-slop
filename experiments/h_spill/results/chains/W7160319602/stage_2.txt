@@ -1,0 +1,11 @@
+I've been thinking about this for a while, and something clicked when I read through a new review on multimodal AI in medicine: we've been asking the wrong question.
+
+For years, the conversation around AI diagnostics has been about making individual tests smarter — a better scan reader here, a sharper lab interpreter there. But that framing misses something fundamental about how disease actually works. It doesn't announce itself through a single channel. It leaves traces everywhere at once — in your blood proteins, in the texture of tissue on an image, in the subtle word choices a doctor uses when writing up a visit note. A model that only looks at one of those signals is working with its eyes half closed.
+
+What the review lays out is a class of systems designed to fix exactly that. Multimodal predictive models pull from electronic health records, medical images, genomic sequences, wearable sensor data, and clinical notes simultaneously, then weigh them together. The technical challenge — called "fusion" — is non-trivial, and the paper maps out which architectural approaches have actually shown promise.
+
+What struck me most, though, wasn't the architecture. It was the honest accounting of what still doesn't work. Missing data is everywhere in real clinical settings. Patients show up with incomplete records. Sensors fail. Tests go unordered. The review looks at how current methods handle those gaps and admits where they fall short. Same with interpretability — a clinician can't act on a black-box alarm. And fairness: a model trained on one population can quietly fail or discriminate when deployed elsewhere.
+
+None of this is surprising to anyone who's watched medical AI research closely. But seeing it named plainly, alongside a concrete reference design for teams building these systems, feels like the field finally taking the problem seriously at the right level of abstraction.
+
+Early detection is where this matters most. Find the problem when it's treatable, or find it too late. The margin lives in that gap between one data source and many.

@@ -1,0 +1,13 @@
+I've been sitting with this finding for a few days now, and I keep coming back to how strange it is when a number just refuses to let you look away.
+
+A researcher named Wiley McCain ran a computational analysis of the entire Biblical canon — 5,100 dated events, every datable moment from Creation through Revelation, sorted into 25-year bins across roughly four millennia of narrative history. Then he asked a simple question: is the attention distributed evenly, or does it pile up somewhere?
+
+It piles up. Spectacularly.
+
+The bin covering 25 to 50 CE — centered right at 37.5 CE, squarely in the period the Gospels describe — contains 698 events. The average non-peak bin holds about 27. That's not a modest spike. That's 26 times the baseline, a single generation consuming more narrative density than most centuries combined.
+
+What got me was the Monte Carlo test. He ran ten million simulated random timelines. Not one of them produced a concentration this extreme. The upper bound on the probability is one in ten million. He had flagged this same clustering in an earlier version with only 109 events. Adding 5,000 more made it stronger.
+
+There's something almost uncomfortable about that. The text is doing something you can measure. Whatever your priors about what the Bible is — history, theology, literature, mythology — the distribution of its attention is not neutral. It bends hard toward one point in time, and it bends there with a consistency that survived every methodological upgrade thrown at it.
+
+I'm not making a theological argument. I'm just noting that when a pattern holds across a 50-fold increase in sample size and ten million simulations, it has stopped being a curiosity and started being a structural fact about the document itself. That seems worth knowing.

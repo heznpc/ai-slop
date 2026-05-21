@@ -1,0 +1,14 @@
+{
+  "seed_id": "W7117419394",
+  "stage": 2,
+  "stage_name": "blog",
+  "judge": "gemini25pro",
+  "wall_s": 47.49,
+  "input_tokens": 1594,
+  "output_tokens": 77,
+  "cache_read_tokens": 7035,
+  "cache_creation_tokens": null,
+  "total_cost_usd": null,
+  "duration_ms": 10856,
+  "duration_api_ms": null
+}

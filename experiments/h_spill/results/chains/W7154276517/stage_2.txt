@@ -1,0 +1,11 @@
+I've been thinking a lot lately about what it actually means for an AI to reason morally — and a piece of research I came across recently crystallized something that had been nagging at me.
+
+The standard way to test AI ethics is simple: ask the model a moral question and check if it picks the right answer. Clean, repeatable, easy to report. But here's the problem I keep running into: that approach assumes the model is reasoning about the situation, not just reacting to how the question is worded. Those are very different things.
+
+This study introduces a metric called Moral Consistency Variance — MCV — that finally takes that distinction seriously. The setup is elegant. Fifty ethical dilemmas, ten moral themes, five different phrasings each. Same facts, same options, different framing. Then you watch whether the model changes its answer.
+
+What struck me most were the results. The two Grok models barely moved — low MCV, no flipped decisions. Gemini's underlying probability distributions shifted around more than I expected, but its final answers stayed mostly stable. The really interesting case was SmolLM2-360M-Instruct, the small open-weight model. Its probability distributions looked relatively calm on the surface, yet it reversed its actual decision roughly 30 percent of the time. That gap between surface stability and behavioral inconsistency is the thing that keeps me thinking.
+
+It points to something the binary pass/fail framing just can't see. A model can look consistent if you only track its final choices, while underneath, its confidence is quietly reshuffling every time the prompt changes. That's not moral reasoning — that's pattern matching dressed up to look like it.
+
+The researchers are careful not to call it proven. They frame "moral mimicry" as a hypothesis, not a verdict. But I find the framing honest and the tool genuinely useful. Detection before diagnosis — that's the right order.

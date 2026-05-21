@@ -1,0 +1,11 @@
+I've been watching AI creep into language education for a few years now, and something shifted recently — the pace stopped feeling gradual and started feeling irreversible.
+
+What strikes me most isn't the flashy stuff. It's the quiet, structural change in how feedback works. For most of my life, getting corrected on your English meant waiting for a teacher to mark your paper or a tutor to sit across from you. Now a system can track the exact moment you keep misplacing articles or fumbling past tense in speech, and it adjusts what you practice next without you even noticing the pivot. That loop used to cost money and scheduling. Now it runs continuously, for anyone with a connection.
+
+Assessment is the other thing I can't stop thinking about. The end-of-unit test was always a blunt instrument — a snapshot of one bad morning. What I find genuinely interesting about these newer systems is that they're building longitudinal pictures instead. Not just what you got wrong, but the shape of how you're moving. Teachers can see an entire classroom's trajectory in a dashboard view that would have taken hours to assemble by hand.
+
+Speaking practice is where I feel the shift most personally. A billion people are learning English right now, and most of them have no regular access to a native speaker. Conversational AI isn't a perfect substitute, but it's available at midnight, it doesn't get impatient, and it lets you practice ordering coffee or navigating an airport without the social cost of getting it wrong in public.
+
+But here's what the research keeps confirming and what I keep coming back to: the hybrid model wins. AI handling the repetitive feedback loop, teachers handling the judgment calls that require actual human understanding. Strip out the teacher and you get a system that optimizes confidently in the wrong direction.
+
+The infrastructure is arriving fast. Whether it lands equitably depends entirely on decisions being made right now — in procurement offices, policy rooms, and teacher training programs. That part isn't automated yet.

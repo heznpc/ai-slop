@@ -1,0 +1,9 @@
+I've been thinking about this a lot lately, especially after watching a student in my building spend forty minutes talking to an AI chatbot — not to cheat, but to practice for a job interview. In English. It struck me then that something genuinely significant is happening in language education, and most of us are still catching up to it.
+
+The shift I keep noticing is how personalized the feedback loop has become. When I was learning a second language, correction meant waiting for a teacher to return a marked-up paper. Now a system can catch a grammar error mid-sentence, suggest a better phrasing, and queue up a targeted drill — all before the next thought forms. That's not a marginal improvement. That's a different model of learning entirely.
+
+What fascinates me most is the speaking side. Conversation practice has always been the bottleneck — you either had access to native speakers or you didn't. Now learners can simulate a job interview, a doctor's visit, an airport check-in, and the AI will hold the dialogue, correct the pronunciation, keep the pressure realistic. For someone in a small town with no English-speaking neighbors, that access is genuinely new.
+
+I don't think teachers are going anywhere. If anything, the ones I've spoken with describe feeling freed — less time on rote grading, more time on the conversations that actually matter. The AI handles the repetitive scaffolding; the human handles the messy, motivational, culturally-loaded stuff machines still botch.
+
+But the core finding I keep returning to is this: the technology is already outpacing the institutions meant to govern it. Bias baked into training data, student privacy left unresolved, regulatory frameworks still theoretical — these aren't future problems. They're current ones. The hybrid model makes sense. The policy lag does not.

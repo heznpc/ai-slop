@@ -1,0 +1,14 @@
+**1.**
+AI reliability isn't binary. Every output is a draw from a probability distribution across an abstract space of possible meanings. The variability isn't a bug — it's structural. Once you accept that premise, a lot of things about how these systems behave and fail in production finally click into place.
+
+**2.**
+Prompting moves you around within existing behavioral territory. Retraining reshapes the territory itself — the map changes, not just your route through it. Most practitioners treat these as the same kind of operation. They aren't. The risk profile is categorically different, and almost nobody in production is treating it that way.
+
+**3.**
+Silent Authority Transfer: a system's decision-making thresholds can drift during a substrate update — quietly, invisibly — while every surface metric still looks fine. Your evals pass. The behavior has shifted. You find out only when something downstream breaks. That's the failure mode worth losing sleep over.
+
+**4.**
+Perturbation-Recovery Profiling connects empirical testing to something mathematically rigorous: recovery time and Lyapunov stability turn out to be the same underlying property. That's not a coincidence — it's a bridge that was missing. You can measure behavioral resilience and get a result that means something provable, not just intuitive.
+
+**5.**
+The composite Trust Index turns everything into one actionable question: how close is the system to its limits? Can it discharge accumulated instability? Are collapse signals detectable early enough to matter? A single score. Start with that last question — early enough to matter — and work backward.

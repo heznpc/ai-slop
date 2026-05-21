@@ -1,0 +1,14 @@
+1.
+The robot you picture — chrome body, blinking eyes — is already obsolete. Today a robot is a flood-zone drone, a soft sleeve crawling through rubble, an AI negotiating your refund. Same word, sixty years, completely different thing. Our mental model hasn't caught up. That gap is a design problem.
+
+2.
+When a category fractures, its assumptions fracture with it. "Robot" used to mean: machine over here, human over there. Now a garment that reads your heartbeat is robotic. So is an agent that learns your habits and nudges your choices. Designing them like the old model is a mistake.
+
+3.
+The serious thinking isn't happening in mechanical engineering labs. It's in HCI — human-computer interaction research. HCI always asked what robotics skipped: not just *does it work*, but *how does it feel*? Do you trust it? Would you let it into your home? Those used to be soft questions. Now they're the hard ones.
+
+4.
+"Relational robotics" is the frame worth watching. The argument: what defines a robot isn't actuators or autonomy — it's the character of its relationship with a person. That reframe changes everything. The question stops being *what can it do* and starts being *what kind of relationship are we building*?
+
+5.
+Whoever figures out the interaction design will shape these systems more than whoever builds the hardware. The interface is not decoration — it's the argument the machine is making about its relationship to you. Get that wrong and the engineering underneath it doesn't matter.

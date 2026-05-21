@@ -1,0 +1,11 @@
+Something clicked for me recently reading through a stack of medical AI papers: we've been building these systems the same wrong way for years, and the field is finally starting to admit it.
+
+The pattern keeps repeating. A model trained on chest X-rays. Another trained on lab values. Another on genomic sequences. Each one impressive in isolation. Each one missing something obvious — that real patients generate all of these signals at once, and that a doctor weighing a diagnosis doesn't consult a single test and stop there. Why would we expect a machine to?
+
+The case for multimodal predictive modeling feels almost too intuitive once you see it. Your health isn't stored in one format. It lives in imaging studies, in the shorthand a physician scribbled into your chart, in your genome, in the glucose readings your watch has been silently collecting for months. No single one of these tells the whole story. Merge them, and suddenly you're working with something closer to the actual picture.
+
+The technical headaches are real. An MRI and a clinical note don't naturally sit next to each other in a spreadsheet. Fusion strategies — when and how to combine heterogeneous data streams — matter enormously, and the field hasn't converged on answers yet. But what strikes me as the genuinely hard part isn't the architecture. It's the mess of real clinical data: incomplete records, demographic gaps baked into training sets, predictions that arrive with no explanation a physician can act on.
+
+What I keep coming back to is the timeline buried in the research. Earlier, more accurate disease detection — potentially months or years before symptoms appear. That's not incremental. That's a different kind of medicine.
+
+The blueprint exists now. The evaluation standards are getting written. The gap between promising lab result and actual clinical tool has always been where these efforts stall. That's the problem worth watching.

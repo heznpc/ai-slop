@@ -1,0 +1,11 @@
+Something I keep coming back to when reading security research is how obsessed the field is with the dramatic intrusion narrative — the external attacker, the breach from outside the walls. But the fraud cases that have always struck me as genuinely hard are the ones where the person already has the badge.
+
+I came across a study recently that finally takes this seriously in a rigorous way. The researchers built a detection system specifically for bank employees or contractors who abuse their own legitimate access. No break-in, no suspicious login from an unknown IP — just someone quietly doing things they shouldn't, from an account that looks perfectly authorized.
+
+What I found compelling was the architecture. They didn't try to solve this with one clever algorithm. They stacked three distinct techniques, each handling a different dimension of the problem.
+
+The first is a graph attention network that maps relationships — who accesses what, through which systems. Rather than treating each event in isolation, it learns what the normal web of connections looks like and notices when someone drifts structurally outside their usual orbit. The second is an LSTM for sequencing: behavioral rhythms over time, catching the shift in patterns that precedes something going wrong.
+
+The third piece is the one I found most interesting. The dataset had roughly 17.8 million authentication events, with only 1,514 anomalies — under 0.009 percent. That ratio destroys naive classifiers. They used a GAN to synthesize realistic attack examples and Focal Loss to force the model to actually attend to the rare cases. Without this, you get a model that labels everything normal and still scores fine on the wrong metrics.
+
+That last point is the argument I most want people to take away: ROC-AUC flatters models in imbalanced settings. Matthews Correlation Coefficient is the right call here. The field should stop papering over that.

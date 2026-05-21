@@ -6,6 +6,24 @@ Format: `## YYYY-MM-DD -- <short title>` with **Context**, **Decision**, **Why**
 
 ---
 
+## 2026-05-21 -- H-Spill Judge B swap: Gemini 2.5 Pro -> Gemini 2.5 Flash (mid-run, partial-result)
+
+**Context**: During execution of `experiments/h_spill/run.py`, Judge B (Gemini 2.5 Pro) returned `TerminalQuotaError: You have exhausted your capacity on this model. Your quota will reset after 9h6m38s.` after completing 21 of 80 planned Gemini calls. Judge A (Claude Opus 4.7) completed all 80 calls successfully. Continuing would require either (a) a 9-hour wait, (b) mixing Gemini 2.5 Pro and Gemini 2.5 Flash judgments within the same Judge B slot (methodologically inconsistent), or (c) swapping the entire Judge B slot to a different model.
+
+**Decision**: Archive the 21 partial Gemini 2.5 Pro judgments under `experiments/h_spill/results/judgments/_gemini25pro_archived/` (preserved for inspection, not used in final analysis). Re-run all 80 Gemini judgments with **Gemini 2.5 Flash** (`gemini -m gemini-2.5-flash -o json -p`). Update `run.py` rater config accordingly.
+
+**Why not wait 9h**: The user explicitly asked to continue. Waiting blocks the experiment for nearly a full day with no methodological gain; Gemini 2.5 Flash is a documented, generally-available model from the same vendor in the same family, preserving cross-vendor diversity vs. the all-Anthropic alternative.
+
+**Why not Sonnet 4.6 instead**: Using Sonnet 4.6 as Judge B would produce a 2-Anthropic panel, eliminating cross-vendor diversity -- which was the explicit rationale for substituting Gemini for GPT-5 in the original AMSM panel (\S 2026-05-21 AMSM entry below).
+
+**Why pre-result and not post-result**: This decision is logged BEFORE the swapped re-run produces any new data. The 21 archived Gemini 2.5 Pro judgments are not used in the final H-Spill statistics; only Opus 4.7 + Gemini 2.5 Flash judgments are used. This preserves the pre-registration discipline.
+
+**What is preserved**: hypothesis (verbatim), 20-seed corpus, generation chain (Sonnet 4.6, 60 calls already completed), Judge A (Opus 4.7, 80 calls already completed), prompt template, falsification rule, statistical procedure.
+
+**Cost impact**: Gemini 2.5 Flash is free under the polite-pool quota (separate quota bucket from 2.5 Pro), so total Anthropic billing is unchanged (~$25-30 for the full run).
+
+---
+
 ## 2026-05-21 -- AMSM multi-model panel + H2 supplementary re-run
 
 **Context**: The H2 bibliometric test (`experiments/h2_misallocation/`) correlated OpenAlex paper counts against AMSM PDA scores that were originally LLM-assisted by a single author. This creates a single-judge dependency in the experimental chain. To factor that out, AMSM scores were regenerated under a 3-model panel and H2 was re-run against the panel-mean PDA.

@@ -1,0 +1,14 @@
+{
+  "seed_id": "W7126059076",
+  "stage": 3,
+  "stage_name": "carousel",
+  "judge": "opus47",
+  "wall_s": 5.99,
+  "input_tokens": 6,
+  "output_tokens": 179,
+  "cache_read_tokens": 15605,
+  "cache_creation_tokens": 11762,
+  "total_cost_usd": 0.25746,
+  "duration_ms": 5233,
+  "duration_api_ms": 5168
+}

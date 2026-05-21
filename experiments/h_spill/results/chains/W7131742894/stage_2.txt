@@ -1,0 +1,11 @@
+I've been following the Rubin Observatory's lead-up for years, and last week something clicked into place that I think deserves more attention than it's getting.
+
+Here's the setup: Rubin, once it's fully online in Chile, will flag around ten million transient events every single night — supernovae, neutron star mergers, flaring black holes, all of it. That number still stuns me. Most surveys from the previous decade didn't hit that in a year. Meanwhile, ESA's Euclid satellite has been quietly building one of the sharpest, deepest maps of the sky in visible and near-infrared light, wavelengths the atmosphere smears out for ground-based scopes.
+
+The thing is, these two observatories don't naturally talk to each other. Rubin is fast and wide; Euclid is slow and deep. A team of astronomers just built a prototype pipeline that bridges them — automatically cross-matching Rubin-style alerts against Euclid's archive and stitching together a combined light curve from both datasets.
+
+What I find genuinely exciting is the two distinct payoffs they demonstrated. First: when Euclid happened to have already imaged a patch of sky, the system can reach back and find the explosion before anyone on the ground noticed it. One supernova in their test set, SN 2024pvw, showed up in Euclid data three days before any ground telescope caught it. Three days of early coverage dramatically tightens the estimated explosion time — which actually matters for the physics.
+
+Second: even when Euclid missed the transient itself, its deep imaging of the surrounding field gives you a far cleaner picture of the host galaxy's structure. That context changes how you classify the event.
+
+The broader point is simple but easy to understate: two instruments with opposite strengths, properly connected, produce something neither could alone. That's not a surprising conclusion, but watching it actually work is something else.

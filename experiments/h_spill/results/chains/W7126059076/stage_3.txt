@@ -1,0 +1,14 @@
+1.
+Billions of tweets. Every day. Someone has to figure out what all of it *means* emotionally. Sentiment analysis — classifying text as positive, negative, or neutral — sounds solved. It isn't. Researchers recently pitted eight AI approaches against real Twitter data to find out which one actually wins.
+
+2.
+The lineup: classic ML (Logistic Regression, SVM, Random Forest, XGBoost), then deep learning (CNNs, LSTMs), then transformers. Eight models. One dataset. The transformer-based approach won — but the margin was the story. DistilBERT, Google BERT's lighter sibling, outclassed everything else before anyone even touched fine-tuning.
+
+3.
+Then they applied LoRA — Low-Rank Adaptation. Instead of retraining the whole model, LoRA freezes existing weights and inserts small trainable matrices that absorb task-specific learning. The base model never changes. Result: 82.38% accuracy. Highest of all eight methods. Transformer-level performance at a fraction of the compute cost.
+
+4.
+Why does this matter beyond a benchmark? Because cutting-edge accuracy has always required serious hardware budgets — which meant the best tools stayed with the biggest players. LoRA breaks that. Sentiment analysis at scale stops being a *resource* question. It becomes an *architecture* question. That's a different kind of problem to solve.
+
+5.
+Content moderation. Brand listening. Political research. All of them run on understanding sentiment at scale. LoRA-tuned DistilBERT makes that accessible outside well-funded labs. The gap between research performance and real deployment just got meaningfully smaller. Not incrementally smaller. The kind of shift that actually changes who gets to build what.
