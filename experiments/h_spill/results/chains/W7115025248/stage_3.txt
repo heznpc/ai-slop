@@ -1,0 +1,14 @@
+1.
+The hardest part of preserving old things isn't the restoration — it's the noticing. A research team spent real time photographing structural cracks in the Lingyan Wind and Rain Bridge, a Dong timber bridge in Guangxi, China. Community crossing. Centuries of craft. And it's quietly cracking.
+
+2.
+Wood fails in four distinct ways: split cracks along the grain, jagged tearing cracks, linear cracks from sustained load, and slow shrinkage cracks as timber dries over decades. Once you learn this taxonomy, you start seeing it everywhere — old barns, porch beams, your grandmother's house.
+
+3.
+Every photograph was paired with an XML annotation marking each crack's location and type. That labeling work is what turns snapshots into machine intelligence. Feed a model thousands of labeled examples and it begins recognizing damage patterns on its own — in images it has never seen before.
+
+4.
+The photos weren't taken in a clean lab. Variable light, weathered wood, visual noise — real field conditions. That messiness is the point. Any practical inspection tool has to handle exactly this, because bridges don't crack in controlled environments. Authentic data beats perfect data.
+
+5.
+Drones carrying cameras can now flag emerging damage between human inspections. Structures that would otherwise quietly degrade get a second set of eyes. A centuries-old timber bridge. A modern vision model. A small but meaningful shift in how we keep old things standing.

@@ -1,0 +1,14 @@
+**1.**
+The scariest security threat isn't a hacker in a hoodie. It's someone already inside, using real credentials, doing things that look completely normal — until they don't. One suspicious event per 11,000 normal ones. That ratio explains why traditional detection models are trained to fail.
+
+**2.**
+Standard ML models learn what gets rewarded. With 99.99% normal data, ignoring anomalies is the winning strategy. Insider threats are rare by nature. So models quietly learn to be blind to them — and score well on benchmarks while doing it. The math works against you.
+
+**3.**
+The smarter approach treats behavior as relational, not individual. Graph attention networks map who connects to what. Recurrent networks track how patterns shift over time. Real insider threats drift gradually — they don't spike. The model has to think like an investigator, not a firewall.
+
+**4.**
+When real anomalies are too rare to learn from, generate fake ones. A GAN synthesizes artificial threats during training, forcing the model to take rare events seriously. Focal Loss then mathematically punishes missing a real threat harder than firing a false alarm. Deliberate inversion of default behavior.
+
+**5.**
+ROC-AUC looks great on insider threat papers. Matthews Correlation Coefficient tells a different story. When class imbalance is this extreme, your benchmark can make a nearly blind model look sharp. The metric you choose doesn't just measure the system — it shapes what the system learns to optimize.

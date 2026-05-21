@@ -1,0 +1,28 @@
+1.
+AI failure isn't always a crash.
+Sometimes the system keeps running, keeps sounding confident — and nobody notices it has quietly become something else.
+The scariest failure mode is invisible.
+That's the problem researchers are finally giving precise language to.
+
+2.
+Think of an AI's behavior as a landscape.
+Stable outputs sit in valleys. Ridges mark where the system's character shifts.
+This geometric framing changes everything — the question stops being "is this model good?" and becomes: where are the valleys moving?
+
+3.
+Prompt engineering moves you around inside a valley.
+Retraining reshapes the entire landscape.
+When valleys move, the invisible rules — what the system won't say, when it hedges, where it defers — can shift with zero visible signal.
+They call this Silent Authority Transfer.
+
+4.
+There's also a recovery-time test.
+Stress the system deliberately. Measure how long it takes to return to baseline.
+Mathematically, that's identical to the Lyapunov exponent in dynamical systems.
+Recovery speed and structural stability turn out to be the same property, measured two different ways.
+
+5.
+Both signals combine into a composite Trust Index.
+Built for deployment, not just research papers.
+For the first time, there's a precise answer to: has this AI quietly stopped being what it was?
+That question is no longer rhetorical.

@@ -1,0 +1,13 @@
+Researchers have developed a new mathematical framework designed to predict and measure when AI systems begin to break down — a phenomenon they call coherence collapse — and to provide engineers with tools for evaluating how trustworthy an AI system actually is at any given moment.
+
+At the core of the work is a shift in how the researchers think about AI unpredictability. Rather than treating the variability in AI outputs as a technical flaw to be corrected, the framework treats it as a fundamental feature of how these systems work. Every response an AI generates is the result of a probability distribution spread across what the researchers call a semantic manifold — an abstract mathematical space representing the full range of meanings and outputs the system can produce.
+
+This framing leads to a critical distinction the paper draws between two types of changes that engineers make to AI systems. The first, prompt engineering, involves adjusting the instructions fed to an existing model. This is relatively safe: it moves the system around within its current behavioral territory without changing the territory itself. The second type, substrate engineering, involves modifying the underlying model — retraining it, fine-tuning it, or replacing it entirely. This reshapes the map rather than the route, and the researchers argue it carries substantially higher risk.
+
+To capture that risk, the team introduces a metric called the Silent Authority Transfer, which tracks how quietly and invisibly an AI system's decision-making boundaries can shift during a substrate update. The concern is that systems may appear to function normally on the surface while the actual thresholds governing their behavior have moved without anyone noticing.
+
+To complement the metric, the researchers developed a testing protocol — Perturbation-Recovery Profiling — that measures how quickly and reliably a system returns to stable behavior after being disturbed. The key finding here is that recovery time and a quantity from dynamical systems theory called Lyapunov stability turn out to be measuring the same underlying property, offering a bridge between empirical testing and formal mathematical analysis.
+
+The paper packages these tools into a composite Trust Index, a single score that integrates how close a system is to its behavioral limits, how well it can process and discharge accumulated instability, and whether early warning signals of deterioration are detectable before collapse occurs.
+
+The work also establishes a methodological precedent: the framework itself was synthesized through structured collaboration between two distinct AI systems, with each contributing a different analytical lens that the human researchers then unified.

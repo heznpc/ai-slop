@@ -1,0 +1,14 @@
+**1.**
+We test AI ethics by asking moral questions and checking the answer. But what if the model isn't reasoning — just reacting to how the question is worded? A new metric called Moral Consistency Variance (MCV) finally makes that distinction visible. Same dilemma, five phrasings. Watch what changes.
+
+**2.**
+The setup: 50 ethical dilemmas, 10 moral themes, 5 framings each. Identical facts, identical options — only the wording shifts. Then researchers tracked whether the model's answer changed. That gap between "consistent-looking" and "actually consistent" turns out to be wider than most benchmarks ever let you see.
+
+**3.**
+Grok models barely moved. Gemini's internal probabilities shifted but held steady on final answers. Then there was SmolLM2-360M-Instruct — surface distributions looked calm, yet it reversed its actual decision about 30% of the time. Surface stability and behavioral consistency are not the same thing. MCV separates them.
+
+**4.**
+A model can look ethically reliable if you only track its final choices. Underneath, its confidence quietly reshuffles every time the prompt changes. That's not moral reasoning. That's pattern matching dressed up to look like it — and binary pass/fail testing will never catch the difference.
+
+**5.**
+The researchers call "moral mimicry" a hypothesis, not a verdict. That honesty matters. MCV is a detection tool, not a diagnosis. But detection before diagnosis is the right order. If we want AI systems that reason morally, we first need metrics that can tell when they aren't.

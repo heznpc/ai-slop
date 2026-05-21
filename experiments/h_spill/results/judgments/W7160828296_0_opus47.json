@@ -1,0 +1,4 @@
+{
+  "ai_probability": 0.85,
+  "reasoning": "The text exhibits hallmarks of AI-generated academic abstracts: formulaic structure (problem-method-results-implications), generic transitional phrasing ('represent a major challenge', 'demonstrate that', 'reinforce the importance of'), and polished but somewhat hollow phrasing without idiosyncratic voice. However, the specific technical details (GATv2-LSTM-GAN, 17.8M events, 1,514 anomalies, MCC) suggest it could be human-written with AI polishing."
+}

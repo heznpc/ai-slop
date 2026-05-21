@@ -1,0 +1,14 @@
+**1.**
+Rubin Observatory will flag 10 million cosmic events every single night — supernovae, neutron star mergers, black holes flaring. Most surveys from the past decade never hit that in a year. A new era of sky monitoring is about to begin, and the numbers alone should stop you cold.
+
+**2.**
+ESA's Euclid is quietly building one of the sharpest deep-sky maps ever made, in wavelengths Earth's atmosphere distorts for ground-based telescopes. Rubin is fast and wide. Euclid is slow and deep. Two instruments with opposite strengths — and until recently, no way to connect them.
+
+**3.**
+A team just built a pipeline that bridges Rubin and Euclid automatically — cross-matching real-time alerts against Euclid's archive and stitching both datasets into a single light curve. The result: early coverage of explosions that happened before anyone on the ground was even looking.
+
+**4.**
+One supernova in the test set, SN 2024pvw, appeared in Euclid data three days before any ground telescope caught it. Three extra days of coverage dramatically tightens the estimated explosion time. That precision isn't just satisfying — it changes the physics you can actually extract.
+
+**5.**
+Even when Euclid missed the event itself, its deep imaging of the surrounding field reveals the host galaxy's structure in detail. That context reshapes how you classify what you're seeing. Two telescopes, properly connected, produce something neither could manage alone. Watching it work is something else entirely.

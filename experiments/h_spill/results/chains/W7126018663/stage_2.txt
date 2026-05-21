@@ -1,0 +1,11 @@
+I've been thinking a lot lately about how we pick tools for text classification work, and a study I came across crystallized something I'd been sensing for a while: the gap between transformer models and everything else is now too wide to ignore.
+
+The study ran eight sentiment analysis algorithms against real Twitter data — your standard Logistic Regression, SVMs, Random Forest, XGBoost on one side; CNN and LSTM in the middle; and DistilBERT on the other end. Twitter sentiment is a genuinely hard problem. Short text, abbreviations, sarcasm, slang — it punishes models that rely on shallow pattern matching.
+
+The classical methods and even the neural network approaches just couldn't keep up. That part didn't surprise me. What caught my attention was the fine-tuning step. The researchers applied LoRA — Low-Rank Adaptation — to DistilBERT instead of doing a full fine-tune. LoRA works by freezing most of the model's parameters and only updating a small, structured subset during training. The compute cost drops dramatically.
+
+LoRA-enhanced DistilBERT hit 82.38% accuracy. Best in the field, and achieved without the infrastructure usually associated with fine-tuning large models.
+
+This matters to me because I've watched teams default to simpler approaches not because they're better, but because full fine-tuning felt out of reach. Renting the GPU time, managing the pipeline, justifying the cost — it adds up fast for a small lab or a public-sector analytics team. LoRA removes that excuse. You get near-frontier performance on a budget that's actually realistic.
+
+The broader lesson I take from this: efficiency and accuracy stopped being a tradeoff somewhere along the way, and a lot of practitioners haven't caught up to that yet. If you're still reaching for XGBoost as your default for text tasks, it's time to reconsider.

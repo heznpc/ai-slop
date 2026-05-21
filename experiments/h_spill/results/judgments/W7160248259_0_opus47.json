@@ -1,0 +1,4 @@
+{
+  "ai_probability": 0.92,
+  "reasoning": "Text exhibits hallmarks of LLM-generated academic prose: formulaic structure (problem statement \u2192 limitation \u2192 solution preview \u2192 contribution list), generic hedged claims, predictable parallel constructions, and exhaustive parenthetical examples. A telltale missing space ('modelsoffers') suggests minor post-generation editing of machine output rather than careful human authorship."
+}

@@ -1,0 +1,13 @@
+{
+  "seed_id": "W7160319602",
+  "stage": 3,
+  "stage_name": "carousel",
+  "wall_s": 10.56,
+  "input_tokens": 3,
+  "output_tokens": 439,
+  "cache_read_tokens": 11193,
+  "cache_creation_tokens": 8367,
+  "total_cost_usd": 0.041328149999999994,
+  "duration_ms": 9782,
+  "duration_api_ms": 9693
+}

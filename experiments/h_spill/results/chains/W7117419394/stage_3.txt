@@ -1,0 +1,14 @@
+**1.**
+I spent months extracting and dating 5,100 events from the entire Biblical canon — Creation through Revelation — sorting each one into 25-year windows on a timeline stretching back to roughly 4000 BCE. When I finally plotted the distribution, I froze. I thought I had a coding bug. I didn't.
+
+**2.**
+One single window. 25–50 CE. It holds 698 events. Every other 25-year window in the entire dataset averages fewer than 27. That's the Biblical narrative compressing roughly twenty-six lifetimes of action into a single generation. When I saw the chart, I thought it had to be an error.
+
+**3.**
+Ten million. That's how many Monte Carlo simulations I ran — ten million artificial timelines, each scattering events randomly across history. I wanted just one to beat what I found in the real text. Not one did. The probability this concentration is random: one in ten million, or lower.
+
+**4.**
+I tried to break the result. Shifted every bin boundary by 12.5 years. Reweighted events spanning multiple years. Changed every assumption I could find. The peak stayed put every time. This isn't a calendar artifact, a rounding error, or a classification choice. It's sitting inside the text itself.
+
+**5.**
+I don't have an explanation. That's the honest answer. What I can say: treated as a structured dataset, the Biblical text is not uniformly distributed across time. It arrives in bursts. And the biggest burst, by an almost incomprehensible margin, lands in the early first century. The number is real.

@@ -1,0 +1,15 @@
+Artificial intelligence is quietly reshaping how millions of people learn English, and researchers say the changes coming over the next decade will touch nearly every aspect of the classroom — from how students get feedback to how teachers plan their lessons.
+
+For decades, language learning software offered a fixed path: complete this exercise, move to the next. AI changes that equation. Today's systems can monitor a learner's specific weaknesses — a persistent mix-up between articles, say, or trouble with past tense in spoken responses — and continuously adjust what comes next. Personalized feedback that once required a human tutor is increasingly delivered instantly, at scale, to students logging in from anywhere in the world.
+
+Assessment is changing just as fast. Rather than waiting for a graded test at the end of a unit, students can now receive ongoing analysis of their writing and speaking as they work, with detailed data showing not just what they got wrong but patterns in how they're progressing over time. For teachers, this creates a dashboard view of an entire classroom that would have been impossible to generate manually.
+
+Speaking and listening practice — long the hardest skills to develop without a live conversation partner — are also getting an upgrade. Conversational AI agents can now simulate realistic dialogues, and immersive virtual environments let learners practice ordering food or navigating an airport without leaving their homes. For the estimated one billion people studying English globally, many of whom have limited access to native speakers, this is a significant shift.
+
+But researchers are clear that AI alone is not the answer. The most effective systems, the evidence suggests, are hybrid ones: large language models paired with thoughtful pedagogical design and, crucially, human teachers who understand when to intervene and how. AI that operates without that mediation risks reinforcing errors, reflecting cultural biases embedded in training data, or simply optimizing for the wrong outcomes.
+
+Privacy is another live concern. Adaptive learning systems collect extensive data on learner behavior, and without clear governance frameworks, that data is vulnerable to misuse.
+
+The practical recommendations that emerge from this body of research are direct: institutions should build workflows where AI handles repetitive feedback tasks while teachers focus on judgment calls that require human understanding. Tool developers should prioritize explainability so that both teachers and students can understand why a system is doing what it does. And policymakers need to invest in teacher training — not to replace educators, but to ensure they have the skills to work alongside these tools effectively.
+
+The future of English language learning will be AI-augmented. Whether it's equitable and educationally sound depends on the choices made now.

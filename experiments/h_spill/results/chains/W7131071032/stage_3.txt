@@ -1,0 +1,14 @@
+1.
+AI just changed how language feedback works — forever. Systems now track the exact moment you fumble past tense or drop an article, then quietly adjust what you practice next. That personalized correction loop used to cost money and a tutor's schedule. Now it runs 24/7, for anyone online.
+
+2.
+Forget the end-of-unit test. Newer AI systems build longitudinal pictures of how you're learning — not just what you got wrong, but the shape of your progress over time. Teachers can see an entire class trajectory on one dashboard that used to take hours to assemble by hand.
+
+3.
+A billion people are learning English right now. Most have no regular access to a native speaker. Conversational AI won't replace that — but it's available at midnight, never gets impatient, and lets you practice real situations without the social cost of getting it wrong in public.
+
+4.
+Strip out the teacher and you get a system that optimizes confidently in the wrong direction. The research keeps confirming it: hybrid wins. AI handles the repetitive feedback loop. Teachers handle the judgment calls that actually require human understanding. Neither works as well alone.
+
+5.
+The infrastructure is arriving fast. Whether it lands equitably depends on decisions being made right now — in procurement offices, policy rooms, and teacher training programs. The technology isn't the hard part anymore. The distribution is. And that part isn't automated yet.

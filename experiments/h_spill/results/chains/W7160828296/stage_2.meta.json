@@ -1,0 +1,13 @@
+{
+  "seed_id": "W7160828296",
+  "stage": 2,
+  "stage_name": "blog",
+  "wall_s": 13.0,
+  "input_tokens": 3,
+  "output_tokens": 447,
+  "cache_read_tokens": 11193,
+  "cache_creation_tokens": 8514,
+  "total_cost_usd": 0.041999400000000006,
+  "duration_ms": 11376,
+  "duration_api_ms": 11272
+}
