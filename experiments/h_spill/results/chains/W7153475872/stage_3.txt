@@ -1,0 +1,14 @@
+**1.**
+Every wearable ping, every scan, every EHR note — medical data is a mountain that keeps growing. For years we assumed we'd drown in it. Then AI entered clinical settings. Not as a buzzword. As something that actually changes what a care team can do with 15 minutes.
+
+**2.**
+A cardiovascular event flagged months early gives doctors room to act. A tumor caught at stage one instead of stage three doesn't just change a prognosis number — it changes whether someone watches their kid graduate. That's not an abstraction. That's the entire point of early detection.
+
+**3.**
+Convolutional neural networks were built for image recognition. Then they moved into radiology suites and started matching specialist-level accuracy on mammograms. Sometimes a technology lands somewhere unexpected and fits perfectly. Random forests and SVMs are doing the same with lab panels and vitals buried in volume.
+
+**4.**
+A model trained on one patient population can fail quietly on another. Explainability is still unsolved — if an algorithm flags high risk and no one can say why, clinicians are right to hesitate. These gaps aren't footnotes. They're the friction between capability and patients who actually need it.
+
+**5.**
+The technology is real. The results are real. But the distance between what AI can do in research and what reaches patients in a clinic — that gap deserves as much attention as the capability itself. Deployment is where the work actually happens.

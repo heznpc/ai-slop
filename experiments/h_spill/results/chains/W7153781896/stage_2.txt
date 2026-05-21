@@ -1,0 +1,13 @@
+I've been thinking about something that's been bothering me for a while, and a paper I read recently finally put words to it.
+
+We keep talking about AI reliability like it's a binary — either the system works or it doesn't. But the more I watch these systems behave in production, the more I think that framing misses everything interesting. What I find fascinating about this new framework is that it starts from a different premise entirely: the variability isn't a bug. It's structural. Every output is a draw from a probability distribution spread across this abstract space of possible meanings. Once you accept that, a lot of things click into place.
+
+The distinction that hit me hardest is between prompt engineering and what the researchers call substrate engineering. I've always sensed these were categorically different operations, but I couldn't articulate why. Now I can. Prompting moves you around within the existing behavioral territory. Retraining or fine-tuning reshapes the territory itself. The map changes, not just the route. That's a fundamentally different risk profile, and I think most practitioners don't treat it that way.
+
+The Silent Authority Transfer metric is the part I keep coming back to. The idea that a system's decision-making thresholds can drift during a substrate update — quietly, invisibly, while everything looks fine on the surface — is exactly the failure mode I'd lose sleep over. The system passes your evals. The behavior has still shifted. You won't know until something downstream breaks.
+
+The Perturbation-Recovery Profiling test is elegant because it connects empirical measurement to something mathematically rigorous. Recovery time and Lyapunov stability turn out to be the same property. That's not a coincidence — it's a bridge I didn't know I needed.
+
+The composite Trust Index ties it together into something actionable. A single score. How close is the system to its limits? Can it discharge accumulated instability? Are collapse signals detectable early enough to matter?
+
+That last question is the one I'd start with.

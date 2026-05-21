@@ -1,0 +1,14 @@
+{
+  "seed_id": "W7131742894",
+  "stage": 2,
+  "stage_name": "blog",
+  "judge": "opus47",
+  "wall_s": 14.51,
+  "input_tokens": 6,
+  "output_tokens": 192,
+  "cache_read_tokens": 15605,
+  "cache_creation_tokens": 11774,
+  "total_cost_usd": 0.25866,
+  "duration_ms": 13659,
+  "duration_api_ms": 13576
+}

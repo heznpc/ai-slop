@@ -1,0 +1,14 @@
+**1.**
+Medical AI has a blind spot. Imaging models read MRIs. Lab models track bloodwork. Genomics tools decode DNA. Each is impressive — each also sees the patient through a keyhole. Disease leaves traces everywhere at once. Our models have been trained to look at only one trace at a time.
+
+**2.**
+Here's the real multimodal challenge: a genomic profile, a chest X-ray, and a year of step-count data don't speak the same language. Getting one model to reason coherently across all three isn't just "more data." It requires genuinely novel architecture. Researchers are making real progress on a hard problem.
+
+**3.**
+Missing data is everywhere in clinical settings. Not every patient wears a tracker. Not every hospital sequences its population. A model that breaks when one input is absent isn't clinical-grade. Interpretability is still a barrier too — physicians don't trust black boxes, and regulators shouldn't either.
+
+**4.**
+Demographic bias in medical AI is real and underreported. A model that performs well on benchmark populations can quietly fail on the patients who need it most. The field is starting to treat fairness as a design requirement, not an afterthought. That shift in framing is long overdue.
+
+**5.**
+The most important thing about the new reference architecture proposals isn't any single result — it's the framing shift. From "maximize benchmark accuracy" to "build for reliability, fairness, and clinical trust." That's the difference between a research demo and a tool a doctor can actually use.

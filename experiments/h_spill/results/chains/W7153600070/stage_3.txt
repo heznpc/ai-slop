@@ -1,0 +1,19 @@
+1.
+A nurse. Three clipboards. A pager. A laptop. One shift.
+Healthcare isn't failing from lack of data — it's drowning in it. Every visit, every wearable, every scan adds to a flood no human can fully process. The gap between data generated and data reviewed keeps growing.
+
+2.
+AI is doing what exhausted physicians often can't: finding patterns before they become crises.
+Trained on millions of patient records, machine learning models are detecting early signs of heart disease, diabetes, cancer, and Alzheimer's — sometimes years before symptoms appear. Earlier signals mean wider windows to intervene.
+
+3.
+CNNs weren't built for medicine. They were built for images.
+Now they're reading radiology scans and catching tumors a fatigued radiologist might miss on hour ten of a shift. The same architecture that recognizes a cat photo is helping catch arterial blockages. Repurposed tools, life-scale stakes.
+
+4.
+Your smartwatch already knows something's off before you do.
+AIoT — sensors, wearables, implanted devices — feeds continuous biometric streams to models watching for drift. It's real-time monitoring at a scale no human care team can replicate. The hospital room is expanding into every wrist and pocket.
+
+5.
+Here's the unsolved part: "flag this patient" means nothing without "here's why."
+Clinical workflows run on reasoning and accountability. Black-box predictions don't fit. Explainability isn't a nice-to-have — it's the barrier between an AI that assists and one that gets ignored. That's the genuinely hard problem still on the table.

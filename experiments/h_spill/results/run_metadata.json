@@ -1,0 +1,22 @@
+{
+  "started_at_utc": "2026-05-21T10:04:28.344229+00:00",
+  "finished_at_utc": "2026-05-21T10:18:22.590420+00:00",
+  "generator": {
+    "id": "sonnet46",
+    "label": "Claude Sonnet 4.6"
+  },
+  "judges": [
+    {
+      "id": "opus47",
+      "label": "Claude Opus 4.7"
+    },
+    {
+      "id": "gemini25flash",
+      "label": "Gemini 2.5 Flash"
+    }
+  ],
+  "n_seeds": 20,
+  "python_version": "3.13.11 (main, Dec 17 2025, 20:55:16) [Clang 21.1.4 ]",
+  "numpy_version": "2.4.3",
+  "scipy_version": "1.17.1"
+}

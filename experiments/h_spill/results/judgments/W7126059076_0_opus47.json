@@ -1,0 +1,4 @@
+{
+  "ai_probability": 0.35,
+  "reasoning": "The text has hallmarks of human academic writing by a non-native English speaker (awkward phrasing like 'the success of this fine-tuning method... was demonstrated', missing spaces from PDF extraction artifacts, slightly clunky transitions), which is typical of genuine conference/journal abstracts rather than LLM output. However, some generic framing phrases ('important guide in applications', 'much more efficient than classical') leave moderate uncertainty."
+}

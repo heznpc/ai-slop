@@ -1,0 +1,14 @@
+{
+  "seed_id": "W7153750258",
+  "stage": 3,
+  "stage_name": "carousel",
+  "judge": "gemini25flash",
+  "wall_s": 72.94,
+  "input_tokens": 1120,
+  "output_tokens": 66,
+  "cache_read_tokens": 8978,
+  "cache_creation_tokens": null,
+  "total_cost_usd": null,
+  "duration_ms": 24932,
+  "duration_api_ms": null
+}

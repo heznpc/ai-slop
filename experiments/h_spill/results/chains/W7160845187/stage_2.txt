@@ -1,0 +1,13 @@
+The scariest security threat isn't the hooded hacker — it's the guy who sits three desks down and already has his badge.
+
+I've been thinking about insider threats lately, specifically about why they're so hard to catch. The problem isn't motivation or opportunity. It's that a malicious insider looks identical to a legitimate one. Same credentials, same systems, same login times. Conventional tools were built to spot outsiders climbing the fence, not insiders walking through the front door.
+
+What caught my attention recently is a detection system that takes a genuinely different angle on this. Researchers built a hybrid architecture combining three ML techniques, and the core insight is elegant: stop treating authentication logs as a flat list of events and start treating them as a living network unfolding through time.
+
+The dataset they tested against had roughly 17.8 million authentication events. Only 1,514 were malicious — less than one in ten thousand. That ratio is the crux of the problem. Most algorithms see that imbalance and effectively give up, classifying everything as safe because that's the path of least resistance. High accuracy, zero usefulness.
+
+Their system fights back on three fronts simultaneously. A graph attention network maps relationships between users, systems, and resources — capturing the topology of normal behavior. An LSTM layer tracks how each user's rhythm evolves over time, so deviations actually stand out. And a GAN generates synthetic attack data during training so the model can learn what threats look like before accumulating enough real incidents to learn from.
+
+They also replaced ROC-AUC with Matthews Correlation Coefficient for evaluation, which is the right call. ROC-AUC flatters models that almost never catch real threats. MCC doesn't let you hide.
+
+The framing shift — from event lists to relationship graphs — feels like where this field has needed to go for a while.

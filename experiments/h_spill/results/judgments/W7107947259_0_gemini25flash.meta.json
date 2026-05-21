@@ -1,0 +1,14 @@
+{
+  "seed_id": "W7107947259",
+  "stage": 0,
+  "stage_name": "academic",
+  "judge": "gemini25flash",
+  "wall_s": 32.33,
+  "input_tokens": 1027,
+  "output_tokens": 89,
+  "cache_read_tokens": 8966,
+  "cache_creation_tokens": null,
+  "total_cost_usd": null,
+  "duration_ms": 5908,
+  "duration_api_ms": null
+}

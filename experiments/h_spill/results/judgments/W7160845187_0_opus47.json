@@ -1,0 +1,4 @@
+{
+  "ai_probability": 0.85,
+  "reasoning": "The text exhibits hallmarks of AI-generated academic abstracts: formulaic structure (problem\u2192gap\u2192method\u2192results\u2192implications), generic transitional phrasing ('Results demonstrate that', 'The findings also highlight'), and polished but somewhat hollow phrasing like 'robust performance' and 'mitigate imbalance' without specific numerical results. However, the technical specificity (GATv2-LSTM-GAN, 17.8M events, 1,514 anomalies, MCC/PR-AUC) suggests possible human authoring with heavy LLM polishing."
+}

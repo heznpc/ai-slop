@@ -1,0 +1,11 @@
+I've been thinking about this a lot lately: we are living through a quiet revolution in medicine, and most people haven't noticed yet.
+
+Every time I read about what AI is actually doing inside hospitals right now, I'm struck by how different it looks from the sci-fi version. It's not a robot surgeon. It's something more interesting — a pattern-recognizer sitting inside the data infrastructure, watching for signals that human eyes would miss or simply never get the chance to see.
+
+The sheer volume of medical data generated every day is staggering. Heartbeat logs from wearables, MRI scans, lab results, years of clinical notes typed in a hurry. No physician has the bandwidth to synthesize all of that for a single patient, let alone thousands. AI doesn't replace that physician. It hands them a head start.
+
+That framing clicked for me when I read about early detection results. A cancer caught at stage one versus stage four isn't a marginal difference — it's often the difference between life and death. When a convolutional neural network spots a suspicious pattern in a radiology image months before symptoms appear, the technology isn't practicing medicine. It's buying time. And time, in oncology and cardiology and neurology, is everything.
+
+What strikes me equally is where the friction still lives. The models are trained on data from one institution and stumble when applied at another because data quality is so uneven across the system. Explainability remains a genuine problem — if an algorithm flags a patient as high risk, a clinician needs to understand the reasoning before acting on it. Black-box outputs don't survive contact with real clinical responsibility.
+
+But these feel like solvable problems, not fundamental limits. The gap between lab performance and routine practice is closing. I think we're closer to the inflection point than the headlines suggest.

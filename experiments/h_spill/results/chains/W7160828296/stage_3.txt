@@ -1,0 +1,22 @@
+**1.**
+The most dangerous person in a financial institution isn't the hacker trying to break in. It's the one who already has a key. Insider threats are quiet, credentialed, and invisible to most systems — because they look exactly like someone doing their job.
+
+---
+
+**2.**
+Researchers analyzed 18 million banking authentication events. Only 1,514 were malicious. One bad action for every 11,000 legitimate ones. A model that calls everything normal is right 99.99% of the time — and completely useless. That's the trap most security tools fall into, and nobody talks about it enough.
+
+---
+
+**3.**
+Their detection system uses three AI techniques together: GATv2 maps relationships — who connects to what and how. LSTM tracks behavioral drift over days or weeks. A GAN generates synthetic attack examples before the model ever sees a real one. Isolated log records miss all of this.
+
+---
+
+**4.**
+They used Focal Loss to force the model to stop coasting on normal activity and actually pay attention to rare events. And they measured success with Matthews Correlation Coefficient, not ROC-AUC. ROC-AUC looks great on paper. MCC tells you whether you're actually catching anything that matters.
+
+---
+
+**5.**
+A single missed insider incident can cost millions. The math on building better detection is not complicated. The models exist. The metrics exist. The techniques exist. What's missing is the organizational will to treat slow, credentialed threats as seriously as the attacker trying to kick down the door.

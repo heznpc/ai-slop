@@ -1,0 +1,14 @@
+{
+  "seed_id": "W7153600070",
+  "stage": 1,
+  "stage_name": "news",
+  "judge": "opus47",
+  "wall_s": 6.1,
+  "input_tokens": 6,
+  "output_tokens": 167,
+  "cache_read_tokens": 15605,
+  "cache_creation_tokens": 12007,
+  "total_cost_usd": 0.26115375,
+  "duration_ms": 5381,
+  "duration_api_ms": 5306
+}
