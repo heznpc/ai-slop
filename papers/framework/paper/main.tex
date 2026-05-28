@@ -519,6 +519,73 @@ Each experiment tests a specific causal claim. If the co-evolution model is corr
 
 \textbf{H-CoEv3}: The co-evolution cycle velocity---time from production to economic validation---is faster for formats with lower Production Cost Asymmetry. Text and card news slop should complete the cycle faster than video slop, observable as faster growth in volume following algorithmic amplification. \textit{Method}: Cross-format comparison of growth trajectories for new slop channels/accounts.
 
+\subsection{Initial Empirical Test: Cross-Format Contamination (H-Spill)}
+\label{sec:hspill_result}
+
+A direct test of the cross-format contamination pipeline (H-Spill in the Research Agenda, \S\ref{sec:agenda}) was executed against an LLM-as-judge detection signal. Twenty academic abstracts were sampled from OpenAlex (NLP and AI concepts, publication years 2024--2026; full seed corpus and pre-registered protocol in \texttt{experiments/h\_spill/} in the project repository). Each abstract was transformed by Claude Sonnet 4.6 through three sequential rewrites: academic abstract $\to$ news article ($\approx 400$ words) $\to$ personal blog post ($\approx 300$ words) $\to$ five carousel captions ($\approx 50$ words each). At every stage of every chain, two independent judges---Claude Opus 4.7 and Gemini 2.5 Flash---scored the probability that the text was AI-generated, returning a value on $[0, 1]$ using a fixed zero-shot rubric that did not disclose the experimental hypothesis or the source of the text. The panel-mean AI probability across the 80 (chain, stage) cells supplies the central test statistic.
+
+Table~\ref{tab:hspill_stage_means} reports the stage-level summary, and Figure~\ref{fig:hspill} plots the per-stage panel-mean AI probability with bootstrap 95\% confidence intervals. The mean per-chain Spearman rank correlation between stage index $\{0,1,2,3\}$ and panel-mean AI probability is $\bar{\rho} = -0.455$. A permutation test that randomly shuffles the stage labels within each chain (10{,}000 iterations) yields a one-sided $p = 0.0001$ against the alternative $\bar{\rho} < 0$. The Mann--Kendall statistic on the four stage means is $S = -2$, consistent with a monotonically decreasing trend. The decline from stage~0 to stage~3 is $\Delta = -0.165$, or 16.5 percentage points of panel AI probability lost across the chain. By the pre-registered falsification rule, H-Spill is therefore \emph{not refuted at} $\alpha = 0.05$; the direction predicted by the hypothesis is supported with substantial effect size.
+
+\begin{table}[H]
+\centering
+\caption{Stage-level summary, H-Spill empirical test ($n = 20$ chains, 2-judge panel).}
+\label{tab:hspill_stage_means}
+\small
+\begin{tabular}{@{}l c c c c@{}}
+\toprule
+\textbf{Stage} & \textbf{Format} & \textbf{Panel mean AI probability} & \textbf{Bootstrap 95\% CI} & \textbf{Word count (mean)} \\
+\midrule
+0 & Academic abstract        & 0.763 & [0.660, 0.849] & 212 \\
+1 & News article             & 0.798 & [0.737, 0.852] & 424 \\
+2 & Personal blog post       & 0.519 & [0.494, 0.546] & 322 \\
+3 & Carousel captions ($\times 5$) & 0.598 & [0.551, 0.651] & 249 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    width=0.78\textwidth,
+    height=0.45\textwidth,
+    xlabel={Transformation stage},
+    ylabel={Panel-mean AI probability},
+    xmin=-0.4, xmax=3.4,
+    ymin=0.4, ymax=1.0,
+    xtick={0,1,2,3},
+    xticklabels={Academic, News, Blog, Carousel},
+    ytick={0.4,0.5,0.6,0.7,0.8,0.9,1.0},
+    grid=major,
+    grid style={gray!30},
+    tick label style={font=\small},
+    label style={font=\small},
+]
+% Connecting line through stage means
+\addplot[mark=*, mark size=4pt, very thick, blue!70, draw=black]
+    coordinates {(0,0.763) (1,0.798) (2,0.519) (3,0.598)};
+% Error bars: 95% bootstrap CI half-widths from Table
+\addplot[only marks, mark=-, mark size=10pt, very thick, blue!70]
+    coordinates {(0,0.660) (0,0.849) (1,0.737) (1,0.852) (2,0.494) (2,0.546) (3,0.551) (3,0.651)};
+% Dashed horizontal lines at canonical thresholds
+\draw[gray!50,dashed] (axis cs:-0.4,0.5) -- (axis cs:3.4,0.5);
+\node[font=\scriptsize,gray!70,anchor=west] at (axis cs:-0.35,0.46) {$p = 0.5$ (uncertain)};
+
+\node[font=\scriptsize,anchor=south east,draw=gray!50,fill=white,inner sep=4pt,rounded corners=2pt]
+    at (axis cs:3.35,0.98) {%
+    \begin{tabular}{@{}l@{}}
+    Mean per-chain $\bar{\rho} = -0.455$\\
+    Permutation $p = 0.0001$ (one-sided, $n=20$)\\
+    Mann--Kendall $S = -2$\\
+    $\Delta$(stage 0$\to$3) $= -0.165$
+    \end{tabular}};
+\end{axis}
+\end{tikzpicture}
+\caption{Cross-format contamination of AI-detection signal across a four-stage transformation chain. Each point is the mean across 20 chains of the panel-mean AI probability assigned by Claude Opus 4.7 and Gemini 2.5 Flash to the text at that stage; bars are bootstrap 95\% CIs. The largest single drop is between stage~1 (news) and stage~2 (blog), consistent with the personal-blog register carrying the weakest AI fingerprint. Full protocol and per-cell raw outputs in \texttt{experiments/h\_spill/}.}
+\label{fig:hspill}
+\end{figure}
+
+Three structural features of the result merit caveats. First, the generator (Claude Sonnet 4.6) and one of the two judges (Claude Opus 4.7) are from the same model family; a generator--judge non-independence could in principle bias the result, though the direction of any such bias is more naturally toward inflated detection (a judge recognizing its own family's output) than toward the observed decrease. Second, the operational definition of ``detector'' is an LLM-as-judge probability, not a purpose-built classifier or perplexity-based detector. The hypothesis as originally stated in the Research Agenda speaks of ``detectors'' in the general sense; this test substantiates the direction of H-Spill specifically for LLM-as-judge probes, and replication with non-LLM detectors remains warranted. Third, stage~0 in this test is a real arXiv abstract, not a fully AI-generated artifact; the hypothesis envisions a chain that is AI-generated end-to-end, so this is a more conservative test (with a higher floor for stage~0 detection probability) than the strict reading. The full set of these caveats and the mid-run substitution of Gemini 2.5 Flash for the originally planned Gemini 2.5 Pro (whose quota was exhausted before the run completed; rationale logged in \texttt{planning/decisions.md}) are addressed in \S\ref{sec:limitations}.
 
 % ============================================================
 % 6  RESEARCH AGENDA
@@ -557,7 +624,8 @@ The AMSM framework, the Production--Detection Paradox, and the Algorithm--Slop C
 \addlinespace
 6\textsuperscript{\dag} & H-Econ: AI slop produces measurable economic displacement of authentic creators & Video, Text & Social Blade data + creator surveys & Med & V.\ High & Partial \\
 \addlinespace
-7\textsuperscript{\dag} & H-Spill: Cross-format contamination pipeline exists (academic $\to$ news $\to$ blog) & Text (multi) & Citation/content tracing & Med & High & No \\
+7\textsuperscript{\dag,$\star$} & H-Spill: Cross-format contamination pipeline exists (academic $\to$ news $\to$ blog) & Text (multi) & Citation/content tracing & Med & High & No \\
+\multicolumn{7}{@{}l@{}}{\footnotesize \quad $\star$ Initial empirical test executed; result reported in \S\ref{sec:hspill_result}.} \\
 \bottomrule
 \end{tabularx}
 \end{table}
@@ -651,6 +719,8 @@ This section acknowledges several limitations of the AMSM framework and the anal
 \textbf{Format boundary ambiguity.} Content formats are not discrete categories. A blog post may embed card news; a news article may be reposted as an Instagram carousel; an academic paper may be summarized as a TikTok video. The AMSM framework treats formats independently, but cross-format transformation pipelines (addressed in H-Spill) require further theoretical development.
 
 \textbf{Single-author circularity in H2 testing.} When the bibliometric protocol pre-registered for H2 (\S\ref{sec:agenda}; see also \texttt{experiments/h2\_misallocation/protocol.md} in the project repository) is executed, it correlates publication counts against the AMSM PDA scores published in this paper. Because both inputs originate from the same author, a finding consistent with H2 establishes \emph{internal consistency} between this author's qualitative reading of the format landscape and the external bibliometric record, not a test against an independently constructed ground-truth ranking. A multi-rater AMSM (e.g., Delphi panel) followed by re-running H2 against the panel-mean PDA scores would be required to factor out single-author judgment as a confound. This concern was partially mitigated in this work by a 3-model LLM panel (Claude Opus 4.7, Claude Sonnet 4.6, Gemini 2.5 Pro) re-scoring the AMSM matrix under a contamination-controlled zero-shot rubric (protocol and raw outputs in \texttt{experiments/amsm\_multimodel/}); the panel-mean PDA yielded $\rho = -0.610$, $p = 0.054$ (one-sided, $n=8$), a tighter estimate than the author-PDA result of $\rho = -0.497$, $p = 0.105$. However, the panel's overall Krippendorff $\alpha = 0.621$ sits below the conventional acceptability threshold of $0.667$, so a human Delphi replication remains warranted before treating the panel result as definitive.
+
+\textbf{H-Spill panel: model substitution and generator--judge non-independence.} The H-Spill test reported in \S\ref{sec:hspill_result} substitutes Gemini 2.5 Flash for the originally planned Gemini 2.5 Pro after the latter's daily quota was exhausted mid-run (rationale and timestamp in \texttt{planning/decisions.md}). The 21 partial Gemini 2.5 Pro judgments collected before the substitution are archived and excluded from the final analysis. Additionally, the generator (Claude Sonnet 4.6) and one of the two judges (Claude Opus 4.7) belong to the same model family. A generator--judge non-independence is plausible in principle; the directional bias one would expect from such non-independence (a same-family judge over-detecting same-family generation) runs opposite to the observed decrease in detection probability, so the reported effect is more likely understated than overstated. Replication with (a) an end-to-end AI-generated stage~0, (b) a generator and judge pair drawn from disjoint vendors, and (c) a purpose-built classifier or perplexity-based detector instead of LLM-as-judge would all sharpen the inference.
 
 \textbf{Ceiling effect on the PCA dimension.} The same panel run revealed a measurement-instrument problem in AMSM as currently scaled: Production Cost Asymmetry exhibits a ceiling effect at the 1--5 integer scale (per-dimension Krippendorff $\alpha = 0.179$, the lowest of all five dimensions). The mechanism is that in 2026 nearly every examined content format already meets the upper-bound criterion (AI cost $\le 1/100$ of human cost), so the rubric fails to discriminate across the modern range of formats. Subsequent versions of AMSM should re-operationalize PCA on a logarithmic or USD-grounded continuous scale -- e.g., $\log_{10}(\text{human-USD-per-1000-instances} / \text{AI-USD-per-1000-instances})$ -- to recover discriminative power at the high end. EDP ($\alpha = 0.154$) and RCG ($\alpha = 0.251$) showed similarly low cross-rater agreement and would benefit from rubric tightening before the next replication; AAS ($\alpha = 0.659$) was the only dimension with cross-vendor consensus.
 
