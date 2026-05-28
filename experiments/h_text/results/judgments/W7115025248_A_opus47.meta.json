@@ -1,0 +1,13 @@
+{
+  "seed_id": "W7115025248",
+  "variant": "A",
+  "judge": "opus47",
+  "wall_s": 7.64,
+  "input_tokens": 6,
+  "output_tokens": 143,
+  "cache_read_tokens": 0,
+  "cache_creation_tokens": 37187,
+  "total_cost_usd": 0.7080712499999999,
+  "duration_ms": 5322,
+  "duration_api_ms": 5069
+}

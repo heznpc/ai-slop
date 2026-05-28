@@ -1,0 +1,46 @@
+{
+  "n_chains_with_both_variants": 15,
+  "n_variant_cells": 30,
+  "useful_threshold": 0.7,
+  "mean_variant_panel_ai_p_all_cells": 0.6578333333333334,
+  "bootstrap_ci_95_mean_variant": [
+    0.5906666666666667,
+    0.7251666666666667
+  ],
+  "bootstrap_n": 10000,
+  "bootstrap_seed": 20260521,
+  "threshold_test_supports_h_text_adv": true,
+  "mean_baseline_panel_ai_p": 0.8076666666666666,
+  "wilcoxon_paired_baseline_vs_mean_variant": {
+    "n": 15,
+    "stat": 111.0,
+    "p_one_sided_greater": 0.001882611086944405,
+    "alternative": "baseline > mean_variant",
+    "alpha": 0.05,
+    "supports_h_text_adv": true
+  },
+  "per_variant_breakdown": {
+    "A": {
+      "label": "paraphrase",
+      "n": 15,
+      "mean_panel_ai_p": 0.8243333333333334,
+      "std_panel_ai_p": 0.11677002224560075,
+      "mean_baseline_paired": 0.8076666666666666,
+      "delta_baseline_minus_variant": -0.01666666666666672,
+      "wilcoxon_stat": 39.0,
+      "wilcoxon_p_one_sided_greater": 0.6751779838341339
+    },
+    "B": {
+      "label": "colloquial",
+      "n": 15,
+      "mean_panel_ai_p": 0.4913333333333334,
+      "std_panel_ai_p": 0.037723934552154524,
+      "mean_baseline_paired": 0.8076666666666666,
+      "delta_baseline_minus_variant": 0.31633333333333324,
+      "wilcoxon_stat": 119.0,
+      "wilcoxon_p_one_sided_greater": 0.0004006767671783491
+    }
+  },
+  "decision": "supported (threshold AND paired test both pass at alpha=0.05)",
+  "h_text_supported": true
+}

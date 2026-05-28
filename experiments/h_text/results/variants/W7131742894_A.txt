@@ -1,0 +1,15 @@
+Two of the most powerful observatories ever built are on the verge of a collaboration — and early tests indicate the partnership will yield real scientific dividends.
+
+Once the Vera C. Rubin Observatory achieves full operations at its Chilean mountaintop site, it will sweep the entire southern sky every few nights and generate alerts for roughly ten million transient events per night. Transients — objects whose brightness shifts over time, including exploding stars, neutron star mergers, and flaring black holes — will be flagged by Rubin at a rate that dwarfs a full year's output from most prior sky surveys.
+
+The European Space Agency's Euclid satellite, meanwhile, has devoted the past two years to assembling an exceptionally detailed sky map in visible and near-infrared wavelengths — light that Earth's atmosphere systematically blurs for ground-based instruments. Euclid lacks Rubin's ability to pivot rapidly toward new events, but it surveys vast regions of sky with a spatial resolution that no ground facility can match.
+
+A team of astronomers has built and tested a prototype pipeline that automatically cross-references Rubin's nightly alert stream against Euclid's accumulated archive. When the system finds a match, it constructs a combined light curve — a time-resolved brightness record that fuses Rubin's rapid ground-based observations with Euclid's space-based infrared measurements — and generates paired image cutouts from each observatory.
+
+Since Rubin has not yet begun operations, the team substituted alerts from the Zwicky Transient Facility, a California-based sky survey, as a proxy. The exercise revealed two distinct modes through which the partnership adds value.
+
+For transients that Euclid itself happened to image, the pipeline can mine the archive for pre-discovery data. One supernova in the test dataset, SN 2024pvw, appeared in Euclid observations approximately three days before any ground-based telescope registered it. That early coverage narrows the inferred explosion epoch — a constraint with direct consequences for modeling the blast's physical dynamics.
+
+For transients outside Euclid's direct detections, the benefit takes a different form but remains substantial. Euclid's deep, sharp imaging of the surrounding field provides a markedly cleaner view of the host galaxy — its morphology, internal structure, and whether the transient falls within a spiral arm, a galactic nucleus, or an isolated stellar region. This contextual information shapes both the classification of the event and its physical interpretation.
+
+The prototype establishes that linking these two observatories — one built for rapid, wide-field ground-based coverage and the other for slow, deep space-based imaging — produces combined scientific output that neither could achieve independently.

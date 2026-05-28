@@ -1,0 +1,13 @@
+So there's this computational study — kind of a wild one, honestly — that went through the entire Bible, all 5,100 datable events from Creation to Revelation, and basically asked: where does all the narrative attention actually cluster? And the answer is, I think, about as unsurprising as it is statistically jaw-dropping: smack in the early first century CE.
+
+The researcher, Wiley McCain, archived this on Zenodo, and the method is pretty straightforward in concept even if the execution wasn't. He used a rule-based extraction system on the 1901 American Standard Version — sort of parsing out every event you can pin to a date — then dropped them all into 25-year bins across roughly 4,000 years of Biblical history. Twenty-five years is a decent resolution for this kind of thing, I think. Not too granular, not too sloppy.
+
+What pops out is one bin that's just... embarrassingly dominant. The 25–50 CE window, centered around 37.5 CE, contains 698 events. That's about 26 times the average of every other non-peak bin. Twenty-six times. To be fair, you'd expect the life-of-Jesus stretch to be busy — the New Testament is a lot of text — but the degree to which it dominates the whole 4,000-year span is still striking when you see it laid out numerically.
+
+Here's where it gets genuinely interesting, at least to me: they ran 10 million Monte Carlo simulations to check whether this concentration could plausibly happen by chance. You know, just randomly shuffling the events across the same timeline 10 million different ways and seeing if any of them produced a peak this sharp. None of them did. Not one. The probability is capped at one in ten million — the authors call it "extraordinarily significant," which is, honestly, underselling it a bit.
+
+An earlier, smaller version of the same analysis with only 109 events had already flagged the same pattern (p < 3×10⁻⁷, for the stats-inclined). What's sort of methodologically respectable here is that when they scaled up to 5,100 events — with a frozen, preregistered pipeline before any confirmatory analysis — the signal got stronger, not weaker. That's the direction you want to see if you're worried about researcher degrees of freedom or data dredging. They also picked up a secondary dense region somewhere between 1650 and 425 BCE, which tracks with the patriarchal and Mosaic material.
+
+Oh, and they were upfront that AI tools helped with code and data processing — the human authors kept the design decisions and hypothesis formulation to themselves, though. That kind of disclosure is becoming more common and it's good to see it done explicitly rather than buried.
+
+Everything's reproducible: data, code, full confirmatory pipeline, all up on OSF. You could — in theory — run this yourself.

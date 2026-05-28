@@ -1,0 +1,13 @@
+{
+  "seed_id": "W7153750258",
+  "variant": "B",
+  "judge": "gemini25flash",
+  "wall_s": 16.9,
+  "input_tokens": 1095,
+  "output_tokens": 86,
+  "cache_read_tokens": 8975,
+  "cache_creation_tokens": null,
+  "total_cost_usd": null,
+  "duration_ms": 6400,
+  "duration_api_ms": null
+}

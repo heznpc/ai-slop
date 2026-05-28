@@ -1,0 +1,13 @@
+For centuries, wooden bridges have formed the backbone of traditional construction — yet maintaining their integrity demands that inspectors catch damage that hides in shadows, blends into weathered grain, or stays just out of plain sight. A dataset of crack photographs drawn from an active bridge in southern China now offers machine learning systems the visual grounding they need to assume that responsibility.
+
+The source is the Lingyan Wind and Rain Bridge, a timber span crossing the Gantang River in Lingchuan County, Guilin City, within the Guangxi Zhuang Autonomous Region. Cracks were photographed directly on the structure under working conditions, capturing the uneven illumination, coarse surface texture, and visual noise that any inspection drone or camera-equipped robot would realistically encounter.
+
+Four crack categories appear throughout the collection, each reflecting a distinct failure mode in wooden bridge members. Split cracks trace the wood grain, forming where internal stress has pulled the fibers apart along their natural alignment. Tearing cracks present ragged, irregular margins where fiber bundles have fractured under force. Linear cracks cut clean and straight across a surface. Shrinkage cracks emerge as timber loses moisture and contracts, typically spreading as fine reticulated patterns over time.
+
+Every image is accompanied by an annotation file in VOC format — a standard widely adopted across computer vision — that records the position, category, and boundary of each visible crack. This labeling gives learning models the verified ground truth required to recognize crack morphology and discriminate among types.
+
+The downstream implications are considerable. Structural health monitoring, whether conducted continuously or on scheduled intervals, still relies largely on trained inspectors who physically traverse bridge members and document findings by hand. Vision models built on precisely labeled field data could eventually process camera or drone footage autonomously, identifying deterioration early and lowering the probability of sudden structural failure.
+
+Timber structures — especially those carrying historic or cultural weight — pose a more demanding detection problem than bridges made of concrete or steel, since organic grain patterns naturally camouflage surface defects. By anchoring the dataset in genuine field conditions rather than laboratory controls, the researchers have worked to ensure that models trained on these images will generalize to live structures rather than performing only under benchmark-friendly circumstances.
+
+The dataset is intended to support work across crack detection, classification, segmentation, and robustness evaluation.

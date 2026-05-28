@@ -1,0 +1,4 @@
+{
+  "ai_probability": 0.92,
+  "reasoning": "The text exhibits hallmarks of LLM-generated prose: highly uniform paragraph structure, polished transitional phrases ('The logic behind early detection is not complicated'), balanced enumeration of techniques (CNNs, SVMs, RFs, ANNs) with textbook-level framing, and generic survey-style coverage without specific citations, dates, or concrete case details. The tone is consistently neutral and encyclopedic with characteristic em-dash usage and tidy three-part lists."
+}

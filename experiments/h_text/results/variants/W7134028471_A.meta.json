@@ -1,0 +1,13 @@
+{
+  "seed_id": "W7134028471",
+  "variant": "A",
+  "label": "paraphrase",
+  "wall_s": 15.21,
+  "input_tokens": 3,
+  "output_tokens": 645,
+  "cache_read_tokens": 15129,
+  "cache_creation_tokens": 11237,
+  "total_cost_usd": 0.05636145,
+  "duration_ms": 13994,
+  "duration_api_ms": 13859
+}

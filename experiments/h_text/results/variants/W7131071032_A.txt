@@ -1,0 +1,15 @@
+Millions of English learners are already being shaped by artificial intelligence, and researchers expect the next decade to reach into nearly every corner of the classroom — the feedback loop, the lesson plan, the way progress gets measured.
+
+Language-learning software used to work on a single principle: finish this exercise, unlock the next. AI dismantles that logic. Modern systems track a learner's specific failure points — chronic article confusion, say, or stumbling on past-tense forms in speech — and recalibrate the sequence in real time. Feedback that once demanded a human tutor can now arrive within seconds, at any hour, to anyone with a device and a login.
+
+Assessment is undergoing an equally sharp transformation. The graded test at the end of a unit is giving way to continuous analysis: writing and speaking evaluated as the work happens, with data surfacing not just errors but patterns in how improvement unfolds over time. Teachers gain something that would have been unworkable to assemble by hand — a live, granular view across an entire class.
+
+The hardest skills to build without a willing conversation partner — speaking and listening — are changing shape too. AI agents can sustain realistic dialogues, and virtual immersive settings let learners practice ordering a meal or moving through an airport without going anywhere. For the estimated billion people studying English around the world, many with little access to native speakers, the shift is substantial.
+
+Researchers are careful, though, to resist AI-as-solution framing. The evidence points toward hybrid systems: large language models working in concert with deliberate pedagogical structure and, above all, teachers who know when to step in and why. Absent that human layer, AI risks compounding mistakes, importing the cultural biases baked into its training data, or optimizing relentlessly toward the wrong thing.
+
+Data privacy remains an open and pressing problem. Adaptive systems accumulate dense records of learner behavior, and without governance frameworks that actually have teeth, that data is exposed to misuse.
+
+The practical guidance that surfaces from this research is unambiguous. Institutions should redesign workflows so AI absorbs the repetitive feedback burden while teachers concentrate on the judgment-intensive work that demands human understanding. Developers should build for explainability, so teachers and students alike can trace why a system behaves as it does. Policymakers should fund teacher training — not as a stepping-stone to replacement, but as the infrastructure that makes these tools function as intended.
+
+English language learning will be AI-augmented. Whether the result is equitable and pedagogically serious turns entirely on the decisions being made right now.

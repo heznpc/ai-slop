@@ -1,0 +1,13 @@
+{
+  "seed_id": "W7115008325",
+  "variant": "B",
+  "label": "colloquial",
+  "wall_s": 16.84,
+  "input_tokens": 3,
+  "output_tokens": 645,
+  "cache_read_tokens": 15129,
+  "cache_creation_tokens": 11239,
+  "total_cost_usd": 0.05636895,
+  "duration_ms": 15701,
+  "duration_api_ms": 15561
+}

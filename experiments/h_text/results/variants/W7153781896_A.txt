@@ -1,0 +1,13 @@
+A new mathematical framework has emerged from recent research aimed at predicting and quantifying the point at which AI systems begin to fail — a condition the authors term coherence collapse — while supplying engineers with concrete instruments for assessing system trustworthiness in real time.
+
+The framework's conceptual foundation rests on a reorientation in how AI unpredictability is understood. Output variability is not cast here as a defect awaiting a fix; instead, it is treated as constitutive of how these systems operate. Each response an AI produces draws from a probability distribution spread across what the authors designate a semantic manifold — an abstract space encoding the full range of outputs and meanings the system is capable of generating.
+
+From this premise emerges a distinction the paper considers central: the difference between two categories of engineering intervention. Prompt engineering adjusts the instructions delivered to an existing model. The underlying behavioral territory stays fixed; the system simply moves differently within it. Substrate engineering is a different matter — it encompasses retraining, fine-tuning, or wholesale model replacement. Here the territory itself is redrawn, not merely traversed, and the researchers assign it a commensurately greater risk profile.
+
+To quantify that risk, the team proposes a metric called the Silent Authority Transfer. It monitors how unobtrusively the decision-making thresholds governing an AI system can migrate during a substrate update — a process that may leave the system's surface behavior apparently intact while its internal governing boundaries have shifted undetected.
+
+A complementary testing protocol, Perturbation-Recovery Profiling, measures how rapidly and consistently a system restores stable behavior after being disturbed. A key result here is the correspondence between empirical recovery time and a quantity from dynamical systems theory — Lyapunov stability — which turns out to index the same underlying property, connecting experimental observation to formal mathematical structure.
+
+These instruments are then consolidated into a composite Trust Index: a single score that integrates how near a system is to its operational limits, how effectively it processes and discharges accumulated instability, and whether degradation signals are detectable before outright collapse.
+
+The paper also carries a methodological implication: the framework itself was built through structured collaboration between two distinct AI systems, each contributing a different analytical perspective that the human researchers subsequently synthesized into a unified whole.
