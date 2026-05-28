@@ -1,0 +1,13 @@
+Computational analysis of the Biblical canon has uncovered a striking temporal anomaly: the events recorded across scripture cluster with extreme statistical force around a single era, the early first century CE. The concentration is so pronounced that across ten million randomly generated timelines, no simulated distribution matched or exceeded it.
+
+Wiley McCain, whose work is archived on Zenodo, built the study on a corpus of 5,100 dated events extracted from the complete canonical text — from Creation to Revelation. A rule-based pipeline operating on the 1901 American Standard Version assigned each datable event to one of the 25-year bins that partition roughly four millennia of Biblical history.
+
+One bin dominated the rest without contest: 25–50 CE, centered on 37.5 CE. Its 698 events represent approximately 26 times the average event count found in non-peak bins elsewhere on the timeline. To assess whether chance could account for this concentration, the researchers ran ten million Monte Carlo simulations, each redistributing events randomly across the same temporal span. Every single simulation fell short of the observed peak. The upper-bound probability of such an extreme clustering arising under random conditions is one in ten million — what the authors characterize as "extraordinarily significant."
+
+The finding directly supports the study's primary hypothesis: that narrative attention in the Bible, measured as the density of dateable events per unit of time, reaches its unmistakable apex during the early first century, the period Christian tradition associates with the life and ministry of Jesus.
+
+Several features of the study reinforce its credibility. A preliminary version relying on only 109 events had already surfaced the same pattern (p < 3×10⁻⁷); scaling the dataset to 5,100 events sharpened rather than diluted the effect. The extraction pipeline was frozen and the full analysis preregistered before any confirmatory work began, satisfying standard open-science requirements. Supplementary analyses showed that event timing departs substantially from what baseline statistical models would anticipate, and a secondary scan identified an additional high-density region spanning roughly 1650 to 425 BCE — a range consistent with the patriarchal and Mosaic narrative threads.
+
+On the question of AI involvement, the researchers were explicit: automated tools assisted with code development and data processing, but hypothesis formation, study design, and all final analytical decisions were made by the human investigators.
+
+The complete dataset, source code, and results are openly available through the project's OSF repository, where the confirmatory analysis has been packaged for independent replication.

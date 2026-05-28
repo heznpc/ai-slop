@@ -1,0 +1,5 @@
+[20:20:00] P1 research counts (OpenAlex, 2020-2026): {'video': 5083, 'audio': 1642, 'image': 946, 'text': 1926, 'hybrid_card_news': 0, 'fake_reviews': 1428, 'academic_papers': 2, 'news_articles': 18}
+[20:20:00] ratios: {'text_high_over_video_mid': 2.748, 'text_high_over_video_ceil': 2.248, 'text_high_over_video_floor': 3.533, 'text_floor_over_video_mid': 1.926, 'text_floor_over_video_ceil': 1.576, 'text_floor_over_video_floor': 2.476}
+[20:20:00] ratios meeting >= 2.0x: 4/6
+[20:20:00]   research-volume text/video ratio (NOT a penetration measure): 0.379
+[20:20:00] decision: supported (>=50% of triangulated content-prevalence ratios meet 2x threshold)

@@ -1,0 +1,12 @@
+[20:20:01]   video: total=5083  by year={2020: 121, 2021: 228, 2022: 395, 2023: 572, 2024: 1036, 2025: 1717, 2026: 1014}
+[20:20:01]   audio: total=1642  by year={2020: 37, 2021: 67, 2022: 132, 2023: 242, 2024: 366, 2025: 486, 2026: 312}
+[20:20:01]   image: total=946  by year={2020: 8, 2021: 13, 2022: 24, 2023: 64, 2024: 187, 2025: 345, 2026: 305}
+[20:20:01]   text: total=1926  by year={2021: 3, 2022: 12, 2023: 273, 2024: 633, 2025: 639, 2026: 366}
+[20:20:01]   hybrid_card_news: total=0  by year={}
+[20:20:01]   fake_reviews: total=1428  by year={2020: 72, 2021: 112, 2022: 178, 2023: 253, 2024: 242, 2025: 383, 2026: 188}
+[20:20:01]   academic_papers: total=2  by year={2023: 1, 2024: 1}
+[20:20:01]   news_articles: total=18  by year={2023: 1, 2024: 6, 2025: 7, 2026: 4}
+[20:20:01] Spearman(PDA, slope) = -0.570  one-sided greater p = 0.9298
+[20:20:01] year_of_peak: {'video': 2025, 'audio': 2025, 'image': 2025, 'text': 2025, 'hybrid_card_news': None, 'fake_reviews': 2025, 'academic_papers': 2023, 'news_articles': 2025}
+[20:20:01] Spearman(PDA, peak_year) = -0.210  one-sided p = 0.6742
+[20:20:01] decision: H-CoEv3 not supported under the publication-velocity proxy

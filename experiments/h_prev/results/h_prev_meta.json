@@ -1,0 +1,69 @@
+{
+  "method": "structured meta-analysis (no primary measurement)",
+  "threshold": 2.0,
+  "P1_research_volume_proxy": {
+    "counts": {
+      "video": 5083,
+      "audio": 1642,
+      "image": 946,
+      "text": 1926,
+      "hybrid_card_news": 0,
+      "fake_reviews": 1428,
+      "academic_papers": 2,
+      "news_articles": 18
+    },
+    "text_video_ratio": 0.379,
+    "interpretation": "NOT a content-penetration measure; reported for completeness. Research counts inversely relate to PDA per H2; cannot test H-Prev directly."
+  },
+  "P2_cited_prevalence_values": {
+    "ahrefs_text_web_pages_pct": {
+      "value": 0.742,
+      "source": "Ahrefs 2025 (cited in Perspectives [ahrefs2025])",
+      "note": "74.2% of newly published web pages contain AI-generated text"
+    },
+    "kapwing_shorts_ai_slop_mid_pct": {
+      "value": 0.27,
+      "range": [
+        0.21,
+        0.33
+      ],
+      "source": "Kapwing 2025 (cited in [kapwing2025])",
+      "note": "21-33% of YouTube Shorts recommended to new users are AI slop; midpoint 27%"
+    },
+    "originalityai_linkedin_text_pct": {
+      "value": 0.54,
+      "source": "Originality.AI 2025 (cited in Perspectives)",
+      "note": "54%+ LinkedIn posts contain AI text"
+    },
+    "imperva_bot_traffic_pct": {
+      "value": 0.51,
+      "source": "Imperva 2025 (cited in [imperva2025])",
+      "note": "51% of internet traffic is automated (bots); upper bound on AI-text saturation"
+    },
+    "graphite_articles_pct": {
+      "value": 0.52,
+      "source": "Graphite 2025 (cited as 'See also' in Perspectives [ahrefs2025])",
+      "note": "52% of analyzed English articles show AI involvement"
+    }
+  },
+  "P3_pairwise_ratios": {
+    "text_high_over_video_mid": 2.748,
+    "text_high_over_video_ceil": 2.248,
+    "text_high_over_video_floor": 3.533,
+    "text_floor_over_video_mid": 1.926,
+    "text_floor_over_video_ceil": 1.576,
+    "text_floor_over_video_floor": 2.476
+  },
+  "P3_ratios_meeting_threshold": 4,
+  "P3_total_ratios": 6,
+  "P3_fraction_meeting": 0.667,
+  "decision": "supported (>=50% of triangulated content-prevalence ratios meet 2x threshold)",
+  "h_prev_supported": true,
+  "limitations": [
+    "Triangulated from cited industry sources, not a primary measurement.",
+    "Kapwing 'AI slop in Shorts recommended to new users' is an algorithm-amplified slice, not a population prevalence. True video AI-content prevalence may be higher in the long tail.",
+    "Ahrefs 'AI text on new web pages' includes any AI involvement, including light editing; raw fully-AI text prevalence may be lower.",
+    "Single-vendor estimates from Kapwing and Ahrefs have not been independently replicated."
+  ],
+  "snapshot_utc": "2026-05-28T20:20:00.348893+00:00"
+}

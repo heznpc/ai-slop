@@ -1,0 +1,62 @@
+{
+  "method": "publication-velocity proxy from cached OpenAlex H2 data",
+  "n_formats": 8,
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "pda_per_format": {
+    "video": 2.5,
+    "audio": 2.5,
+    "image": 3.5,
+    "text": 4.5,
+    "hybrid_card_news": 5.0,
+    "fake_reviews": 4.5,
+    "academic_papers": 4.0,
+    "news_articles": 3.5
+  },
+  "slope_per_format_papers_per_year": {
+    "academic_papers": 0.036,
+    "audio": 67.75,
+    "fake_reviews": 34.071,
+    "hybrid_card_news": 0.0,
+    "image": 61.357,
+    "news_articles": 1.143,
+    "text": 106.821,
+    "video": 224.929
+  },
+  "year_of_peak_per_format": {
+    "video": 2025,
+    "audio": 2025,
+    "image": 2025,
+    "text": 2025,
+    "hybrid_card_news": null,
+    "fake_reviews": 2025,
+    "academic_papers": 2023,
+    "news_articles": 2025
+  },
+  "primary_spearman_pda_vs_slope": {
+    "rho": -0.5697911578384245,
+    "p_one_sided_greater": 0.92982183656352,
+    "alpha": 0.05
+  },
+  "secondary_spearman_pda_vs_peak_year": {
+    "rho": -0.20982172726556325,
+    "p_one_sided_greater": 0.674207752173988
+  },
+  "decision": "H-CoEv3 not supported under the publication-velocity proxy",
+  "h_coev3_supported": false,
+  "limitations": [
+    "Publication-velocity is a research proxy, not a production-velocity measurement.",
+    "Higher per-format research volume may simply reflect more detection-research interest, not faster slop production.",
+    "Video research is mature pre-2020 (FaceForensics++ 2019, DFDC 2020); the 2020-2026 window may under-capture its earlier acceleration.",
+    "Card news has zero published detection research in the window (per H2), so its slope is 0 by construction; this skews the direction of the test.",
+    "n=8 formats is the same Spearman-power-ceiling structure as H2 (n=8 critical |rho| >= 0.643 at alpha=0.05)."
+  ],
+  "snapshot_utc": "2026-05-28T20:20:01.178430+00:00"
+}
